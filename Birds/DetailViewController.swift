@@ -9,15 +9,32 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
+    var birdInfoVisible = false {
+        didSet {
+            if let descriptionView = self.birdDescriptionTextView {
+                if birdInfoVisible {
+                    descriptionView.text = "Latin Name: \(detailItem!.latinName)\nEnglish Name: \(detailItem!.englishName)\nSwedish name: \(detailItem!.swedishName)\nCopyright: \(detailItem!.author)\nInternal ID: \(detailItem!.internalName)"
+                } else {
+                    descriptionView.text = detailItem!.description
+                }
+            }
+        }
+    }
+    
+    @IBOutlet weak var birdImageView: UIImageView!
+    @IBOutlet weak var birdDescriptionTextView: UITextView!
+    @IBOutlet weak var infoButton: UIButton!
 
     func configureView() {
         // Update the user interface for the detail item.
         if let selectedBird = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = selectedBird.latinName
+            self.title = "\(selectedBird.finnishName)"
+            if let descriptionView = self.birdDescriptionTextView {
+                descriptionView.text = selectedBird.description
+            }
+            if let imageView = self.birdImageView {
+                imageView.contentMode = .scaleAspectFit
+                imageView.image = UIImage(named: "\(selectedBird.latinName).jpg")
             }
         }
     }
@@ -28,6 +45,9 @@ class DetailViewController: UIViewController {
         self.configureView()
     }
 
+    @IBAction func infoButtonTapped(_ sender: Any) {
+        birdInfoVisible = !birdInfoVisible
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
