@@ -13,6 +13,7 @@
 		D6491B441E1AA1AD004EFF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6491B421E1AA1AD004EFF9A /* Main.storyboard */; };
 		D6491B461E1AA1AD004EFF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6491B451E1AA1AD004EFF9A /* Assets.xcassets */; };
 		D6491B491E1AA1AD004EFF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6491B471E1AA1AD004EFF9A /* LaunchScreen.storyboard */; };
+		D6491B511E1AA27F004EFF9A /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B501E1AA27F004EFF9A /* Bird.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6491B451E1AA1AD004EFF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6491B481E1AA1AD004EFF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6491B4A1E1AA1AD004EFF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6491B501E1AA27F004EFF9A /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D6491B3C1E1AA1AD004EFF9A /* AppDelegate.swift */,
 				D6491B3E1E1AA1AD004EFF9A /* MasterViewController.swift */,
 				D6491B401E1AA1AD004EFF9A /* DetailViewController.swift */,
+				D6491B501E1AA27F004EFF9A /* Bird.swift */,
 				D6491B421E1AA1AD004EFF9A /* Main.storyboard */,
 				D6491B451E1AA1AD004EFF9A /* Assets.xcassets */,
 				D6491B471E1AA1AD004EFF9A /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				D6491B411E1AA1AD004EFF9A /* DetailViewController.swift in Sources */,
 				D6491B3F1E1AA1AD004EFF9A /* MasterViewController.swift in Sources */,
+				D6491B511E1AA27F004EFF9A /* Bird.swift in Sources */,
 				D6491B3D1E1AA1AD004EFF9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
