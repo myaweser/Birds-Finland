@@ -8,34 +8,41 @@
 
 import UIKit
 
-class MasterViewController: UITableViewController {
-
+class MasterViewController: UITableViewController, UISearchControllerDelegate {
+    
     var detailViewController: DetailViewController? = nil
     var birds = [Bird]()
-
-
+    let searchController = UISearchController(searchResultsController: nil)
+    var filteredBirds = [Bird]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
+        
         if let split = self.splitViewController {
             let controllers = split.viewControllers
             self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
         
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = false
+        definesPresentationContext = true
+        tableView.tableHeaderView = searchController.searchBar
+        
         getBirds()
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         self.clearsSelectionOnViewWillAppear = self.splitViewController!.isCollapsed
         super.viewWillAppear(animated)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     func getBirds() {
         let configuration = URLSessionConfiguration.default
         let session = URLSession(configuration: configuration)
@@ -73,11 +80,16 @@ class MasterViewController: UITableViewController {
     }
     
     // MARK: - Segues
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                let selectedBird = birds[indexPath.row] 
+                let selectedBird: Bird
+                if searchController.isActive && searchController.searchBar.text != "" {
+                    selectedBird = filteredBirds[indexPath.row]
+                } else {
+                    selectedBird = birds[indexPath.row]
+                }
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = selectedBird
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem
@@ -85,26 +97,43 @@ class MasterViewController: UITableViewController {
             }
         }
     }
-
+    
     // MARK: - Table View
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
-
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if searchController.isActive && searchController.searchBar.text != "" {
+            return filteredBirds.count
+        }
         return birds.count
     }
-
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-
-        let bird = birds[indexPath.row]
+        
+        let bird: Bird
+        if searchController.isActive && searchController.searchBar.text != "" {
+            bird = filteredBirds[indexPath.row]
+        } else {
+            bird = birds[indexPath.row]
+        }
+        
         cell.textLabel!.text = bird.finnishName
         
         let image = UIImage(named: "\(bird.latinName).jpg")
         cell.imageView?.image = self.cropImageToSquare(image: image!)
         return cell
+    }
+    
+    func filterContentForSearchText(searchText: String, scope: String = "All") {
+        filteredBirds = birds.filter { bird in
+            return bird.finnishName.lowercased().contains(searchText.lowercased())
+        }
+        
+        tableView.reloadData()
     }
     
     func cropImageToSquare(image: UIImage) -> UIImage? {
@@ -131,5 +160,11 @@ class MasterViewController: UITableViewController {
         }
         
         return nil
+    }
+}
+extension MasterViewController: UISearchResultsUpdating {
+    @available(iOS 8.0, *)
+    public func updateSearchResults(for searchController: UISearchController) {
+        filterContentForSearchText(searchText: searchController.searchBar.text!)
     }
 }
