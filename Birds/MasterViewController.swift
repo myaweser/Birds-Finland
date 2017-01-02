@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MasterViewController: UITableViewController, UISearchControllerDelegate {
+class MasterViewController: UITableViewController, UISearchControllerDelegate, DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
     
     var detailViewController: DetailViewController? = nil
     var birds = [Bird]()
@@ -29,6 +29,10 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate {
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
         tableView.tableHeaderView = searchController.searchBar
+        
+        tableView.emptyDataSetSource = self
+        tableView.emptyDataSetDelegate = self
+        tableView.tableFooterView = UIView()
         
         getBirds()
     }
@@ -160,6 +164,32 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate {
         }
         
         return nil
+    }
+    
+    func title(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString? {
+        let str = "Can't download Birds."
+        let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)]
+        return NSAttributedString(string: str, attributes: attrs)
+    }
+    
+    func description(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString? {
+        let str = "Please check your internet connection."
+        let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.body)]
+        return NSAttributedString(string: str, attributes: attrs)
+    }
+    
+    func image(forEmptyDataSet scrollView: UIScrollView) -> UIImage? {
+        return UIImage(named: "errorPlaceholder")
+    }
+    
+    func buttonTitle(forEmptyDataSet scrollView: UIScrollView, for state: UIControlState) -> NSAttributedString? {
+        let str = "Try Again"
+        let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.callout)]
+        return NSAttributedString(string: str, attributes: attrs)
+    }
+    
+    func emptyDataSet(_ scrollView: UIScrollView, didTap button: UIButton) {
+        getBirds()
     }
 }
 extension MasterViewController: UISearchResultsUpdating {

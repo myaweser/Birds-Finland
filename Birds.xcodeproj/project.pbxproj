@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D64255551E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255541E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m */; };
+		D64255641E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255591E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m */; };
+		D64255651E1AB25700F5EA80 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D642555B1E1AB25700F5EA80 /* JTSImageInfo.m */; };
+		D64255661E1AB25700F5EA80 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D642555D1E1AB25700F5EA80 /* JTSImageViewController.m */; };
+		D64255671E1AB25700F5EA80 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D642555F1E1AB25700F5EA80 /* JTSSimpleImageDownloader.m */; };
+		D64255681E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255611E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m */; };
+		D64255691E1AB25700F5EA80 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255631E1AB25700F5EA80 /* UIImage+JTSImageEffects.m */; };
 		D6491B3D1E1AA1AD004EFF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B3C1E1AA1AD004EFF9A /* AppDelegate.swift */; };
 		D6491B3F1E1AA1AD004EFF9A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B3E1E1AA1AD004EFF9A /* MasterViewController.swift */; };
 		D6491B411E1AA1AD004EFF9A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B401E1AA1AD004EFF9A /* DetailViewController.swift */; };
@@ -283,6 +290,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D64255531E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		D64255541E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		D64255561E1AAFFA00F5EA80 /* Birds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Birds-Bridging-Header.h"; sourceTree = "<group>"; };
+		D64255581E1AB25700F5EA80 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
+		D64255591E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
+		D642555A1E1AB25700F5EA80 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
+		D642555B1E1AB25700F5EA80 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
+		D642555C1E1AB25700F5EA80 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
+		D642555D1E1AB25700F5EA80 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
+		D642555E1E1AB25700F5EA80 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
+		D642555F1E1AB25700F5EA80 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
+		D64255601E1AB25700F5EA80 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
+		D64255611E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
+		D64255621E1AB25700F5EA80 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
+		D64255631E1AB25700F5EA80 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
 		D6491B391E1AA1AD004EFF9A /* Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6491B3C1E1AA1AD004EFF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6491B3E1E1AA1AD004EFF9A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -571,6 +593,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64255521E1AAFE400F5EA80 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				D64255531E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.h */,
+				D64255541E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		D64255571E1AB25700F5EA80 /* JTSImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D64255581E1AB25700F5EA80 /* JTSAnimatedGIFUtility.h */,
+				D64255591E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m */,
+				D642555A1E1AB25700F5EA80 /* JTSImageInfo.h */,
+				D642555B1E1AB25700F5EA80 /* JTSImageInfo.m */,
+				D642555C1E1AB25700F5EA80 /* JTSImageViewController.h */,
+				D642555D1E1AB25700F5EA80 /* JTSImageViewController.m */,
+				D642555E1E1AB25700F5EA80 /* JTSSimpleImageDownloader.h */,
+				D642555F1E1AB25700F5EA80 /* JTSSimpleImageDownloader.m */,
+				D64255601E1AB25700F5EA80 /* UIApplication+JTSImageViewController.h */,
+				D64255611E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m */,
+				D64255621E1AB25700F5EA80 /* UIImage+JTSImageEffects.h */,
+				D64255631E1AB25700F5EA80 /* UIImage+JTSImageEffects.m */,
+			);
+			path = JTSImageViewController;
+			sourceTree = "<group>";
+		};
 		D6491B301E1AA1AD004EFF9A = {
 			isa = PBXGroup;
 			children = (
@@ -598,6 +648,9 @@
 				D6491B451E1AA1AD004EFF9A /* Assets.xcassets */,
 				D6491B471E1AA1AD004EFF9A /* LaunchScreen.storyboard */,
 				D6491B4A1E1AA1AD004EFF9A /* Info.plist */,
+				D64255561E1AAFFA00F5EA80 /* Birds-Bridging-Header.h */,
+				D64255571E1AB25700F5EA80 /* JTSImageViewController */,
+				D64255521E1AAFE400F5EA80 /* DZNEmptyDataSet */,
 				D6491B521E1AA425004EFF9A /* images */,
 			);
 			path = Birds;
@@ -1217,8 +1270,15 @@
 			files = (
 				D6491B411E1AA1AD004EFF9A /* DetailViewController.swift in Sources */,
 				D6491B3F1E1AA1AD004EFF9A /* MasterViewController.swift in Sources */,
+				D64255691E1AB25700F5EA80 /* UIImage+JTSImageEffects.m in Sources */,
+				D64255651E1AB25700F5EA80 /* JTSImageInfo.m in Sources */,
+				D64255681E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m in Sources */,
+				D64255641E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m in Sources */,
 				D6491B511E1AA27F004EFF9A /* Bird.swift in Sources */,
+				D64255671E1AB25700F5EA80 /* JTSSimpleImageDownloader.m in Sources */,
 				D6491B3D1E1AA1AD004EFF9A /* AppDelegate.swift in Sources */,
+				D64255661E1AB25700F5EA80 /* JTSImageViewController.m in Sources */,
+				D64255551E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1346,6 +1406,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.Birds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Birds/Birds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1359,6 +1420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.Birds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Birds/Birds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1382,6 +1444,7 @@
 				D6491B4F1E1AA1AD004EFF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

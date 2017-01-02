@@ -24,7 +24,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var birdDescriptionTextView: UITextView!
     @IBOutlet weak var infoButton: UIButton!
-
+    @IBOutlet weak var birdImageViewButton: UIButton!
+    
     func configureView() {
         // Update the user interface for the detail item.
         if let selectedBird = self.detailItem {
@@ -48,6 +49,17 @@ class DetailViewController: UIViewController {
     @IBAction func infoButtonTapped(_ sender: Any) {
         birdInfoVisible = !birdInfoVisible
     }
+    @IBAction func birdImageViewButtonTapped(_ sender: Any) {
+        let imageInfo = JTSImageInfo()
+        imageInfo.image = birdImageView.image
+        imageInfo.referenceRect = birdImageView.frame
+        imageInfo.title = detailItem?.finnishName
+        imageInfo.referenceView? = birdImageView
+        let imageViewer = JTSImageViewController(imageInfo: imageInfo, mode: .image, backgroundStyle: .blurred)
+        imageViewer?.show(from: self, transition: .fromOffscreen)
+
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
