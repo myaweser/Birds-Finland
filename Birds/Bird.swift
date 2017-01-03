@@ -13,6 +13,7 @@ class Bird {
     var latinName = ""
     var englishName = ""
     var finnishName = ""
+    var category = ""
     var swedishName = ""
     var description = ""
     var author = ""

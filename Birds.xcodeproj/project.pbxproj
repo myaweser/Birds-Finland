@@ -14,6 +14,7 @@
 		D64255671E1AB25700F5EA80 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D642555F1E1AB25700F5EA80 /* JTSSimpleImageDownloader.m */; };
 		D64255681E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255611E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m */; };
 		D64255691E1AB25700F5EA80 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255631E1AB25700F5EA80 /* UIImage+JTSImageEffects.m */; };
+		D642556B1E1B8CB100F5EA80 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642556A1E1B8CB100F5EA80 /* TableViewCell.swift */; };
 		D6491B3D1E1AA1AD004EFF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B3C1E1AA1AD004EFF9A /* AppDelegate.swift */; };
 		D6491B3F1E1AA1AD004EFF9A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B3E1E1AA1AD004EFF9A /* MasterViewController.swift */; };
 		D6491B411E1AA1AD004EFF9A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B401E1AA1AD004EFF9A /* DetailViewController.swift */; };
@@ -305,6 +306,7 @@
 		D64255611E1AB25700F5EA80 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
 		D64255621E1AB25700F5EA80 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
 		D64255631E1AB25700F5EA80 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
+		D642556A1E1B8CB100F5EA80 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D6491B391E1AA1AD004EFF9A /* Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6491B3C1E1AA1AD004EFF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6491B3E1E1AA1AD004EFF9A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -643,6 +645,7 @@
 				D6491B3C1E1AA1AD004EFF9A /* AppDelegate.swift */,
 				D6491B3E1E1AA1AD004EFF9A /* MasterViewController.swift */,
 				D6491B401E1AA1AD004EFF9A /* DetailViewController.swift */,
+				D642556A1E1B8CB100F5EA80 /* TableViewCell.swift */,
 				D6491B501E1AA27F004EFF9A /* Bird.swift */,
 				D6491B421E1AA1AD004EFF9A /* Main.storyboard */,
 				D6491B451E1AA1AD004EFF9A /* Assets.xcassets */,
@@ -1277,6 +1280,7 @@
 				D6491B511E1AA27F004EFF9A /* Bird.swift in Sources */,
 				D64255671E1AB25700F5EA80 /* JTSSimpleImageDownloader.m in Sources */,
 				D6491B3D1E1AA1AD004EFF9A /* AppDelegate.swift in Sources */,
+				D642556B1E1B8CB100F5EA80 /* TableViewCell.swift in Sources */,
 				D64255661E1AB25700F5EA80 /* JTSImageViewController.m in Sources */,
 				D64255551E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m in Sources */,
 			);

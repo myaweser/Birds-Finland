@@ -65,6 +65,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.latinName = result["latinName"] as! String
                             newBird.englishName = result["englishName"] as! String
                             newBird.finnishName = result["finnishName"] as! String
+                            newBird.category = result["category"] as! String
                             newBird.swedishName = result["swedishName"] as! String
                             newBird.description = result["description"] as! String
                             newBird.author = result["author"] as! String
@@ -116,7 +117,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
         
         let bird: Bird
         if searchController.isActive && searchController.searchBar.text != "" {
@@ -125,10 +126,11 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
             bird = birds[indexPath.row]
         }
         
-        cell.textLabel!.text = bird.finnishName
+        cell.nameLabel.text = bird.finnishName
+        cell.categoryLabel.text = bird.category
         
         let image = UIImage(named: "\(bird.latinName).jpg")
-        cell.imageView?.image = self.cropImageToSquare(image: image!)
+        cell.birdImageView?.image = self.cropImageToSquare(image: image!)
         return cell
     }
     
