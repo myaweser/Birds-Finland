@@ -14,7 +14,11 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     var birds = [Bird]()
     let searchController = UISearchController(searchResultsController: nil)
     var filteredBirds = [Bird]()
-    
+    var isDownloading = false {
+        didSet {
+            tableView.reloadEmptyDataSet()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,11 +55,13 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     }
     
     func getBirds() {
+        isDownloading = true
         let configuration = URLSessionConfiguration.default
         let session = URLSession(configuration: configuration)
         if let url = NSURL(string: "https://eaststudios.fi/api/BirdsFI/v1/getBirds") {
             session.dataTask(with: url as URL, completionHandler: { (data, response, error) -> Void in
                 if error != nil {
+                    self.isDownloading = false
                     print("Can't get Birds. Error: \(error!)")
                     return
                 } else if let jsonData = data {
@@ -78,9 +84,11 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                         }
                         DispatchQueue.main.async {
                             self.tableView.reloadData()
+                            self.isDownloading = false
                         }
                         
                     } catch let error as NSError {
+                        self.isDownloading = false
                         print(error)
                     }
                 }
@@ -177,6 +185,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         var str = "Can't download Birds"
         if searchController.isActive && searchController.searchBar.text != "" {
             str = "No Results"
+        } else if isDownloading {
+            str = "Downloading..."
         }
         let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)]
         return NSAttributedString(string: str, attributes: attrs)
@@ -186,6 +196,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         var str = "Please check your internet connection."
         if searchController.isActive && searchController.searchBar.text != "" {
             str = "Can't find any birds matching '\(searchController.searchBar.text!).'"
+        } else if isDownloading {
+            str = "Is this taking too long? Close the app and try again."
         }
         let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.body)]
         return NSAttributedString(string: str, attributes: attrs)
@@ -193,6 +205,10 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     
     func image(forEmptyDataSet scrollView: UIScrollView) -> UIImage? {
         return UIImage(named: "searchPlaceholder")
+    }
+    
+    func verticalOffset(forEmptyDataSet scrollView: UIScrollView) -> CGFloat {
+        return -(navigationController?.navigationBar.bounds.height)!
     }
     
 }

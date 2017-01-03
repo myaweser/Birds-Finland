@@ -120,45 +120,45 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fq5-D0-F1Q">
                                             <rect key="frame" x="0.0" y="0.0" width="74" height="74"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="74" id="NgK-bB-9lp"/>
+                                            </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flY-iH-Cru">
-                                            <rect key="frame" x="82" y="14" width="225" height="30"/>
+                                            <rect key="frame" x="82" y="14" width="285" height="30"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iJ-2k-WdZ">
-                                            <rect key="frame" x="82" y="40" width="225" height="21"/>
+                                            <rect key="frame" x="82" y="40" width="285" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyx-mY-KAT">
                                             <rect key="frame" x="0.0" y="0.0" width="74" height="74"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="74" id="y0u-pH-q1E"/>
-                                            </constraints>
                                             <connections>
                                                 <action selector="birdImageButtonTapped:" destination="WCw-Qf-5nD" eventType="touchUpInside" id="T4U-sh-tkp"/>
                                             </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="bottom" secondItem="Lyx-mY-KAT" secondAttribute="bottom" id="36e-56-KqQ"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="6iJ-2k-WdZ" secondAttribute="bottom" constant="5" id="3FE-xa-Qdt"/>
-                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="top" secondItem="Lyx-mY-KAT" secondAttribute="top" id="3Np-gI-SlS"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="flY-iH-Cru" secondAttribute="trailing" constant="60" id="47g-n5-CJ5"/>
-                                        <constraint firstAttribute="bottom" secondItem="Lyx-mY-KAT" secondAttribute="bottom" id="7fb-I0-HXI"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="trailing" secondItem="6iJ-2k-WdZ" secondAttribute="trailing" id="C0m-tF-s0Q"/>
-                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="leading" secondItem="fq5-D0-F1Q" secondAttribute="leading" id="GFW-Fa-fz3"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="fq5-D0-F1Q" secondAttribute="trailing" constant="8" symbolic="YES" id="J50-bs-NEO"/>
-                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="top" id="L9r-vF-qlO"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="Lyx-mY-KAT" secondAttribute="trailing" constant="8" symbolic="YES" id="Lcb-ZM-0Zz"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="6iJ-2k-WdZ" secondAttribute="leading" id="O8V-f4-XC8"/>
-                                        <constraint firstItem="6iJ-2k-WdZ" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="32" id="T3Z-jh-Cgj"/>
-                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="leading" secondItem="37f-cq-3Eg" secondAttribute="leading" id="VfW-hy-r49"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="flY-iH-Cru" secondAttribute="bottom" constant="22" id="dAn-FY-xhz"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="6" id="xqi-3e-Oak"/>
+                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="top" secondItem="Lyx-mY-KAT" secondAttribute="top" id="09H-sC-sth"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="flY-iH-Cru" secondAttribute="bottom" constant="22" id="1Kd-Vp-h64"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="trailing" secondItem="37f-cq-3Eg" secondAttribute="trailingMargin" id="73g-lI-qlb"/>
+                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="top" id="MPt-VY-oZy"/>
+                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="bottom" secondItem="Lyx-mY-KAT" secondAttribute="bottom" id="Qg9-1h-Und"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="6" id="VY6-wj-Jv2"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="6iJ-2k-WdZ" secondAttribute="leading" id="aOq-CY-Qqy"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="6iJ-2k-WdZ" secondAttribute="bottom" constant="5" id="cMv-AB-yUL"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="trailing" secondItem="6iJ-2k-WdZ" secondAttribute="trailing" id="cgU-1M-JLJ"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="Lyx-mY-KAT" secondAttribute="trailing" constant="8" symbolic="YES" id="fbI-k5-891"/>
+                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="leading" secondItem="fq5-D0-F1Q" secondAttribute="leading" id="iK8-Zm-EyX"/>
+                                        <constraint firstItem="6iJ-2k-WdZ" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="32" id="qcq-7Q-wdx"/>
+                                        <constraint firstAttribute="bottom" secondItem="Lyx-mY-KAT" secondAttribute="bottom" id="ueH-a7-npg"/>
+                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="leading" secondItem="37f-cq-3Eg" secondAttribute="leading" id="vcs-Jb-6a3"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="fq5-D0-F1Q" secondAttribute="trailing" constant="8" symbolic="YES" id="zTv-51-gTb"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
