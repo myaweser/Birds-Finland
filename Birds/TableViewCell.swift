@@ -11,14 +11,25 @@ import UIKit
 class TableViewCell: UITableViewCell {
 
 
+    @IBOutlet weak var birdImageButton: UIButton!
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var categoryLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
+    @IBAction func birdImageButtonTapped(_ sender: Any) {
+        let imageInfo = JTSImageInfo()
+        imageInfo.image = birdImageView.image
+        imageInfo.referenceRect = birdImageView.frame
+        imageInfo.title = nameLabel.text
+        imageInfo.referenceView = birdImageView
+        let imageViewer = JTSImageViewController(imageInfo: imageInfo, mode: .image, backgroundStyle: .blurred)
+        imageViewer?.show(from: UIApplication.shared.keyWindow?.rootViewController, transition: .fromOriginalPosition)
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

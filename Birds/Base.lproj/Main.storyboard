@@ -120,9 +120,6 @@
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fq5-D0-F1Q">
                                             <rect key="frame" x="0.0" y="0.0" width="74" height="74"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="74" id="XI1-nK-dv7"/>
-                                            </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flY-iH-Cru">
                                             <rect key="frame" x="82" y="14" width="225" height="30"/>
@@ -136,23 +133,37 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyx-mY-KAT">
+                                            <rect key="frame" x="0.0" y="0.0" width="74" height="74"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="74" id="y0u-pH-q1E"/>
+                                            </constraints>
+                                            <connections>
+                                                <action selector="birdImageButtonTapped:" destination="WCw-Qf-5nD" eventType="touchUpInside" id="T4U-sh-tkp"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottomMargin" secondItem="flY-iH-Cru" secondAttribute="bottom" constant="22" id="5xl-bO-qAg"/>
-                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="top" id="6Hf-jM-rqb"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="6iJ-2k-WdZ" secondAttribute="bottom" constant="5" id="Fn1-F7-nqz"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="trailing" secondItem="6iJ-2k-WdZ" secondAttribute="trailing" id="TUI-LH-hdc"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="6" id="XLM-HQ-56M"/>
-                                        <constraint firstAttribute="bottom" secondItem="fq5-D0-F1Q" secondAttribute="bottom" id="hV1-uK-Npf"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="fq5-D0-F1Q" secondAttribute="trailing" constant="8" symbolic="YES" id="lIs-4C-K5t"/>
-                                        <constraint firstItem="6iJ-2k-WdZ" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="32" id="nDt-Xg-ctZ"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="flY-iH-Cru" secondAttribute="trailing" constant="60" id="sYs-R0-wW2"/>
-                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="leading" secondItem="37f-cq-3Eg" secondAttribute="leading" id="yHa-Jj-82p"/>
-                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="6iJ-2k-WdZ" secondAttribute="leading" id="yZP-7c-kNd"/>
+                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="bottom" secondItem="Lyx-mY-KAT" secondAttribute="bottom" id="36e-56-KqQ"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="6iJ-2k-WdZ" secondAttribute="bottom" constant="5" id="3FE-xa-Qdt"/>
+                                        <constraint firstItem="fq5-D0-F1Q" firstAttribute="top" secondItem="Lyx-mY-KAT" secondAttribute="top" id="3Np-gI-SlS"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="flY-iH-Cru" secondAttribute="trailing" constant="60" id="47g-n5-CJ5"/>
+                                        <constraint firstAttribute="bottom" secondItem="Lyx-mY-KAT" secondAttribute="bottom" id="7fb-I0-HXI"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="trailing" secondItem="6iJ-2k-WdZ" secondAttribute="trailing" id="C0m-tF-s0Q"/>
+                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="leading" secondItem="fq5-D0-F1Q" secondAttribute="leading" id="GFW-Fa-fz3"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="fq5-D0-F1Q" secondAttribute="trailing" constant="8" symbolic="YES" id="J50-bs-NEO"/>
+                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="top" id="L9r-vF-qlO"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="Lyx-mY-KAT" secondAttribute="trailing" constant="8" symbolic="YES" id="Lcb-ZM-0Zz"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="leading" secondItem="6iJ-2k-WdZ" secondAttribute="leading" id="O8V-f4-XC8"/>
+                                        <constraint firstItem="6iJ-2k-WdZ" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="32" id="T3Z-jh-Cgj"/>
+                                        <constraint firstItem="Lyx-mY-KAT" firstAttribute="leading" secondItem="37f-cq-3Eg" secondAttribute="leading" id="VfW-hy-r49"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="flY-iH-Cru" secondAttribute="bottom" constant="22" id="dAn-FY-xhz"/>
+                                        <constraint firstItem="flY-iH-Cru" firstAttribute="top" secondItem="37f-cq-3Eg" secondAttribute="topMargin" constant="6" id="xqi-3e-Oak"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
+                                    <outlet property="birdImageButton" destination="Lyx-mY-KAT" id="HJE-fx-1GP"/>
                                     <outlet property="birdImageView" destination="fq5-D0-F1Q" id="brS-Rr-nt2"/>
                                     <outlet property="categoryLabel" destination="6iJ-2k-WdZ" id="uyU-cy-ZN2"/>
                                     <outlet property="nameLabel" destination="flY-iH-Cru" id="JcS-4X-opz"/>
