@@ -10,6 +10,7 @@ import Foundation
 
 class Bird {
     var internalName = ""
+    var mapID = 0
     var latinName = ""
     var englishName = ""
     var finnishName = ""

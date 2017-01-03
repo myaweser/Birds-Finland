@@ -6,6 +6,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -71,17 +72,25 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM">
-                        <barButtonItem key="rightBarButtonItem" image="info" id="gkf-hC-G0V">
-                            <connections>
-                                <action selector="infoButtonTapped:" destination="JEX-9P-axG" id="uOW-fL-rPa"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="info" id="gkf-hC-G0V">
+                                <connections>
+                                    <action selector="infoButtonTapped:" destination="JEX-9P-axG" id="uOW-fL-rPa"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="map" id="bPO-tK-v28">
+                                <connections>
+                                    <action selector="showMapImage:" destination="JEX-9P-axG" id="DoE-d0-NMw"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="birdDescriptionTextView" destination="JJo-yh-wp5" id="dcZ-m5-Skw"/>
                         <outlet property="birdImageView" destination="QCo-hC-ynV" id="rYc-44-LhE"/>
                         <outlet property="birdImageViewButton" destination="ap3-Ys-VPf" id="VKC-PT-1b1"/>
                         <outlet property="infoButton" destination="gkf-hC-G0V" id="IHW-g8-3gb"/>
+                        <outlet property="showMapImageButton" destination="bPO-tK-v28" id="XvV-Sm-YMS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
@@ -202,6 +211,7 @@
     </scenes>
     <resources>
         <image name="info" width="22" height="22"/>
+        <image name="map" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6S0-TO-JiA"/>

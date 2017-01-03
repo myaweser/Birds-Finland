@@ -23,6 +23,7 @@ class DetailViewController: UIViewController {
         }
     }
     
+    @IBOutlet weak var showMapImageButton: UIBarButtonItem!
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var birdDescriptionTextView: UITextView!
     @IBOutlet weak var infoButton: UIBarButtonItem!
@@ -31,6 +32,7 @@ class DetailViewController: UIViewController {
     func configureView() {
         // Update the user interface for the detail item.
         if let selectedBird = self.detailItem {
+            showMapImageButton.isEnabled = selectedBird.mapID > 0
             self.title = "\(selectedBird.finnishName)"
             if let descriptionView = self.birdDescriptionTextView {
                 descriptionView.isScrollEnabled = false
@@ -70,6 +72,16 @@ class DetailViewController: UIViewController {
 
     }
     
+    @IBAction func showMapImage(_ sender: Any) {
+        let imageInfo = JTSImageInfo()
+        imageInfo.imageURL = URL(string: "http://atlas3.lintuatlas.fi/kartat-atlas/taxonmap.php?taxon=\(detailItem!.mapID)&style=4&size=1&theme=sel_white")
+        imageInfo.referenceRect = self.view.frame
+        imageInfo.title = detailItem?.finnishName
+        imageInfo.referenceView? = self.view
+        let imageViewer = JTSImageViewController(imageInfo: imageInfo, mode: .image, backgroundStyle: .blurred)
+        imageViewer?.show(from: self, transition: .fromOffscreen)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -84,4 +96,3 @@ class DetailViewController: UIViewController {
 
 
 }
-
