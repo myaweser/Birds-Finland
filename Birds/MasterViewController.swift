@@ -34,6 +34,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         tableView.emptyDataSetDelegate = self
         tableView.tableFooterView = UIView()
         
+        searchController.searchBar.scopeButtonTitles = ["All", "Sorsalin.", "Kahlaajat", "Pöllöt", "Rastaat"]
+        searchController.searchBar.delegate = self
+        
         getBirds()
     }
     
@@ -69,6 +72,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.swedishName = result["swedishName"] as! String
                             newBird.description = result["description"] as! String
                             newBird.author = result["author"] as! String
+                            newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)"
                             
                             self.birds.append(newBird)
                         }
@@ -136,7 +140,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     
     func filterContentForSearchText(searchText: String, scope: String = "All") {
         filteredBirds = birds.filter { bird in
-            return bird.finnishName.lowercased().contains(searchText.lowercased())
+            let categoryMatch = (scope == "All") || (bird.category == scope)
+            return  categoryMatch && bird.allDetails.lowercased().contains(searchText.lowercased())
         }
         
         tableView.reloadData()
@@ -194,6 +199,13 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
 extension MasterViewController: UISearchResultsUpdating {
     @available(iOS 8.0, *)
     public func updateSearchResults(for searchController: UISearchController) {
-        filterContentForSearchText(searchText: searchController.searchBar.text!)
+        let searchBar = searchController.searchBar
+        let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
+        filterContentForSearchText(searchText: searchController.searchBar.text!, scope: scope)
+    }
+}
+extension MasterViewController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+        filterContentForSearchText(searchText: searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
     }
 }
