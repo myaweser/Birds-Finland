@@ -33,6 +33,7 @@ class DetailViewController: UIViewController {
         if let selectedBird = self.detailItem {
             self.title = "\(selectedBird.finnishName)"
             if let descriptionView = self.birdDescriptionTextView {
+                descriptionView.isScrollEnabled = false
                 descriptionView.text = selectedBird.description
             }
             if let imageView = self.birdImageView {
@@ -47,7 +48,13 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if let descriptionView = self.birdDescriptionTextView {
+            descriptionView.isScrollEnabled = true
+        }
+    }
+    
     @IBAction func infoButtonTapped(_ sender: Any) {
         birdInfoVisible = !birdInfoVisible
     }
