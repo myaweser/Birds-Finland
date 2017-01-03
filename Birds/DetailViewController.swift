@@ -13,8 +13,10 @@ class DetailViewController: UIViewController {
         didSet {
             if let descriptionView = self.birdDescriptionTextView {
                 if birdInfoVisible {
+                    infoButton.image = #imageLiteral(resourceName: "info-filled")
                     descriptionView.text = "Latin Name: \(detailItem!.latinName)\nEnglish Name: \(detailItem!.englishName)\nSwedish name: \(detailItem!.swedishName)\nCategory: \(detailItem!.category)\nCopyright: \(detailItem!.author)\nInternal ID: \(detailItem!.internalName)"
                 } else {
+                    infoButton.image = #imageLiteral(resourceName: "info")
                     descriptionView.text = detailItem!.description
                 }
             }
@@ -23,7 +25,7 @@ class DetailViewController: UIViewController {
     
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var birdDescriptionTextView: UITextView!
-    @IBOutlet weak var infoButton: UIButton!
+    @IBOutlet weak var infoButton: UIBarButtonItem!
     @IBOutlet weak var birdImageViewButton: UIButton!
     
     func configureView() {
@@ -49,6 +51,7 @@ class DetailViewController: UIViewController {
     @IBAction func infoButtonTapped(_ sender: Any) {
         birdInfoVisible = !birdInfoVisible
     }
+
     @IBAction func birdImageViewButtonTapped(_ sender: Any) {
         let imageInfo = JTSImageInfo()
         imageInfo.image = birdImageView.image
