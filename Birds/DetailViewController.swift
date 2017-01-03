@@ -14,6 +14,7 @@ class DetailViewController: UIViewController {
             if let descriptionView = self.birdDescriptionTextView {
                 if birdInfoVisible {
                     infoButton.image = #imageLiteral(resourceName: "info-filled")
+                    descriptionView.textAlignment = .natural
                     descriptionView.text =
                         NSLocalizedString("Latin Name", comment: "Latin Name in Description view") +
                         ": \(detailItem!.latinName)\n" +
@@ -28,6 +29,7 @@ class DetailViewController: UIViewController {
                         NSLocalizedString("Internal ID", comment: "Internal ID in Description view") +
                         ": \(detailItem!.internalName)"
                 } else {
+                    descriptionView.textAlignment = .center
                     infoButton.image = #imageLiteral(resourceName: "info")
                     descriptionView.text = detailItem!.description
                 }
