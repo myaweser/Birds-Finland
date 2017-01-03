@@ -14,7 +14,19 @@ class DetailViewController: UIViewController {
             if let descriptionView = self.birdDescriptionTextView {
                 if birdInfoVisible {
                     infoButton.image = #imageLiteral(resourceName: "info-filled")
-                    descriptionView.text = "Latin Name: \(detailItem!.latinName)\nEnglish Name: \(detailItem!.englishName)\nSwedish name: \(detailItem!.swedishName)\nCategory: \(detailItem!.category)\nCopyright: \(detailItem!.author)\nInternal ID: \(detailItem!.internalName)"
+                    descriptionView.text =
+                        NSLocalizedString("Latin Name", comment: "Latin Name in Description view") +
+                        ": \(detailItem!.latinName)\n" +
+                        NSLocalizedString("English Name", comment: "English Name in Description view") +
+                        ": \(detailItem!.englishName)\n" +
+                        NSLocalizedString("Swedish Name", comment: "Swedish Name in Description view") +
+                        ": \(detailItem!.swedishName)\n" +
+                        NSLocalizedString("Category", comment: "Category in Description view") +
+                        ": \(detailItem!.category)\n" +
+                        NSLocalizedString("Copyright", comment: "Copyright in Description view") +
+                        ": \(detailItem!.author)\n" +
+                        NSLocalizedString("Internal ID", comment: "Internal ID in Description view") +
+                        ": \(detailItem!.internalName)"
                 } else {
                     infoButton.image = #imageLiteral(resourceName: "info")
                     descriptionView.text = detailItem!.description

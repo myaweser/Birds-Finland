@@ -38,7 +38,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         tableView.emptyDataSetDelegate = self
         tableView.tableFooterView = UIView()
         
-        searchController.searchBar.scopeButtonTitles = ["All", "Sorsalin.", "Kahlaajat", "Pöllöt", "Rastaat"]
+        searchController.searchBar.scopeButtonTitles = [NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'"), "Sorsalin.", "Kahlaajat", "Pöllöt", "Rastaat"]
         searchController.searchBar.delegate = self
         
         getBirds()
@@ -230,9 +230,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         return cell
     }
     
-    func filterContentForSearchText(searchText: String, scope: String = "All") {
+    func filterContentForSearchText(searchText: String, scope: String = NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'")) {
         filteredBirds = birds.filter { bird in
-            let categoryMatch = (scope == "All") || (bird.category == scope)
+            let categoryMatch = (scope == NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'")) || (bird.category == scope)
             return  categoryMatch && bird.allDetails.lowercased().contains(searchText.lowercased())
         }
         
@@ -266,11 +266,11 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     }
     
     func title(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString? {
-        var str = "Can't download Birds"
+        var str = NSLocalizedString("Can't download Birds", comment: "Error title when birds weren't downloaded succesfully.")
         if searchController.isActive && searchController.searchBar.text != "" {
-            str = "No Results"
+            str = NSLocalizedString("No Results", comment: "Error title when no search results were found.")
         } else if isDownloading {
-            str = "Downloading..."
+            str = NSLocalizedString("Downloading...", comment: "Progress title when birds are being downloaded.")
         }
         let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)]
         return NSAttributedString(string: str, attributes: attrs)
@@ -279,9 +279,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     func description(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString? {
         var str = "Please check your internet connection."
         if searchController.isActive && searchController.searchBar.text != "" {
-            str = "Can't find any birds matching '\(searchController.searchBar.text!).'"
+            str = NSLocalizedString("Can't find any birds matching", comment: "Error message when no search results were found.") + "'\(searchController.searchBar.text!).'"
         } else if isDownloading {
-            str = "Is this taking too long? Close the app and try again."
+            str = NSLocalizedString("Is this taking too long? Close the app and try again.", comment: "Progress message when birds are being downloaded.")
         }
         let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.body)]
         return NSAttributedString(string: str, attributes: attrs)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D640343C1E1BBE0900EDD9A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D640343A1E1BBE0900EDD9A7 /* Localizable.strings */; };
 		D64255551E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255541E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m */; };
 		D64255641E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255591E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m */; };
 		D64255651E1AB25700F5EA80 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D642555B1E1AB25700F5EA80 /* JTSImageInfo.m */; };
@@ -291,6 +292,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D640343B1E1BBE0900EDD9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D640343D1E1BBE1700EDD9A7 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
+		D640343E1E1BBE1800EDD9A7 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D64255531E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		D64255541E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		D64255561E1AAFFA00F5EA80 /* Birds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Birds-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -651,6 +655,7 @@
 				D6491B451E1AA1AD004EFF9A /* Assets.xcassets */,
 				D6491B471E1AA1AD004EFF9A /* LaunchScreen.storyboard */,
 				D6491B4A1E1AA1AD004EFF9A /* Info.plist */,
+				D640343A1E1BBE0900EDD9A7 /* Localizable.strings */,
 				D64255561E1AAFFA00F5EA80 /* Birds-Bridging-Header.h */,
 				D64255571E1AB25700F5EA80 /* JTSImageViewController */,
 				D64255521E1AAFE400F5EA80 /* DZNEmptyDataSet */,
@@ -976,6 +981,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fi,
 			);
 			mainGroup = D6491B301E1AA1AD004EFF9A;
 			productRefGroup = D6491B3A1E1AA1AD004EFF9A /* Products */;
@@ -1077,6 +1083,7 @@
 				D6491D151E1AA426004EFF9A /* Parus major.jpg in Resources */,
 				D6491CEB1E1AA426004EFF9A /* Limicola falcinellus.jpg in Resources */,
 				D6491C7C1E1AA425004EFF9A /* Aquila chrysaetos.jpg in Resources */,
+				D640343C1E1BBE0900EDD9A7 /* Localizable.strings in Resources */,
 				D6491C5D1E1AA425004EFF9A /* Accipiter gentilis.jpg in Resources */,
 				D6491C9C1E1AA426004EFF9A /* Carduelis hornemanni.jpg in Resources */,
 				D6491D0B1E1AA426004EFF9A /* Nyctea scandiaca.jpg in Resources */,
@@ -1289,10 +1296,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D640343A1E1BBE0900EDD9A7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D640343B1E1BBE0900EDD9A7 /* Base */,
+				D640343E1E1BBE1800EDD9A7 /* fi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		D6491B421E1AA1AD004EFF9A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D6491B431E1AA1AD004EFF9A /* Base */,
+				D640343D1E1BBE1700EDD9A7 /* fi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1312,6 +1329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1362,6 +1380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
