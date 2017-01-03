@@ -87,8 +87,14 @@ class DetailViewController: UIViewController {
     }
     
     @IBAction func showMapImage(_ sender: Any) {
+        var url = "http://atlas3.lintuatlas.fi/kartat-atlas/taxonmap.php?taxon=\(detailItem!.mapID)&style=4&size=1&theme="
+        if (UserDefaults.standard.bool(forKey: "showClearance")) {
+            url = url + "sel_dicromacy"
+        } else {
+            url = url + "sel_white"
+        }
         let imageInfo = JTSImageInfo()
-        imageInfo.imageURL = URL(string: "http://atlas3.lintuatlas.fi/kartat-atlas/taxonmap.php?taxon=\(detailItem!.mapID)&style=4&size=1&theme=sel_white")
+        imageInfo.imageURL = URL(string: url)
         imageInfo.referenceRect = self.view.frame
         imageInfo.title = detailItem?.finnishName
         imageInfo.referenceView? = self.view

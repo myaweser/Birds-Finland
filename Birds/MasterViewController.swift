@@ -10,6 +10,7 @@ import UIKit
 
 class MasterViewController: UITableViewController, UISearchControllerDelegate, DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
     
+    @IBOutlet weak var settingsButton: UIBarButtonItem!
     var detailViewController: DetailViewController? = nil
     var birds = [Bird]()
     let searchController = UISearchController(searchResultsController: nil)
@@ -99,81 +100,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     
     func getMapID(bird: Bird) -> Int {
         var dictionary: [String:Int] =
-            ["CYGOLO": 107,
-            "CYGCOL": 108,
-            "CYGCYG": 109,
-            "ANSFAB": 110,
-            "ANSBRA": 111,
-            "ANSALB": 112,
-            "ANSANS": 114,
-            "ANSCAE": 115,
-            "BRACAN": 116,
-            "BRALEU": 117,
-            "BRABER": 118,
-            "BRARUF": 119,
-            "TADFER": 120,
-            "TADTAD": 121,
-            "AIXGAL": 122,
-            "ANAPEN": 123,
-            "ANAAME": 124,
-            "ANASTR": 125,
-            "ANACRE": 126,
-            "ANACAR": 127,
-            "ANAPLA": 128,
-            "ANAACU": 129,
-            "ANAQUE": 130,
-            "ANADIS": 131,
-            "ANACLY": 132,
-            "NETRUF": 133,
-            "AYTFER": 134,
-            "AYTCOL": 135,
-            "AYTFUL": 137,
-            "AYTMAR": 138,
-            "SOMMOL": 139,
-            "SOMSPE": 140,
-            "POLSTE": 141,
-            "CLAHYE": 143,
-            "MELNIG": 144,
-            "MELPER": 145,
-            "MELFUS": 146,
-            "BUCCLA": 147,
-            "MERALB": 148,
-            "MERSER": 149,
-            "MERMER": 150,
-            "OXYJAM": 151,
-            "BONBON": 152,
-            "LAGLAG": 153,
-            "LAGMUT": 154,
-            "TETRIX": 155,
-            "TETURO": 156,
-            "PERPER": 157,
-            "COTCOT": 158,
-            "PHACOL": 159,
-            "GAVSTE": 160,
-            "GAVARC": 161,
-            "GAVIMM": 162,
-            "GAVADA": 163,
-            "TACRUF": 164,
-            "PODCRI": 165,
-            "PODGRI": 166,
-            "PODAUR": 167,
-            "PHACAR": 176,
-            "BOTSTE": 179,
-            "EGRGAR": 184,
-            "EGRALB": 185,
-            "ARDCIN": 186,
-            "CICNIG": 188,
-            "CICCIC": 189,
-            "PERAPI": 192,
-            "CIRGAL": 199,
-            "CIRAER": 200,
-            "CIRCYA": 201,
-            "ACCGEN": 204,
-            "ACCNIS": 205,
-            "BUTBUT": 206,
-            "BUTRUF": 207,
-            "BUTLAG": 208,
-            "PANHAL": 215]
+            ["CYGOLO": 107, "CYGCOL": 108, "CYGCYG": 109, "ANSFAB": 110, "ANSBRA": 111, "ANSALB": 112, "ANSANS": 114, "ANSCAE": 115, "BRACAN": 116, "BRALEU": 117, "BRABER": 118, "BRARUF": 119, "TADFER": 120, "TADTAD": 121, "AIXGAL": 122, "ANAPEN": 123, "ANAAME": 124, "ANASTR": 125, "ANACRE": 126, "ANACAR": 127, "ANAPLA": 128, "ANAACU": 129, "ANAQUE": 130, "ANADIS": 131, "ANACLY": 132, "NETRUF": 133, "AYTFER": 134, "AYTCOL": 135, "AYTFUL": 137, "AYTMAR": 138, "SOMMOL": 139, "SOMSPE": 140, "POLSTE": 141, "CLAHYE": 143, "MELNIG": 144, "MELPER": 145, "MELFUS": 146, "BUCCLA": 147, "MERALB": 148, "MERSER": 149, "MERMER": 150, "OXYJAM": 151, "BONBON": 152, "LAGLAG": 153, "LAGMUT": 154, "TETRIX": 155, "TETURO": 156, "PERPER": 157, "COTCOT": 158, "PHACOL": 159, "GAVSTE": 160, "GAVARC": 161, "GAVIMM": 162, "GAVADA": 163, "TACRUF": 164, "PODCRI": 165, "PODGRI": 166, "PODAUR": 167, "PHACAR": 176, "BOTSTE": 179, "EGRGAR": 184, "EGRALB": 185, "ARDCIN": 186, "CICNIG": 188, "CICCIC": 189, "PERAPI": 192, "CIRGAL": 199, "CIRAER": 200, "CIRCYA": 201, "ACCGEN": 204, "ACCNIS": 205, "BUTBUT": 206, "BUTRUF": 207, "BUTLAG": 208, "PANHAL": 215]
         if let number = dictionary[bird.internalName] {
             return number
         }
@@ -239,6 +166,10 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         tableView.reloadData()
     }
     
+    @IBAction func openSettings(_ sender: Any) {
+        UIApplication.shared.openURL(NSURL(string: UIApplicationOpenSettingsURLString) as! URL)
+    }
+    
     func cropImageToSquare(image: UIImage) -> UIImage? {
         var imageHeight = image.size.height
         var imageWidth = image.size.width
@@ -294,7 +225,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     func verticalOffset(forEmptyDataSet scrollView: UIScrollView) -> CGFloat {
         return -(navigationController?.navigationBar.bounds.height)!
     }
-    
+
 }
 extension MasterViewController: UISearchResultsUpdating {
     @available(iOS 8.0, *)

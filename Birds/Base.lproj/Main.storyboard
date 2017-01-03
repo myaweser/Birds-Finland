@@ -186,7 +186,16 @@
                             <outlet property="delegate" destination="7bK-jq-Zjz" id="RA6-mI-bju"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Birds" id="Zdf-7t-Un8"/>
+                    <navigationItem key="navigationItem" title="Birds" id="Zdf-7t-Un8">
+                        <barButtonItem key="leftBarButtonItem" image="settings" id="uYd-pS-rgR">
+                            <connections>
+                                <action selector="openSettings:" destination="7bK-jq-Zjz" id="z4S-lC-1ab"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="settingsButton" destination="uYd-pS-rgR" id="Dec-bQ-plS"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rux-fX-hf1" sceneMemberID="firstResponder"/>
             </objects>
@@ -212,8 +221,10 @@
     <resources>
         <image name="info" width="22" height="22"/>
         <image name="map" width="22" height="22"/>
+        <image name="settings" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6S0-TO-JiA"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.27058823529411763" green="0.71372549019607845" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
 </document>
