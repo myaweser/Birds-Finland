@@ -169,30 +169,27 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     }
     
     func title(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString? {
-        let str = "Can't download Birds."
+        var str = "Can't download Birds"
+        if searchController.isActive && searchController.searchBar.text != "" {
+            str = "No Results"
+        }
         let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)]
         return NSAttributedString(string: str, attributes: attrs)
     }
     
     func description(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString? {
-        let str = "Please check your internet connection."
+        var str = "Please check your internet connection."
+        if searchController.isActive && searchController.searchBar.text != "" {
+            str = "Can't find any birds matching '\(searchController.searchBar.text!).'"
+        }
         let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.body)]
         return NSAttributedString(string: str, attributes: attrs)
     }
     
     func image(forEmptyDataSet scrollView: UIScrollView) -> UIImage? {
-        return UIImage(named: "errorPlaceholder")
+        return UIImage(named: "searchPlaceholder")
     }
     
-    func buttonTitle(forEmptyDataSet scrollView: UIScrollView, for state: UIControlState) -> NSAttributedString? {
-        let str = "Try Again"
-        let attrs = [NSFontAttributeName: UIFont.preferredFont(forTextStyle: UIFontTextStyle.callout)]
-        return NSAttributedString(string: str, attributes: attrs)
-    }
-    
-    func emptyDataSet(_ scrollView: UIScrollView, didTap button: UIButton) {
-        getBirds()
-    }
 }
 extension MasterViewController: UISearchResultsUpdating {
     @available(iOS 8.0, *)
