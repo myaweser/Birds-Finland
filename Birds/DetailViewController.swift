@@ -13,7 +13,7 @@ class DetailViewController: UIViewController {
         didSet {
             if let descriptionView = self.birdDescriptionTextView {
                 if birdInfoVisible {
-                    descriptionView.text = "Latin Name: \(detailItem!.latinName)\nEnglish Name: \(detailItem!.englishName)\nSwedish name: \(detailItem!.swedishName)\nCategory: \(detailItem?.category)\nCopyright: \(detailItem!.author)\nInternal ID: \(detailItem!.internalName)"
+                    descriptionView.text = "Latin Name: \(detailItem!.latinName)\nEnglish Name: \(detailItem!.englishName)\nSwedish name: \(detailItem!.swedishName)\nCategory: \(detailItem!.category)\nCopyright: \(detailItem!.author)\nInternal ID: \(detailItem!.internalName)"
                 } else {
                     descriptionView.text = detailItem!.description
                 }
