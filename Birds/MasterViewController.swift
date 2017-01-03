@@ -79,7 +79,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.swedishName = result["swedishName"] as! String
                             newBird.description = result["description"] as! String
                             newBird.author = result["author"] as! String
-                            newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)"
+                            newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)\(newBird.category)"
                             
                             self.birds.append(newBird)
                         }
