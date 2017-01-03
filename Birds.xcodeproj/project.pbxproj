@@ -1427,7 +1427,7 @@
 				DEVELOPMENT_TEAM = 74N5MDHHBK;
 				INFOPLIST_FILE = Birds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.Birds;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.linnut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Birds/Birds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -1441,7 +1441,7 @@
 				DEVELOPMENT_TEAM = 74N5MDHHBK;
 				INFOPLIST_FILE = Birds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.Birds;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.linnut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Birds/Birds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
