@@ -36,12 +36,12 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        getBirds()
         
         if let split = self.splitViewController {
             let controllers = split.viewControllers
             self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
-        
         searchController.searchResultsUpdater = self
         searchController.dimsBackgroundDuringPresentation = false
         definesPresentationContext = true
@@ -53,8 +53,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         
         searchController.searchBar.scopeButtonTitles = [NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'"), "Sorsalinnut", "Kahlaajat", "Pöllöt", "Rastaat"]
         searchController.searchBar.delegate = self
-        
-        getBirds()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -109,6 +107,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                         DispatchQueue.main.async {
                             self.birds.sort(by: {$0.sortOrder < $1.sortOrder})
                             self.tableView.reloadData()
+                            self.detailViewController?.detailItem = self.birds[0]
                             self.isDownloading = false
                         }
                         

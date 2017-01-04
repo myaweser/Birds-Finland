@@ -84,6 +84,13 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             } else {
                 favoriteButton.image = #imageLiteral(resourceName: "favorite")
             }
+        } else {
+            if let nLabel = self.nameLabel {
+                nLabel.text = NSLocalizedString("No Bird Selected", comment: "Placeholder title in detail View")
+            }
+            if let descriptionView = self.birdDescriptionTextView {
+                descriptionView.text = NSLocalizedString("Select a Bird from Left", comment: "Placeholder text in detail View")
+            }
         }
     }
 

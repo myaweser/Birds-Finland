@@ -305,7 +305,6 @@
 
 /* Begin PBXFileReference section */
 		D640343B1E1BBE0900EDD9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		D640343D1E1BBE1700EDD9A7 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
 		D640343E1E1BBE1800EDD9A7 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D64034421E1BC88400EDD9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D64034441E1BC88900EDD9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -612,6 +611,8 @@
 		D6832DEF1E1CD55800F1E860 /* PARMAJ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PARMAJ.mp3; sourceTree = "<group>"; };
 		D6832DF01E1CD55800F1E860 /* PHYBRO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PHYBRO.mp3; sourceTree = "<group>"; };
 		D6832DF11E1CD55800F1E860 /* TURILI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TURILI.mp3; sourceTree = "<group>"; };
+		D6D7FB611E1D0AC300E25ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		D6D7FB631E1D0AC500E25ADA /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1401,7 +1402,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				D6491B431E1AA1AD004EFF9A /* Base */,
-				D640343D1E1BBE1700EDD9A7 /* fi */,
+				D6D7FB611E1D0AC300E25ADA /* en */,
+				D6D7FB631E1D0AC500E25ADA /* fi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
