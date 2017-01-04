@@ -10,6 +10,16 @@
 		D640343C1E1BBE0900EDD9A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D640343A1E1BBE0900EDD9A7 /* Localizable.strings */; };
 		D64034411E1BC88400EDD9A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64034431E1BC88400EDD9A7 /* InfoPlist.strings */; };
 		D64034471E1BC8F100EDD9A7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D64034461E1BC8F100EDD9A7 /* Settings.bundle */; };
+		D64034531E1CCD9300EDD9A7 /* ANTTRI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D64034491E1CCD9300EDD9A7 /* ANTTRI.mp3 */; };
+		D64034541E1CCD9300EDD9A7 /* BRACAN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D640344A1E1CCD9300EDD9A7 /* BRACAN.mp3 */; };
+		D64034551E1CCD9300EDD9A7 /* CARSPI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D640344B1E1CCD9300EDD9A7 /* CARSPI.mp3 */; };
+		D64034561E1CCD9300EDD9A7 /* ERIRUB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D640344C1E1CCD9300EDD9A7 /* ERIRUB.mp3 */; };
+		D64034571E1CCD9300EDD9A7 /* FRICOE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D640344D1E1CCD9300EDD9A7 /* FRICOE.mp3 */; };
+		D64034581E1CCD9300EDD9A7 /* FRIMON.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D640344E1E1CCD9300EDD9A7 /* FRIMON.mp3 */; };
+		D64034591E1CCD9300EDD9A7 /* MUSSTR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D640344F1E1CCD9300EDD9A7 /* MUSSTR.mp3 */; };
+		D640345A1E1CCD9300EDD9A7 /* PARMAJ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D64034501E1CCD9300EDD9A7 /* PARMAJ.mp3 */; };
+		D640345B1E1CCD9300EDD9A7 /* PHYBRO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D64034511E1CCD9300EDD9A7 /* PHYBRO.mp3 */; };
+		D640345C1E1CCD9300EDD9A7 /* TURILI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D64034521E1CCD9300EDD9A7 /* TURILI.mp3 */; };
 		D64255551E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255541E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m */; };
 		D64255641E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D64255591E1AB25700F5EA80 /* JTSAnimatedGIFUtility.m */; };
 		D64255651E1AB25700F5EA80 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D642555B1E1AB25700F5EA80 /* JTSImageInfo.m */; };
@@ -301,6 +311,16 @@
 		D64034441E1BC88900EDD9A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D64034451E1BC88A00EDD9A7 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D64034461E1BC8F100EDD9A7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D64034491E1CCD9300EDD9A7 /* ANTTRI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ANTTRI.mp3; sourceTree = "<group>"; };
+		D640344A1E1CCD9300EDD9A7 /* BRACAN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BRACAN.mp3; sourceTree = "<group>"; };
+		D640344B1E1CCD9300EDD9A7 /* CARSPI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CARSPI.mp3; sourceTree = "<group>"; };
+		D640344C1E1CCD9300EDD9A7 /* ERIRUB.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ERIRUB.mp3; sourceTree = "<group>"; };
+		D640344D1E1CCD9300EDD9A7 /* FRICOE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FRICOE.mp3; sourceTree = "<group>"; };
+		D640344E1E1CCD9300EDD9A7 /* FRIMON.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FRIMON.mp3; sourceTree = "<group>"; };
+		D640344F1E1CCD9300EDD9A7 /* MUSSTR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MUSSTR.mp3; sourceTree = "<group>"; };
+		D64034501E1CCD9300EDD9A7 /* PARMAJ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PARMAJ.mp3; sourceTree = "<group>"; };
+		D64034511E1CCD9300EDD9A7 /* PHYBRO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PHYBRO.mp3; sourceTree = "<group>"; };
+		D64034521E1CCD9300EDD9A7 /* TURILI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TURILI.mp3; sourceTree = "<group>"; };
 		D64255531E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		D64255541E1AAFE400F5EA80 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
 		D64255561E1AAFFA00F5EA80 /* Birds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Birds-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -605,6 +625,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D64034481E1CCD7F00EDD9A7 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D64034491E1CCD9300EDD9A7 /* ANTTRI.mp3 */,
+				D640344A1E1CCD9300EDD9A7 /* BRACAN.mp3 */,
+				D640344B1E1CCD9300EDD9A7 /* CARSPI.mp3 */,
+				D640344C1E1CCD9300EDD9A7 /* ERIRUB.mp3 */,
+				D640344D1E1CCD9300EDD9A7 /* FRICOE.mp3 */,
+				D640344E1E1CCD9300EDD9A7 /* FRIMON.mp3 */,
+				D640344F1E1CCD9300EDD9A7 /* MUSSTR.mp3 */,
+				D64034501E1CCD9300EDD9A7 /* PARMAJ.mp3 */,
+				D64034511E1CCD9300EDD9A7 /* PHYBRO.mp3 */,
+				D64034521E1CCD9300EDD9A7 /* TURILI.mp3 */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
 		D64255521E1AAFE400F5EA80 /* DZNEmptyDataSet */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,6 +704,7 @@
 				D64034461E1BC8F100EDD9A7 /* Settings.bundle */,
 				D64255571E1AB25700F5EA80 /* JTSImageViewController */,
 				D64255521E1AAFE400F5EA80 /* DZNEmptyDataSet */,
+				D64034481E1CCD7F00EDD9A7 /* sounds */,
 				D6491B521E1AA425004EFF9A /* images */,
 			);
 			path = Birds;
@@ -1010,6 +1048,7 @@
 				D6491CAC1E1AA426004EFF9A /* Coccothraustes coccothraustes.jpg in Resources */,
 				D6491CE01E1AA426004EFF9A /* Hydroprogne caspia.jpg in Resources */,
 				D6491CA31E1AA426004EFF9A /* Charadrius morinellus.jpg in Resources */,
+				D640345B1E1CCD9300EDD9A7 /* PHYBRO.mp3 in Resources */,
 				D6491D491E1AA426004EFF9A /* Strix nebulosa.jpg in Resources */,
 				D6491D0C1E1AA426004EFF9A /* Oenanthe oenanthe.jpg in Resources */,
 				D6491C7A1E1AA425004EFF9A /* Anthus trivialis.jpg in Resources */,
@@ -1055,6 +1094,7 @@
 				D6491CD51E1AA426004EFF9A /* Garrulus glandarius.jpg in Resources */,
 				D6491C691E1AA425004EFF9A /* Alcedo atthis.jpg in Resources */,
 				D6491D2C1E1AA426004EFF9A /* Plectrophenax nivalis.jpg in Resources */,
+				D640345A1E1CCD9300EDD9A7 /* PARMAJ.mp3 in Resources */,
 				D6491D5A1E1AA426004EFF9A /* Tringa ochropus.jpg in Resources */,
 				D6491D2B1E1AA426004EFF9A /* Pinicola enucleator.jpg in Resources */,
 				D6491CA61E1AA426004EFF9A /* Cinclus cinclus.jpg in Resources */,
@@ -1067,6 +1107,7 @@
 				D6491D351E1AA426004EFF9A /* Rallus aquaticus.jpg in Resources */,
 				D6491C841E1AA426004EFF9A /* Aythya fuligula.jpg in Resources */,
 				D6491D0F1E1AA426004EFF9A /* Panurus biarmicus.jpg in Resources */,
+				D640345C1E1CCD9300EDD9A7 /* TURILI.mp3 in Resources */,
 				D6491D1F1E1AA426004EFF9A /* Philomachus pugnax.jpg in Resources */,
 				D6491C781E1AA425004EFF9A /* Anthus petrosus.jpg in Resources */,
 				D6491CEE1E1AA426004EFF9A /* lintuatlas-lajikuvat.xls in Resources */,
@@ -1081,13 +1122,16 @@
 				D6491D4F1E1AA426004EFF9A /* Sylvia communis.jpg in Resources */,
 				D6491D661E1AA426004EFF9A /* Xenus cinereus.jpg in Resources */,
 				D6491CB71E1AA426004EFF9A /* Cygnus cygnus.jpg in Resources */,
+				D64034581E1CCD9300EDD9A7 /* FRIMON.mp3 in Resources */,
 				D6491C961E1AA426004EFF9A /* Caprimulgus europaeus.jpg in Resources */,
+				D64034531E1CCD9300EDD9A7 /* ANTTRI.mp3 in Resources */,
 				D6491D2D1E1AA426004EFF9A /* Pluvialis apricaria.jpg in Resources */,
 				D6491CD81E1AA426004EFF9A /* Glaucidium passerinum.jpg in Resources */,
 				D6491C601E1AA425004EFF9A /* Acrocephalus dumetorum.jpg in Resources */,
 				D6491CA41E1AA426004EFF9A /* Chlidonias niger.jpg in Resources */,
 				D6491C7E1E1AA426004EFF9A /* Aquila pomarina.jpg in Resources */,
 				D6491CB91E1AA426004EFF9A /* Delichon urbicum.jpg in Resources */,
+				D64034561E1CCD9300EDD9A7 /* ERIRUB.mp3 in Resources */,
 				D6491D151E1AA426004EFF9A /* Parus major.jpg in Resources */,
 				D6491CEB1E1AA426004EFF9A /* Limicola falcinellus.jpg in Resources */,
 				D6491C7C1E1AA425004EFF9A /* Aquila chrysaetos.jpg in Resources */,
@@ -1108,6 +1152,7 @@
 				D6491C801E1AA426004EFF9A /* Arenaria interpres.jpg in Resources */,
 				D6491CE81E1AA426004EFF9A /* Larus fuscus.jpg in Resources */,
 				D6491D281E1AA426004EFF9A /* Pica pica.jpg in Resources */,
+				D64034591E1CCD9300EDD9A7 /* MUSSTR.mp3 in Resources */,
 				D6491D5C1E1AA426004EFF9A /* Tringa totanus.jpg in Resources */,
 				D6491D031E1AA426004EFF9A /* Motacilla cinerea.jpg in Resources */,
 				D6491CED1E1AA426004EFF9A /* Limosa limosa.jpg in Resources */,
@@ -1154,6 +1199,7 @@
 				D6491D501E1AA426004EFF9A /* Sylvia curruca.jpg in Resources */,
 				D6491C9E1E1AA426004EFF9A /* Carpodacus erythrinus.jpg in Resources */,
 				D6491D551E1AA426004EFF9A /* Tetrao urogallus.jpg in Resources */,
+				D64034571E1CCD9300EDD9A7 /* FRICOE.mp3 in Resources */,
 				D6491CC91E1AA426004EFF9A /* Falco subbuteo.jpg in Resources */,
 				D6491C6D1E1AA425004EFF9A /* Anas penelope.jpg in Resources */,
 				D6491D471E1AA426004EFF9A /* Streptopelia turtur.jpg in Resources */,
@@ -1189,6 +1235,7 @@
 				D6491CE61E1AA426004EFF9A /* Larus argentatus.jpg in Resources */,
 				D6491D201E1AA426004EFF9A /* Phoenicurus ochruros.jpg in Resources */,
 				D6491D061E1AA426004EFF9A /* Muscicapa striata.jpg in Resources */,
+				D64034551E1CCD9300EDD9A7 /* CARSPI.mp3 in Resources */,
 				D6491CFE1E1AA426004EFF9A /* Mergus merganser.jpg in Resources */,
 				D6491CA51E1AA426004EFF9A /* Ciconia ciconia.jpg in Resources */,
 				D6491D391E1AA426004EFF9A /* Rissa tridactyla.jpg in Resources */,
@@ -1219,6 +1266,7 @@
 				D6491D271E1AA426004EFF9A /* Phylloscopus trochilus.jpg in Resources */,
 				D6491D101E1AA426004EFF9A /* Parus ater.jpg in Resources */,
 				D6491D051E1AA426004EFF9A /* Motacilla flava.jpg in Resources */,
+				D64034541E1CCD9300EDD9A7 /* BRACAN.mp3 in Resources */,
 				D6491CA21E1AA426004EFF9A /* Charadrius hiaticula.jpg in Resources */,
 				D6491C811E1AA426004EFF9A /* Asio flammeus.jpg in Resources */,
 				D6491D211E1AA426004EFF9A /* Phoenicurus phoenicurus.jpg in Resources */,

@@ -18,5 +18,7 @@ class Bird {
     var swedishName = ""
     var description = ""
     var author = ""
+    var audioAboutUrl = ""
+    var hasAudio = false
     var allDetails = ""
 }

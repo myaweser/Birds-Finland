@@ -83,6 +83,11 @@
                                     <action selector="showMapImage:" destination="JEX-9P-axG" id="DoE-d0-NMw"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem systemItem="play" id="pYx-gQ-6zZ">
+                                <connections>
+                                    <action selector="listenSound:" destination="JEX-9P-axG" id="loA-D4-RP3"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
@@ -91,6 +96,7 @@
                         <outlet property="birdImageViewButton" destination="ap3-Ys-VPf" id="VKC-PT-1b1"/>
                         <outlet property="infoButton" destination="gkf-hC-G0V" id="IHW-g8-3gb"/>
                         <outlet property="showMapImageButton" destination="bPO-tK-v28" id="XvV-Sm-YMS"/>
+                        <outlet property="soundButton" destination="pYx-gQ-6zZ" id="kFc-mR-NwE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>

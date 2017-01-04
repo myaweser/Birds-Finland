@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     var birdInfoVisible = false {
         didSet {
             if let descriptionView = self.birdDescriptionTextView {
@@ -26,6 +27,8 @@ class DetailViewController: UIViewController {
                         ": \(detailItem!.category)\n" +
                         NSLocalizedString("Copyright", comment: "Copyright in Description view") +
                         ": \(detailItem!.author)\n" +
+                        NSLocalizedString("Has Audio", comment: "Has Audio in Description view") +
+                        ": \(detailItem!.hasAudio)\n" +
                         NSLocalizedString("Internal ID", comment: "Internal ID in Description view") +
                         ": \(detailItem!.internalName)"
                 } else {
@@ -37,6 +40,8 @@ class DetailViewController: UIViewController {
         }
     }
     
+    var player : AVAudioPlayer! = nil
+    @IBOutlet weak var soundButton: UIBarButtonItem!
     @IBOutlet weak var showMapImageButton: UIBarButtonItem!
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var birdDescriptionTextView: UITextView!
@@ -47,6 +52,7 @@ class DetailViewController: UIViewController {
         // Update the user interface for the detail item.
         if let selectedBird = self.detailItem {
             showMapImageButton.isEnabled = selectedBird.mapID > 0
+            soundButton.isEnabled = selectedBird.hasAudio
             self.title = "\(selectedBird.finnishName)"
             if let descriptionView = self.birdDescriptionTextView {
                 descriptionView.isScrollEnabled = false
@@ -100,6 +106,26 @@ class DetailViewController: UIViewController {
         imageInfo.referenceView? = self.view
         let imageViewer = JTSImageViewController(imageInfo: imageInfo, mode: .image, backgroundStyle: .blurred)
         imageViewer?.show(from: self, transition: .fromOffscreen)
+    }
+    
+    @IBAction func listenSound(_ sender: Any) {
+        if let item = detailItem {
+            if let path = Bundle.main.path(forResource: ("\(item.internalName)"), ofType:"mp3") {
+                do {
+                    let fileURL = NSURL(fileURLWithPath: path)
+                    try player = AVAudioPlayer(contentsOf: fileURL as URL)
+                    player.prepareToPlay()
+                    player.delegate = self
+                    player.play()
+                } catch {
+                  soundButton.isEnabled = false
+                }
+            } else {
+                soundButton.isEnabled = false
+            }
+        } else {
+            soundButton.isEnabled = false
+        }
     }
     
     override func didReceiveMemoryWarning() {

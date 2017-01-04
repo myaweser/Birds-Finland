@@ -39,7 +39,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         tableView.emptyDataSetDelegate = self
         tableView.tableFooterView = UIView()
         
-        searchController.searchBar.scopeButtonTitles = [NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'"), "Sorsalin.", "Kahlaajat", "Pöllöt", "Rastaat"]
+        searchController.searchBar.scopeButtonTitles = [NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'"), "Sorsalinnut", "Kahlaajat", "Pöllöt", "Rastaat"]
         searchController.searchBar.delegate = self
         
         getBirds()
@@ -80,6 +80,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.swedishName = result["swedishName"] as! String
                             newBird.description = result["description"] as! String
                             newBird.author = result["author"] as! String
+                            newBird.audioAboutUrl = result["audioAboutUrl"] as! String
+                            newBird.hasAudio = !(newBird.audioAboutUrl.range(of:"noAudio") != nil)
                             newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)\(newBird.category)"
                             
                             self.birds.append(newBird)
