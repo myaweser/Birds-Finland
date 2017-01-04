@@ -15,6 +15,7 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var audioLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -32,7 +33,6 @@ class TableViewCell: UITableViewCell {
     }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
 

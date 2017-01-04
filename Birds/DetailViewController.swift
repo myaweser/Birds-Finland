@@ -29,6 +29,8 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
                         ": \(detailItem!.author)\n" +
                         NSLocalizedString("Has Audio", comment: "Has Audio in Description view") +
                         ": \(detailItem!.hasAudio)\n" +
+                        NSLocalizedString("Is Favorite", comment: "Is Favorite in Description view") +
+                        ": \(detailItem!.isFavorite)\n" +
                         NSLocalizedString("Internal ID", comment: "Internal ID in Description view") +
                         ": \(detailItem!.internalName)"
                 } else {
@@ -126,23 +128,27 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func listenSound(_ sender: Any) {
-        isPlaying = !isPlaying
-        if let item = detailItem {
-            if let path = Bundle.main.path(forResource: ("\(item.internalName)"), ofType:"mp3") {
-                do {
-                    let fileURL = NSURL(fileURLWithPath: path)
-                    try player = AVAudioPlayer(contentsOf: fileURL as URL)
-                    player.prepareToPlay()
-                    player.delegate = self
-                    player.play()
-                } catch {
-                  soundButton.isEnabled = false
+        if !isPlaying {
+            isPlaying = !isPlaying
+            if let item = detailItem {
+                if let path = Bundle.main.path(forResource: ("\(item.internalName)"), ofType:"mp3") {
+                    do {
+                        let fileURL = NSURL(fileURLWithPath: path)
+                        try player = AVAudioPlayer(contentsOf: fileURL as URL)
+                        player.prepareToPlay()
+                        player.delegate = self
+                        player.play()
+                    } catch {
+                        soundButton.isEnabled = false
+                    }
+                } else {
+                    soundButton.isEnabled = false
                 }
             } else {
                 soundButton.isEnabled = false
             }
         } else {
-            soundButton.isEnabled = false
+            isPlaying = !isPlaying
         }
     }
     
@@ -164,14 +170,14 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             UserDefaults.standard.set(favoriteCount - 1, forKey: "favoriteCount")
             favoriteButton.image = #imageLiteral(resourceName: "favorite")
         } else {
-            if favoriteCount < 3 {
+            if favoriteCount <= 5 {
                 detailItem?.isFavorite = true
                 detailItem?.sortOrder = 0
                 UserDefaults.standard.set(true, forKey: "isFavorite-\(detailItem!.internalName)")
                 UserDefaults.standard.set(favoriteCount + 1, forKey: "favoriteCount")
                 favoriteButton.image = #imageLiteral(resourceName: "favorite-filled")
             } else {
-                let alertController = UIAlertController(title: NSLocalizedString("You can't add more than 3 favorites.", comment: "Error message that's shown when trying to add more 3 favorites."), message: nil, preferredStyle: .alert)
+                let alertController = UIAlertController(title: NSLocalizedString("You can't add more than 5 favorites.", comment: "Error message that's shown when trying to add more 5 favorites."), message: nil, preferredStyle: .alert)
                 
                 let OKAction = UIAlertAction(title: "OK", style: .cancel)
                 
