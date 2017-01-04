@@ -61,13 +61,16 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var infoButton: UIBarButtonItem!
     @IBOutlet weak var birdImageViewButton: UIButton!
     @IBOutlet weak var favoriteButton: UIBarButtonItem!
+    @IBOutlet weak var nameLabel: UILabel!
     
     func configureView() {
         // Update the user interface for the detail item.
         if let selectedBird = self.detailItem {
             showMapImageButton.isEnabled = selectedBird.mapID > 0
             soundButton.isEnabled = selectedBird.hasAudio
-            self.title = "\(selectedBird.finnishName)"
+            if let nLabel = self.nameLabel {
+                nLabel.text = "\(selectedBird.finnishName)"
+            }
             if let descriptionView = self.birdDescriptionTextView {
                 descriptionView.isScrollEnabled = false
                 descriptionView.text = selectedBird.description

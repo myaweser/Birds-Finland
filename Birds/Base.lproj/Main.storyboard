@@ -41,37 +41,52 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QCo-hC-ynV">
                                 <rect key="frame" x="16" y="72" width="343" height="250"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="02c-at-Tsz"/>
+                                    <constraint firstAttribute="height" constant="250" id="C3c-bh-W6y"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ap3-Ys-VPf">
+                                <rect key="frame" x="16" y="72" width="343" height="250"/>
+                                <connections>
+                                    <action selector="birdImageViewButtonTapped:" destination="JEX-9P-axG" eventType="touchUpInside" id="hfe-Bg-wB8"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JJo-yh-wp5">
-                                <rect key="frame" x="16" y="330" width="343" height="317"/>
+                                <rect key="frame" x="16" y="367" width="343" height="280"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ap3-Ys-VPf">
-                                <rect key="frame" x="16" y="72" width="343" height="250"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="birdImageViewButtonTapped:" destination="JEX-9P-axG" eventType="touchUpInside" id="hfe-Bg-wB8"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GGW-eU-8E1">
+                                <rect key="frame" x="16" y="330" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="adk-Gk-qP9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="JJo-yh-wp5" secondAttribute="bottom" constant="20" symbolic="YES" id="1D2-6s-kZb"/>
-                            <constraint firstItem="JJo-yh-wp5" firstAttribute="top" secondItem="QCo-hC-ynV" secondAttribute="bottom" constant="8" symbolic="YES" id="JDb-CU-6Kk"/>
-                            <constraint firstItem="QCo-hC-ynV" firstAttribute="top" secondItem="SYR-Wa-9uf" secondAttribute="bottom" constant="8" symbolic="YES" id="e89-Tw-6oB"/>
-                            <constraint firstItem="QCo-hC-ynV" firstAttribute="leading" secondItem="JJo-yh-wp5" secondAttribute="leading" id="emJ-Rz-mOr"/>
-                            <constraint firstItem="QCo-hC-ynV" firstAttribute="trailing" secondItem="JJo-yh-wp5" secondAttribute="trailing" id="hTc-dK-3oF"/>
-                            <constraint firstItem="QCo-hC-ynV" firstAttribute="trailing" secondItem="svH-Pt-448" secondAttribute="trailingMargin" id="jEL-og-CWQ"/>
-                            <constraint firstItem="QCo-hC-ynV" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leadingMargin" id="sYv-oT-XIn"/>
+                            <constraint firstItem="GGW-eU-8E1" firstAttribute="leading" secondItem="JJo-yh-wp5" secondAttribute="leading" id="4SR-bK-Ttj"/>
+                            <constraint firstItem="QCo-hC-ynV" firstAttribute="top" secondItem="SYR-Wa-9uf" secondAttribute="bottom" constant="8" symbolic="YES" id="8hF-eq-1gH"/>
+                            <constraint firstItem="ap3-Ys-VPf" firstAttribute="trailing" secondItem="GGW-eU-8E1" secondAttribute="trailing" id="C2Y-5t-YTX"/>
+                            <constraint firstItem="ap3-Ys-VPf" firstAttribute="leading" secondItem="QCo-hC-ynV" secondAttribute="leading" id="HUO-Y4-WQD"/>
+                            <constraint firstItem="QCo-hC-ynV" firstAttribute="top" secondItem="ap3-Ys-VPf" secondAttribute="top" id="MHI-f9-F4O"/>
+                            <constraint firstItem="ap3-Ys-VPf" firstAttribute="trailing" secondItem="QCo-hC-ynV" secondAttribute="trailing" id="PWm-XQ-jF6"/>
+                            <constraint firstItem="ap3-Ys-VPf" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leadingMargin" id="TwJ-XY-pDl"/>
+                            <constraint firstItem="GGW-eU-8E1" firstAttribute="top" secondItem="QCo-hC-ynV" secondAttribute="bottom" constant="8" symbolic="YES" id="Zmc-US-cAN"/>
+                            <constraint firstItem="QCo-hC-ynV" firstAttribute="trailing" secondItem="svH-Pt-448" secondAttribute="trailingMargin" id="a0c-9O-lJn"/>
+                            <constraint firstAttribute="bottom" secondItem="JJo-yh-wp5" secondAttribute="bottom" constant="20" symbolic="YES" id="dJG-pR-dm4"/>
+                            <constraint firstItem="GGW-eU-8E1" firstAttribute="trailing" secondItem="JJo-yh-wp5" secondAttribute="trailing" id="j7c-b2-0hb"/>
+                            <constraint firstItem="JJo-yh-wp5" firstAttribute="top" secondItem="GGW-eU-8E1" secondAttribute="bottom" constant="2" id="oDH-5Y-BYf"/>
+                            <constraint firstItem="GGW-eU-8E1" firstAttribute="top" secondItem="ap3-Ys-VPf" secondAttribute="bottom" constant="8" symbolic="YES" id="rZ5-r3-EcQ"/>
+                            <constraint firstItem="QCo-hC-ynV" firstAttribute="leading" secondItem="GGW-eU-8E1" secondAttribute="leading" id="uhs-ef-UYm"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM">
+                    <navigationItem key="navigationItem" id="mOI-FS-AaM">
                         <rightBarButtonItems>
                             <barButtonItem image="info" id="gkf-hC-G0V">
                                 <connections>
@@ -101,6 +116,7 @@
                         <outlet property="birdImageViewButton" destination="ap3-Ys-VPf" id="VKC-PT-1b1"/>
                         <outlet property="favoriteButton" destination="Xmd-oH-BmK" id="gPX-IP-jt6"/>
                         <outlet property="infoButton" destination="gkf-hC-G0V" id="IHW-g8-3gb"/>
+                        <outlet property="nameLabel" destination="GGW-eU-8E1" id="dag-1H-Qs9"/>
                         <outlet property="showMapImageButton" destination="bPO-tK-v28" id="XvV-Sm-YMS"/>
                         <outlet property="soundButton" destination="pYx-gQ-6zZ" id="kFc-mR-NwE"/>
                     </connections>
@@ -136,7 +152,7 @@
                                 <rect key="frame" x="0.0" y="22" width="375" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WCw-Qf-5nD" id="37f-cq-3Eg">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fq5-D0-F1Q">
