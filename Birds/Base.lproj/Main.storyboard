@@ -217,8 +217,14 @@
                                 <action selector="openSettings:" destination="7bK-jq-Zjz" id="z4S-lC-1ab"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="history-filled" id="BNP-mJ-rcV">
+                            <connections>
+                                <action selector="showLastBird:" destination="7bK-jq-Zjz" id="IHS-qj-zdr"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="historyButton" destination="BNP-mJ-rcV" id="TYq-9f-ktz"/>
                         <outlet property="settingsButton" destination="uYd-pS-rgR" id="Dec-bQ-plS"/>
                     </connections>
                 </tableViewController>
@@ -245,6 +251,7 @@
     </scenes>
     <resources>
         <image name="favorite" width="22" height="22"/>
+        <image name="history-filled" width="22" height="22"/>
         <image name="info" width="22" height="22"/>
         <image name="map" width="22" height="22"/>
         <image name="play" width="22" height="22"/>

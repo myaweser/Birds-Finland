@@ -96,6 +96,7 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
+    
     @IBAction func infoButtonTapped(_ sender: Any) {
         birdInfoVisible = !birdInfoVisible
     }

@@ -10,7 +10,19 @@ import UIKit
 
 class MasterViewController: UITableViewController, UISearchControllerDelegate, DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
     
+    @IBOutlet weak var historyButton: UIBarButtonItem!
     @IBOutlet weak var settingsButton: UIBarButtonItem!
+    var canShowHistory = false {
+        didSet {
+            historyButton.isEnabled = canShowHistory
+        }
+    }
+    var shouldShowHistory = false {
+        didSet {
+            performSegue(withIdentifier: "showDetail", sender: self)
+            shouldShowHistory = false
+        }
+    }
     var detailViewController: DetailViewController? = nil
     var birds = [Bird]()
     let searchController = UISearchController(searchResultsController: nil)
@@ -50,6 +62,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         super.viewWillAppear(animated)
         self.birds.sort(by: {$0.sortOrder < $1.sortOrder})
         tableView.reloadData()
+        canShowHistory = UserDefaults.standard.integer(forKey: "lastBird") > 0
     }
     
     override func didReceiveMemoryWarning() {
@@ -121,12 +134,25 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
+            if shouldShowHistory {
+                let indexPath = UserDefaults.standard.integer(forKey: "lastBird")
+                let selectedBird: Bird
+                selectedBird = birds[indexPath]
+                let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
+                controller.detailItem = selectedBird
+                controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+                return
+            }
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let selectedBird: Bird
                 if searchController.isActive && searchController.searchBar.text != "" {
                     selectedBird = filteredBirds[indexPath.row]
+                    //TODO: Can't use history if using search
+                    UserDefaults.standard.set(-1, forKey: "lastBird")
                 } else {
                     selectedBird = birds[indexPath.row]
+                    UserDefaults.standard.set(indexPath.row, forKey: "lastBird")
                 }
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = selectedBird
@@ -159,7 +185,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         }
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
-        
         cell.nameLabel.text = bird.finnishName
         cell.categoryLabel.text = bird.category
         cell.bird = bird
@@ -184,6 +209,12 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     
     @IBAction func openSettings(_ sender: Any) {
         UIApplication.shared.openURL(NSURL(string: UIApplicationOpenSettingsURLString) as! URL)
+    }
+    
+    @IBAction func showLastBird(_ sender: Any) {
+        if UserDefaults.standard.integer(forKey: "lastBird") > 0 {
+            shouldShowHistory = true
+        }
     }
     
     func cropImageToSquare(image: UIImage) -> UIImage? {
