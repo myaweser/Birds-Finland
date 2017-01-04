@@ -212,7 +212,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     func description(forEmptyDataSet scrollView: UIScrollView) -> NSAttributedString? {
         var str = "Please check your internet connection."
         if searchController.isActive && searchController.searchBar.text != "" {
-            str = NSLocalizedString("Can't find any birds matching", comment: "Error message when no search results were found.") + "'\(searchController.searchBar.text!).'"
+            str = NSLocalizedString("Can't find any birds matching", comment: "Error message when no search results were found.") + "'\(searchController.searchBar.text!)'."
         } else if isDownloading {
             str = NSLocalizedString("Is this taking too long? Close the app and try again.", comment: "Progress message when birds are being downloaded.")
         }
