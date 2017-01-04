@@ -26,13 +26,7 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
                         NSLocalizedString("Category", comment: "Category in Description view") +
                         ": \(detailItem!.category)\n" +
                         NSLocalizedString("Copyright", comment: "Copyright in Description view") +
-                        ": \(detailItem!.author)\n" +
-                        NSLocalizedString("Has Audio", comment: "Has Audio in Description view") +
-                        ": \(detailItem!.hasAudio)\n" +
-                        NSLocalizedString("Is Favorite", comment: "Is Favorite in Description view") +
-                        ": \(detailItem!.isFavorite)\n" +
-                        NSLocalizedString("Internal ID", comment: "Internal ID in Description view") +
-                        ": \(detailItem!.internalName)"
+                        ": \(detailItem!.author)\n"
                 } else {
                     descriptionView.textAlignment = .center
                     infoButton.image = #imageLiteral(resourceName: "info")
@@ -42,6 +36,18 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
+    var debugMode = false {
+        didSet {
+            birdInfoVisible = true
+            birdDescriptionTextView.text.append(
+                NSLocalizedString("Has Audio", comment: "Has Audio in Description view") +
+                ": \(detailItem!.hasAudio)\n" +
+                NSLocalizedString("Is Favorite", comment: "Is Favorite in Description view") +
+                ": \(detailItem!.isFavorite)\n" +
+                NSLocalizedString("Internal ID", comment: "Internal ID in Description view") +
+            ": \(detailItem!.internalName)")
+        }
+    }
     var player : AVAudioPlayer! = nil
     var isPlaying = false {
         didSet {
@@ -79,6 +85,11 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
                 imageView.contentMode = .scaleAspectFit
                 imageView.image = UIImage(named: "\(selectedBird.latinName).jpg")
             }
+            if let imageButton = self.birdImageViewButton {
+                let longPress = UILongPressGestureRecognizer(target: self, action: #selector(longPress(_:)))
+                longPress.minimumPressDuration = 5
+                imageButton.addGestureRecognizer(longPress)
+            }
             if selectedBird.isFavorite {
                 favoriteButton.image = #imageLiteral(resourceName: "favorite-filled")
             } else {
@@ -94,6 +105,12 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
 
+    func longPress(_ gesture: UILongPressGestureRecognizer) {
+        if gesture.state == .recognized  {
+            debugMode = true
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
