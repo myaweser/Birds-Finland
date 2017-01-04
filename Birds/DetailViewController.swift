@@ -41,6 +41,17 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     var player : AVAudioPlayer! = nil
+    var isPlaying = false {
+        didSet {
+            if isPlaying {
+                soundButton.image = #imageLiteral(resourceName: "stop")
+            } else {
+                soundButton.image = #imageLiteral(resourceName: "play")
+                player.stop()
+            }
+        }
+    }
+    
     @IBOutlet weak var soundButton: UIBarButtonItem!
     @IBOutlet weak var showMapImageButton: UIBarButtonItem!
     @IBOutlet weak var birdImageView: UIImageView!
@@ -115,6 +126,7 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func listenSound(_ sender: Any) {
+        isPlaying = !isPlaying
         if let item = detailItem {
             if let path = Bundle.main.path(forResource: ("\(item.internalName)"), ofType:"mp3") {
                 do {
@@ -132,6 +144,10 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
         } else {
             soundButton.isEnabled = false
         }
+    }
+    
+    func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        isPlaying = false
     }
     
     @IBAction func addToFavorites(_ sender: Any) {

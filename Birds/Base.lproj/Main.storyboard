@@ -83,7 +83,7 @@
                                     <action selector="showMapImage:" destination="JEX-9P-axG" id="DoE-d0-NMw"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem systemItem="play" id="pYx-gQ-6zZ">
+                            <barButtonItem image="play" id="pYx-gQ-6zZ">
                                 <connections>
                                     <action selector="listenSound:" destination="JEX-9P-axG" id="loA-D4-RP3"/>
                                 </connections>
@@ -234,6 +234,7 @@
         <image name="favorite" width="22" height="22"/>
         <image name="info" width="22" height="22"/>
         <image name="map" width="22" height="22"/>
+        <image name="play" width="22" height="22"/>
         <image name="settings" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
