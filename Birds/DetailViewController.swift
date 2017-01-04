@@ -47,6 +47,7 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var birdDescriptionTextView: UITextView!
     @IBOutlet weak var infoButton: UIBarButtonItem!
     @IBOutlet weak var birdImageViewButton: UIButton!
+    @IBOutlet weak var favoriteButton: UIBarButtonItem!
     
     func configureView() {
         // Update the user interface for the detail item.
@@ -61,6 +62,11 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             if let imageView = self.birdImageView {
                 imageView.contentMode = .scaleAspectFit
                 imageView.image = UIImage(named: "\(selectedBird.latinName).jpg")
+            }
+            if selectedBird.isFavorite {
+                favoriteButton.image = #imageLiteral(resourceName: "favorite-filled")
+            } else {
+                favoriteButton.image = #imageLiteral(resourceName: "favorite")
             }
         }
     }
@@ -125,6 +131,38 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             }
         } else {
             soundButton.isEnabled = false
+        }
+    }
+    
+    @IBAction func addToFavorites(_ sender: Any) {
+        if !(UserDefaults.standard.value(forKey: "favoriteCount") != nil) {
+            UserDefaults.standard.set(0, forKey: "favoriteCount")
+        }
+        var favoriteCount = 0
+        favoriteCount = (UserDefaults.standard.value(forKey: "favoriteCount") as? Int)!
+    
+        if (detailItem?.isFavorite)! {
+            detailItem?.isFavorite = false
+            detailItem?.sortOrder = 1
+            UserDefaults.standard.set(false, forKey: "isFavorite-\(detailItem!.internalName)")
+            UserDefaults.standard.set(favoriteCount - 1, forKey: "favoriteCount")
+            favoriteButton.image = #imageLiteral(resourceName: "favorite")
+        } else {
+            if favoriteCount < 3 {
+                detailItem?.isFavorite = true
+                detailItem?.sortOrder = 0
+                UserDefaults.standard.set(true, forKey: "isFavorite-\(detailItem!.internalName)")
+                UserDefaults.standard.set(favoriteCount + 1, forKey: "favoriteCount")
+                favoriteButton.image = #imageLiteral(resourceName: "favorite-filled")
+            } else {
+                let alertController = UIAlertController(title: NSLocalizedString("You can't add more than 3 favorites.", comment: "Error message that's shown when trying to add more 3 favorites."), message: nil, preferredStyle: .alert)
+                
+                let OKAction = UIAlertAction(title: "OK", style: .cancel)
+                
+                alertController.addAction(OKAction)
+                
+                self.present(alertController, animated: true)
+            }
         }
     }
     

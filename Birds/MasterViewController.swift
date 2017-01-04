@@ -48,6 +48,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     override func viewWillAppear(_ animated: Bool) {
         self.clearsSelectionOnViewWillAppear = self.splitViewController!.isCollapsed
         super.viewWillAppear(animated)
+        self.birds.sort(by: {$0.sortOrder < $1.sortOrder})
+        tableView.reloadData()
     }
     
     override func didReceiveMemoryWarning() {
@@ -84,9 +86,15 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.hasAudio = !(newBird.audioAboutUrl.range(of:"noAudio") != nil)
                             newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)\(newBird.category)"
                             
+                            if (UserDefaults.standard.bool(forKey: "isFavorite-\(newBird.internalName)")) {
+                                newBird.sortOrder = 0
+                            }
+                            newBird.isFavorite = newBird.sortOrder == 0
+                            
                             self.birds.append(newBird)
                         }
                         DispatchQueue.main.async {
+                            self.birds.sort(by: {$0.sortOrder < $1.sortOrder})
                             self.tableView.reloadData()
                             self.isDownloading = false
                         }
@@ -142,7 +150,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
         
         let bird: Bird
         if searchController.isActive && searchController.searchBar.text != "" {
@@ -151,11 +158,17 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
             bird = birds[indexPath.row]
         }
         
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
+        
         cell.nameLabel.text = bird.finnishName
         cell.categoryLabel.text = bird.category
         cell.bird = bird
         let image = UIImage(named: "\(bird.latinName).jpg")
         cell.birdImageView?.image = self.cropImageToSquare(image: image!)
+        
+        if bird.isFavorite {
+            cell.nameLabel.text = "♥ \(bird.finnishName)"
+        }
         return cell
     }
     
