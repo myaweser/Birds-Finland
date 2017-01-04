@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-
+    var bird: Bird!
     @IBOutlet weak var birdImageButton: UIButton!
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
@@ -23,7 +23,7 @@ class TableViewCell: UITableViewCell {
 
     @IBAction func birdImageButtonTapped(_ sender: Any) {
         let imageInfo = JTSImageInfo()
-        imageInfo.image = birdImageView.image
+        imageInfo.image = UIImage(named: "\(bird.latinName).jpg")
         imageInfo.referenceRect = birdImageView.frame
         imageInfo.title = nameLabel.text
         imageInfo.referenceView = birdImageView

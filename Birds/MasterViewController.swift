@@ -153,7 +153,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         
         cell.nameLabel.text = bird.finnishName
         cell.categoryLabel.text = bird.category
-        
+        cell.bird = bird
         let image = UIImage(named: "\(bird.latinName).jpg")
         cell.birdImageView?.image = self.cropImageToSquare(image: image!)
         return cell
