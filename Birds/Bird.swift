@@ -21,6 +21,5 @@ class Bird {
     var audioAboutUrl = ""
     var hasAudio = false
     var allDetails = ""
-    var sortOrder = 1 //0 is favorite
     var isFavorite = false
 }

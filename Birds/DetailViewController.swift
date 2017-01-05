@@ -193,14 +193,12 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     
         if (detailItem?.isFavorite)! {
             detailItem?.isFavorite = false
-            detailItem?.sortOrder = 1
             UserDefaults.standard.set(false, forKey: "isFavorite-\(detailItem!.internalName)")
             UserDefaults.standard.set(favoriteCount - 1, forKey: "favoriteCount")
             favoriteButton.image = #imageLiteral(resourceName: "favorite")
         } else {
             if favoriteCount <= 5 {
                 detailItem?.isFavorite = true
-                detailItem?.sortOrder = 0
                 UserDefaults.standard.set(true, forKey: "isFavorite-\(detailItem!.internalName)")
                 UserDefaults.standard.set(favoriteCount + 1, forKey: "favoriteCount")
                 favoriteButton.image = #imageLiteral(resourceName: "favorite-filled")

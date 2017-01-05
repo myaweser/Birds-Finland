@@ -25,8 +25,10 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     }
     var detailViewController: DetailViewController? = nil
     var birds = [Bird]()
+    var favorites = [Bird]()
     let searchController = UISearchController(searchResultsController: nil)
     var filteredBirds = [Bird]()
+    var allDownloaded = false
     var isDownloading = false {
         didSet {
             tableView.reloadEmptyDataSet()
@@ -58,17 +60,41 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     override func viewWillAppear(_ animated: Bool) {
         self.clearsSelectionOnViewWillAppear = self.splitViewController!.isCollapsed
         super.viewWillAppear(animated)
-        self.birds.sort(by: {$0.sortOrder < $1.sortOrder})
-        tableView.reloadData()
+        
         canShowHistory = UserDefaults.standard.integer(forKey: "lastBird") > 0
+        refreshFavorites()
     }
     
-    override func didReceiveMemoryWarning() {
+    func updateCell(path: Int) {
+        let indexPath = NSIndexPath(item: path, section: 0)
+        
+        tableView.beginUpdates()
+        tableView.reloadRows(at: [indexPath as IndexPath], with: UITableViewRowAnimation.none)
+        tableView.endUpdates()
+    }
+    
+    func refreshFavorites() {
+        var index = 0
+        tableView.beginUpdates()
+        self.favorites = []
+        for bird in birds {
+            let newBird = birds[index]
+            index += 1
+            if (UserDefaults.standard.bool(forKey: "isFavorite-\(newBird.internalName)")) {
+                self.favorites.append(newBird)
+            }
+        }
+        tableView.reloadSections(IndexSet(integer: 0), with: .automatic)
+        tableView.endUpdates()
+    }
+    
+        override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     func getBirds() {
+        birds = []
         isDownloading = true
         let configuration = URLSessionConfiguration.default
         let session = URLSession(configuration: configuration)
@@ -98,17 +124,17 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)\(newBird.category)"
                             
                             if (UserDefaults.standard.bool(forKey: "isFavorite-\(newBird.internalName)")) {
-                                newBird.sortOrder = 0
+                                newBird.isFavorite = true
+                                self.favorites.append(newBird)
                             }
-                            newBird.isFavorite = newBird.sortOrder == 0
                             
                             self.birds.append(newBird)
                         }
                         DispatchQueue.main.async {
-                            self.birds.sort(by: {$0.sortOrder < $1.sortOrder})
                             self.tableView.reloadData()
                             self.detailViewController?.detailItem = self.birds[0]
                             self.isDownloading = false
+                            self.allDownloaded = true
                         }
                         
                     } catch let error as NSError {
@@ -149,6 +175,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                     selectedBird = filteredBirds[indexPath.row]
                     //TODO: Can't use history if using search
                     UserDefaults.standard.set(-1, forKey: "lastBird")
+                } else if indexPath.section == 0 {
+                    selectedBird = favorites[indexPath.row]
                 } else {
                     selectedBird = birds[indexPath.row]
                     UserDefaults.standard.set(indexPath.row, forKey: "lastBird")
@@ -163,15 +191,36 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     
     // MARK: - Table View
     
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 0 && self.favorites.count < 1 {
+            return 0
+        }
+        return 22
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 2
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if searchController.isActive && searchController.searchBar.text != "" {
-            return filteredBirds.count
+        switch section {
+        case 0:
+            return favorites.count
+        default:
+            if searchController.isActive && searchController.searchBar.text != "" {
+                return filteredBirds.count
+            }
+            return birds.count
         }
-        return birds.count
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return "Favorites"
+        default:
+            return "All Birds"
+        }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -179,6 +228,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         let bird: Bird
         if searchController.isActive && searchController.searchBar.text != "" {
             bird = filteredBirds[indexPath.row]
+        } else if indexPath.section == 0 {
+            bird = favorites[indexPath.row]
         } else {
             bird = birds[indexPath.row]
         }
@@ -190,8 +241,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         cell.audioLabel.isHidden = !bird.hasAudio
         let image = UIImage(named: "\(bird.latinName).jpg")
         cell.birdImageView?.image = self.cropImageToSquare(image: image!)
-        
-        if bird.isFavorite {
+        if bird.isFavorite && indexPath.section == 0 {
             cell.nameLabel.text = "♥ \(bird.finnishName)"
         }
         return cell
