@@ -103,7 +103,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         isDownloading = true
         let configuration = URLSessionConfiguration.default
         let session = URLSession(configuration: configuration)
-        if let url = NSURL(string: "https://eaststudios.fi/api/BirdsFI/v1/getBirds") {
+        let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
+        
+        if let url = NSURL(string: "https://eaststudios.fi/api/BirdsFI/v1/getBirds?appVersion=\(appVersion)") {
             session.dataTask(with: url as URL, completionHandler: { (data, response, error) -> Void in
                 if error != nil {
                     self.isDownloading = false
