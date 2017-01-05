@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import SafariServices
 
 class MasterViewController: UITableViewController, UISearchControllerDelegate, DZNEmptyDataSetSource, DZNEmptyDataSetDelegate {
     
+    @IBOutlet weak var copyrightInfoButton: UIBarButtonItem!
     @IBOutlet weak var historyButton: UIBarButtonItem!
     @IBOutlet weak var settingsButton: UIBarButtonItem!
     var canShowHistory = false {
@@ -278,6 +280,10 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         tableView.reloadData()
     }
     
+    @IBAction func showCopyrightInfo(_ sender: Any) {
+        let svc = SFSafariViewController(url: NSURL(string: "https://eaststudios.fi/birdsFI/copyrightInfo.html")! as URL)
+        self.present(svc, animated: true, completion: nil)
+    }
     @IBAction func openSettings(_ sender: Any) {
         UIApplication.shared.openURL(NSURL(string: UIApplicationOpenSettingsURLString) as! URL)
     }

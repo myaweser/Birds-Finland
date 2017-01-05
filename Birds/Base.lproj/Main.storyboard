@@ -152,7 +152,7 @@
                                 <rect key="frame" x="0.0" y="22" width="375" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WCw-Qf-5nD" id="37f-cq-3Eg">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fq5-D0-F1Q">
@@ -228,11 +228,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Birds" id="Zdf-7t-Un8">
-                        <barButtonItem key="leftBarButtonItem" image="settings" id="uYd-pS-rgR">
-                            <connections>
-                                <action selector="openSettings:" destination="7bK-jq-Zjz" id="z4S-lC-1ab"/>
-                            </connections>
-                        </barButtonItem>
+                        <leftBarButtonItems>
+                            <barButtonItem image="settings" id="uYd-pS-rgR">
+                                <connections>
+                                    <action selector="openSettings:" destination="7bK-jq-Zjz" id="z4S-lC-1ab"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="info-filled" id="Hzo-vq-DVZ">
+                                <connections>
+                                    <action selector="showCopyrightInfo:" destination="7bK-jq-Zjz" id="ENf-yL-ffq"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                         <barButtonItem key="rightBarButtonItem" image="history-filled" id="BNP-mJ-rcV">
                             <connections>
                                 <action selector="showLastBird:" destination="7bK-jq-Zjz" id="IHS-qj-zdr"/>
@@ -240,6 +247,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="copyrightInfoButton" destination="Hzo-vq-DVZ" id="LF9-Fm-2dm"/>
                         <outlet property="historyButton" destination="BNP-mJ-rcV" id="TYq-9f-ktz"/>
                         <outlet property="settingsButton" destination="uYd-pS-rgR" id="Dec-bQ-plS"/>
                     </connections>
@@ -269,6 +277,7 @@
         <image name="favorite" width="22" height="22"/>
         <image name="history-filled" width="22" height="22"/>
         <image name="info" width="22" height="22"/>
+        <image name="info-filled" width="22" height="22"/>
         <image name="map" width="22" height="22"/>
         <image name="play" width="22" height="22"/>
         <image name="settings" width="22" height="22"/>
