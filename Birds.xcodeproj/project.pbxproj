@@ -611,6 +611,7 @@
 		D6832DEF1E1CD55800F1E860 /* PARMAJ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PARMAJ.mp3; sourceTree = "<group>"; };
 		D6832DF01E1CD55800F1E860 /* PHYBRO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PHYBRO.mp3; sourceTree = "<group>"; };
 		D6832DF11E1CD55800F1E860 /* TURILI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TURILI.mp3; sourceTree = "<group>"; };
+		D6D60DF81E1E36410067C407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D6D7FB611E1D0AC300E25ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		D6D7FB631E1D0AC500E25ADA /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1384,6 +1385,7 @@
 			children = (
 				D640343B1E1BBE0900EDD9A7 /* Base */,
 				D640343E1E1BBE1800EDD9A7 /* fi */,
+				D6D60DF81E1E36410067C407 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

@@ -80,8 +80,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         for bird in birds {
             let newBird = birds[index]
             index += 1
-            if (UserDefaults.standard.bool(forKey: "isFavorite-\(newBird.internalName)")) {
+            if (newBird.isFavorite) {
                 self.favorites.append(newBird)
+                UserDefaults.standard.set(true, forKey: "isFavorite-\(newBird.internalName)")
             }
         }
         tableView.reloadSections(IndexSet(integer: 0), with: .automatic)
@@ -217,9 +218,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
-            return "Favorites"
+            return NSLocalizedString("Favorites", comment: "Section title for favorites")
         default:
-            return "All Birds"
+            return NSLocalizedString("All", comment: "Section title for all")
         }
     }
     

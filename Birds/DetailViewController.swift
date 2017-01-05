@@ -190,27 +190,17 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
         }
         var favoriteCount = 0
         favoriteCount = (UserDefaults.standard.value(forKey: "favoriteCount") as? Int)!
-    
+        
         if (detailItem?.isFavorite)! {
             detailItem?.isFavorite = false
             UserDefaults.standard.set(false, forKey: "isFavorite-\(detailItem!.internalName)")
             UserDefaults.standard.set(favoriteCount - 1, forKey: "favoriteCount")
             favoriteButton.image = #imageLiteral(resourceName: "favorite")
         } else {
-            if favoriteCount <= 5 {
-                detailItem?.isFavorite = true
-                UserDefaults.standard.set(true, forKey: "isFavorite-\(detailItem!.internalName)")
-                UserDefaults.standard.set(favoriteCount + 1, forKey: "favoriteCount")
-                favoriteButton.image = #imageLiteral(resourceName: "favorite-filled")
-            } else {
-                let alertController = UIAlertController(title: NSLocalizedString("You can't add more than 5 favorites.", comment: "Error message that's shown when trying to add more 5 favorites."), message: nil, preferredStyle: .alert)
-                
-                let OKAction = UIAlertAction(title: "OK", style: .cancel)
-                
-                alertController.addAction(OKAction)
-                
-                self.present(alertController, animated: true)
-            }
+            detailItem?.isFavorite = true
+            UserDefaults.standard.set(true, forKey: "isFavorite-\(detailItem!.internalName)")
+            UserDefaults.standard.set(favoriteCount + 1, forKey: "favoriteCount")
+            favoriteButton.image = #imageLiteral(resourceName: "favorite-filled")
         }
     }
     
