@@ -1,0 +1,14 @@
+{
+	"birds": [{
+		"internalName": "UNKNWN",
+		"latinName": "Unknown Version",
+		"finnishName": "Tämä versio ei ole tuettu.",
+		"category": "error_unknown_version",
+		"swedishName": "This version is not supported.",
+		"englishName": "This version is not supported.",
+		"isSecret": "1",
+		"description": "This version is not supported. Please update this app from the App Store.",
+		"author": "East Studios",
+		"audioAboutUrl": "noAudio"
+	}]
+}
