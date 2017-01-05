@@ -1,7 +1,7 @@
 <?php
 $appVersion =  $_GET['appVersion'];
 
-if($appVersion == "1.0") {
+if($appVersion == "1.0.0") {
     header("location: json/05-01-2017.json");
     exit();
 } else if($appVersion == "1.0.1") {
