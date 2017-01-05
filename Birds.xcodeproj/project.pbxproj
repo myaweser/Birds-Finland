@@ -301,6 +301,7 @@
 		D6832DF91E1CD55800F1E860 /* PARMAJ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6832DEF1E1CD55800F1E860 /* PARMAJ.mp3 */; };
 		D6832DFA1E1CD55800F1E860 /* PHYBRO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6832DF01E1CD55800F1E860 /* PHYBRO.mp3 */; };
 		D6832DFB1E1CD55800F1E860 /* TURILI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6832DF11E1CD55800F1E860 /* TURILI.mp3 */; };
+		D6D60DFA1E1E3EF80067C407 /* CLAHYE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D60DF91E1E3EF80067C407 /* CLAHYE.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -612,6 +613,7 @@
 		D6832DF01E1CD55800F1E860 /* PHYBRO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PHYBRO.mp3; sourceTree = "<group>"; };
 		D6832DF11E1CD55800F1E860 /* TURILI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TURILI.mp3; sourceTree = "<group>"; };
 		D6D60DF81E1E36410067C407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D6D60DF91E1E3EF80067C407 /* CLAHYE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CLAHYE.mp3; sourceTree = "<group>"; };
 		D6D7FB611E1D0AC300E25ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		D6D7FB631E1D0AC500E25ADA /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -972,6 +974,7 @@
 				D6832DE81E1CD55800F1E860 /* ANTTRI.mp3 */,
 				D6832DE91E1CD55800F1E860 /* BRACAN.mp3 */,
 				D6832DEA1E1CD55800F1E860 /* CARSPI.mp3 */,
+				D6D60DF91E1E3EF80067C407 /* CLAHYE.mp3 */,
 				D6832DEB1E1CD55800F1E860 /* ERIRUB.mp3 */,
 				D6832DEC1E1CD55800F1E860 /* FRICOE.mp3 */,
 				D6832DED1E1CD55800F1E860 /* FRIMON.mp3 */,
@@ -1245,6 +1248,7 @@
 				D6491CFF1E1AA426004EFF9A /* Mergus serrator.jpg in Resources */,
 				D6491CC41E1AA426004EFF9A /* Eremophila alpestris.jpg in Resources */,
 				D6491D431E1AA426004EFF9A /* Sterna hirundo.jpg in Resources */,
+				D6D60DFA1E1E3EF80067C407 /* CLAHYE.mp3 in Resources */,
 				D6491D5D1E1AA426004EFF9A /* Troglodytes troglodytes.jpg in Resources */,
 				D6491CA01E1AA426004EFF9A /* Certhia familiaris.jpg in Resources */,
 				D6491CA91E1AA426004EFF9A /* Circus macrourus.jpg in Resources */,

@@ -38,6 +38,10 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        #if DEBUG
+            //Don't use cached json when debugging
+            URLCache.shared.removeAllCachedResponses()
+        #endif
         getBirds()
         
         if let split = self.splitViewController {
@@ -132,6 +136,12 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             self.birds.append(newBird)
                         }
                         DispatchQueue.main.async {
+                            if UserDefaults.standard.integer(forKey: "sortBy") == 1 {
+                                self.birds.sort(by: { $0.category < $1.category })
+                            } else {
+                                self.birds.sort(by: { $0.finnishName < $1.finnishName })
+                            }
+                            
                             self.tableView.reloadData()
                             self.detailViewController?.detailItem = self.birds[0]
                             self.isDownloading = false
@@ -228,7 +238,11 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         
         let bird: Bird
         if searchController.isActive && searchController.searchBar.text != "" {
-            bird = filteredBirds[indexPath.row]
+            if indexPath.section == 0 {
+                bird = favorites[indexPath.row]
+            } else {
+                bird = filteredBirds[indexPath.row]
+            }
         } else if indexPath.section == 0 {
             bird = favorites[indexPath.row]
         } else {
@@ -253,7 +267,12 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
             let categoryMatch = (scope == NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'")) || (bird.category == scope)
             return  categoryMatch && bird.allDetails.lowercased().contains(searchText.lowercased())
         }
-        
+        tableView.reloadData()
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        searchController.searchBar.text = ""
+        refreshFavorites()
         tableView.reloadData()
     }
     
