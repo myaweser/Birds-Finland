@@ -87,7 +87,7 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             }
             if let imageButton = self.birdImageViewButton {
                 let longPress = UILongPressGestureRecognizer(target: self, action: #selector(longPress(_:)))
-                longPress.minimumPressDuration = 5
+                longPress.minimumPressDuration = 3
                 imageButton.addGestureRecognizer(longPress)
             }
             if selectedBird.isFavorite {
