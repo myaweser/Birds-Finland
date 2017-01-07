@@ -140,6 +140,7 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     @IBAction func showMapImage(_ sender: Any) {
+        //TODO: Load maps natively on MKMapView with topo maps overlay.
         var url = "http://atlas3.lintuatlas.fi/kartat-atlas/taxonmap.php?taxon=\(detailItem!.mapID)&style=4&size=1&theme="
         if (UserDefaults.standard.bool(forKey: "showClearance")) {
             url = url + "sel_dicromacy"
