@@ -68,11 +68,14 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         super.viewWillAppear(animated)
         
         canShowHistory = UserDefaults.standard.integer(forKey: "lastBird") > 0
+        if allDownloaded {
+            updateCell(path: UserDefaults.standard.integer(forKey: "lastBird"))
+        }
         refreshFavorites()
     }
     
     func updateCell(path: Int) {
-        let indexPath = NSIndexPath(item: path, section: 0)
+        let indexPath = NSIndexPath(item: path, section: 1)
         
         tableView.beginUpdates()
         tableView.reloadRows(at: [indexPath as IndexPath], with: UITableViewRowAnimation.none)
@@ -83,7 +86,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         var index = 0
         tableView.beginUpdates()
         self.favorites = []
-        for bird in birds {
+        for _ in birds {
             let newBird = birds[index]
             index += 1
             if (newBird.isFavorite) {
@@ -260,7 +263,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         cell.audioLabel.isHidden = !bird.hasAudio
         let image = UIImage(named: "\(bird.latinName).jpg")
         cell.birdImageView?.image = self.cropImageToSquare(image: image!)
-        if bird.isFavorite && indexPath.section == 0 {
+        if bird.isFavorite {
             cell.nameLabel.text = "♥ \(bird.finnishName)"
         }
         return cell
