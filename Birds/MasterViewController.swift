@@ -262,7 +262,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         cell.categoryLabel.text = bird.category
         cell.bird = bird
         cell.audioLabel.isHidden = !bird.hasAudio
-        let image = UIImage(named: "\(bird.latinName).jpg")
+        let image = UIImage(named: "LR_\(bird.latinName).jpg")
         cell.birdImageView?.image = self.cropImageToSquare(image: image!)
         if bird.isFavorite {
             cell.nameLabel.text = "♥ \(bird.finnishName)"
