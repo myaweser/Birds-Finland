@@ -131,9 +131,11 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.swedishName = result["swedishName"] as! String
                             newBird.description = result["description"] as! String
                             newBird.author = result["author"] as! String
-                            newBird.audioAboutUrl = result["audioAboutUrl"] as! String
-                            newBird.hasAudio = !(newBird.audioAboutUrl.range(of:"noAudio") != nil)
+                            newBird.hasAudio = self.birdHasAudio(bird: newBird)
                             newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)\(newBird.category)"
+                            #if DEBUG
+                                newBird.category = newBird.internalName
+                            #endif
                             
                             if (UserDefaults.standard.bool(forKey: "isFavorite-\(newBird.internalName)")) {
                                 newBird.isFavorite = true
@@ -172,6 +174,13 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
             return number
         }
         return 0
+    }
+    
+    func birdHasAudio(bird: Bird) -> Bool {
+        guard let path = Bundle.main.path(forResource: "\(bird.internalName)", ofType: "mp3") else {
+            return false
+        }
+        return FileManager.default.fileExists(atPath: path)
     }
     
     // MARK: - Segues
