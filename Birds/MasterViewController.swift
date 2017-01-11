@@ -133,9 +133,6 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             newBird.author = result["author"] as! String
                             newBird.hasAudio = self.birdHasAudio(bird: newBird)
                             newBird.allDetails = "\(newBird.internalName)\(newBird.latinName)\(newBird.englishName)\(newBird.finnishName)\(newBird.swedishName)\(newBird.category)"
-                            #if DEBUG
-                                newBird.category = newBird.internalName
-                            #endif
                             
                             if (UserDefaults.standard.bool(forKey: "isFavorite-\(newBird.internalName)")) {
                                 newBird.isFavorite = true
