@@ -83,7 +83,8 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             }
             if let imageView = self.birdImageView {
                 imageView.contentMode = .scaleAspectFit
-                imageView.image = UIImage(named: "\(selectedBird.latinName).jpg")
+                imageView.imageFromServerURL(urlString: "https://eaststudios.fi/api/BirdsFI/v1/images/\(selectedBird.latinName).jpg".addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!)
+
             }
             if let imageButton = self.birdImageViewButton {
                 let longPress = UILongPressGestureRecognizer(target: self, action: #selector(longPress(_:)))
@@ -217,5 +218,20 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
 
-
 }
+extension UIImageView {
+    public func imageFromServerURL(urlString: String) {
+        
+        URLSession.shared.dataTask(with: NSURL(string: urlString)! as URL, completionHandler: { (data, response, error) -> Void in
+            
+            if error != nil {
+                print(error ?? "Can't load picture")
+                return
+            }
+            DispatchQueue.main.async(execute: { () -> Void in
+                let image = UIImage(data: data!)
+                self.image = image
+            })
+            
+        }).resume()
+    }}

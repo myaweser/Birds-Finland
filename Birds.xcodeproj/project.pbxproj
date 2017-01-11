@@ -25,272 +25,6 @@
 		D6491B461E1AA1AD004EFF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6491B451E1AA1AD004EFF9A /* Assets.xcassets */; };
 		D6491B491E1AA1AD004EFF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6491B471E1AA1AD004EFF9A /* LaunchScreen.storyboard */; };
 		D6491B511E1AA27F004EFF9A /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6491B501E1AA27F004EFF9A /* Bird.swift */; };
-		D6491C5D1E1AA425004EFF9A /* Accipiter gentilis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B531E1AA425004EFF9A /* Accipiter gentilis.jpg */; };
-		D6491C5E1E1AA425004EFF9A /* Accipiter nisus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B541E1AA425004EFF9A /* Accipiter nisus.jpg */; };
-		D6491C5F1E1AA425004EFF9A /* Acrocephalus arundinaceus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B551E1AA425004EFF9A /* Acrocephalus arundinaceus.jpg */; };
-		D6491C601E1AA425004EFF9A /* Acrocephalus dumetorum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B561E1AA425004EFF9A /* Acrocephalus dumetorum.jpg */; };
-		D6491C611E1AA425004EFF9A /* Acrocephalus palustris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B571E1AA425004EFF9A /* Acrocephalus palustris.jpg */; };
-		D6491C621E1AA425004EFF9A /* Acrocephalus schoenobaenus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B581E1AA425004EFF9A /* Acrocephalus schoenobaenus.jpg */; };
-		D6491C631E1AA425004EFF9A /* Acrocephalus scirpaceus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B591E1AA425004EFF9A /* Acrocephalus scirpaceus.jpg */; };
-		D6491C641E1AA425004EFF9A /* Actitis hypoleucos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B5A1E1AA425004EFF9A /* Actitis hypoleucos.jpg */; };
-		D6491C651E1AA425004EFF9A /* Aegithalos caudatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B5B1E1AA425004EFF9A /* Aegithalos caudatus.jpg */; };
-		D6491C661E1AA425004EFF9A /* Aegolius funereus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B5C1E1AA425004EFF9A /* Aegolius funereus.jpg */; };
-		D6491C671E1AA425004EFF9A /* Alauda arvensis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B5D1E1AA425004EFF9A /* Alauda arvensis.jpg */; };
-		D6491C681E1AA425004EFF9A /* Alca torda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B5E1E1AA425004EFF9A /* Alca torda.jpg */; };
-		D6491C691E1AA425004EFF9A /* Alcedo atthis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B5F1E1AA425004EFF9A /* Alcedo atthis.jpg */; };
-		D6491C6A1E1AA425004EFF9A /* Anas acuta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B601E1AA425004EFF9A /* Anas acuta.jpg */; };
-		D6491C6B1E1AA425004EFF9A /* Anas clypeata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B611E1AA425004EFF9A /* Anas clypeata.jpg */; };
-		D6491C6C1E1AA425004EFF9A /* Anas crecca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B621E1AA425004EFF9A /* Anas crecca.jpg */; };
-		D6491C6D1E1AA425004EFF9A /* Anas penelope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B631E1AA425004EFF9A /* Anas penelope.jpg */; };
-		D6491C6E1E1AA425004EFF9A /* Anas platyrhynchos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B641E1AA425004EFF9A /* Anas platyrhynchos.jpg */; };
-		D6491C6F1E1AA425004EFF9A /* Anas querquedula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B651E1AA425004EFF9A /* Anas querquedula.jpg */; };
-		D6491C701E1AA425004EFF9A /* Anas strepera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B661E1AA425004EFF9A /* Anas strepera.jpg */; };
-		D6491C711E1AA425004EFF9A /* Anser anser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B671E1AA425004EFF9A /* Anser anser.jpg */; };
-		D6491C721E1AA425004EFF9A /* Anser caerulescens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B681E1AA425004EFF9A /* Anser caerulescens.jpg */; };
-		D6491C731E1AA425004EFF9A /* Anser erythropus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B691E1AA425004EFF9A /* Anser erythropus.jpg */; };
-		D6491C741E1AA425004EFF9A /* Anser fabalis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B6A1E1AA425004EFF9A /* Anser fabalis.jpg */; };
-		D6491C751E1AA425004EFF9A /* Anser indicus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B6B1E1AA425004EFF9A /* Anser indicus.jpg */; };
-		D6491C761E1AA425004EFF9A /* Anthus campestris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B6C1E1AA425004EFF9A /* Anthus campestris.jpg */; };
-		D6491C771E1AA425004EFF9A /* Anthus cervinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B6D1E1AA425004EFF9A /* Anthus cervinus.jpg */; };
-		D6491C781E1AA425004EFF9A /* Anthus petrosus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B6E1E1AA425004EFF9A /* Anthus petrosus.jpg */; };
-		D6491C791E1AA425004EFF9A /* Anthus pratensis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B6F1E1AA425004EFF9A /* Anthus pratensis.jpg */; };
-		D6491C7A1E1AA425004EFF9A /* Anthus trivialis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B701E1AA425004EFF9A /* Anthus trivialis.jpg */; };
-		D6491C7B1E1AA425004EFF9A /* Apus apus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B711E1AA425004EFF9A /* Apus apus.jpg */; };
-		D6491C7C1E1AA425004EFF9A /* Aquila chrysaetos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B721E1AA425004EFF9A /* Aquila chrysaetos.jpg */; };
-		D6491C7D1E1AA425004EFF9A /* Aquila clanga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B731E1AA425004EFF9A /* Aquila clanga.jpg */; };
-		D6491C7E1E1AA426004EFF9A /* Aquila pomarina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B741E1AA425004EFF9A /* Aquila pomarina.jpg */; };
-		D6491C7F1E1AA426004EFF9A /* Ardea cinerea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B751E1AA425004EFF9A /* Ardea cinerea.jpg */; };
-		D6491C801E1AA426004EFF9A /* Arenaria interpres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B761E1AA425004EFF9A /* Arenaria interpres.jpg */; };
-		D6491C811E1AA426004EFF9A /* Asio flammeus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B771E1AA425004EFF9A /* Asio flammeus.jpg */; };
-		D6491C821E1AA426004EFF9A /* Asio otus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B781E1AA425004EFF9A /* Asio otus.jpg */; };
-		D6491C831E1AA426004EFF9A /* Aythya ferina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B791E1AA425004EFF9A /* Aythya ferina.jpg */; };
-		D6491C841E1AA426004EFF9A /* Aythya fuligula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B7A1E1AA425004EFF9A /* Aythya fuligula.jpg */; };
-		D6491C851E1AA426004EFF9A /* Aythya marila.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B7B1E1AA425004EFF9A /* Aythya marila.jpg */; };
-		D6491C861E1AA426004EFF9A /* Bombycilla garrulus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B7C1E1AA425004EFF9A /* Bombycilla garrulus.jpg */; };
-		D6491C871E1AA426004EFF9A /* Botaurus stellaris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B7D1E1AA425004EFF9A /* Botaurus stellaris.jpg */; };
-		D6491C881E1AA426004EFF9A /* Branta bernicla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B7E1E1AA425004EFF9A /* Branta bernicla.jpg */; };
-		D6491C891E1AA426004EFF9A /* Branta canadensis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B7F1E1AA425004EFF9A /* Branta canadensis.jpg */; };
-		D6491C8A1E1AA426004EFF9A /* Branta leucopsis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B801E1AA425004EFF9A /* Branta leucopsis.jpg */; };
-		D6491C8B1E1AA426004EFF9A /* Bubo bubo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B811E1AA425004EFF9A /* Bubo bubo.jpg */; };
-		D6491C8C1E1AA426004EFF9A /* Bucephala clangula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B821E1AA425004EFF9A /* Bucephala clangula.jpg */; };
-		D6491C8D1E1AA426004EFF9A /* Buteo buteo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B831E1AA425004EFF9A /* Buteo buteo.jpg */; };
-		D6491C8E1E1AA426004EFF9A /* Buteo lagopus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B841E1AA425004EFF9A /* Buteo lagopus.jpg */; };
-		D6491C8F1E1AA426004EFF9A /* Calcarius lapponicus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B851E1AA425004EFF9A /* Calcarius lapponicus.jpg */; };
-		D6491C901E1AA426004EFF9A /* Calidris alba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B861E1AA425004EFF9A /* Calidris alba.jpg */; };
-		D6491C911E1AA426004EFF9A /* Calidris alpina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B871E1AA425004EFF9A /* Calidris alpina.jpg */; };
-		D6491C921E1AA426004EFF9A /* Calidris ferruginea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B881E1AA425004EFF9A /* Calidris ferruginea.jpg */; };
-		D6491C931E1AA426004EFF9A /* Calidris maritima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B891E1AA425004EFF9A /* Calidris maritima.jpg */; };
-		D6491C941E1AA426004EFF9A /* Calidris minuta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B8A1E1AA425004EFF9A /* Calidris minuta.jpg */; };
-		D6491C951E1AA426004EFF9A /* Calidris temminckii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B8B1E1AA425004EFF9A /* Calidris temminckii.jpg */; };
-		D6491C961E1AA426004EFF9A /* Caprimulgus europaeus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B8C1E1AA425004EFF9A /* Caprimulgus europaeus.jpg */; };
-		D6491C971E1AA426004EFF9A /* Carduelis cannabina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B8D1E1AA425004EFF9A /* Carduelis cannabina.jpg */; };
-		D6491C981E1AA426004EFF9A /* Carduelis carduelis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B8E1E1AA425004EFF9A /* Carduelis carduelis.jpg */; };
-		D6491C991E1AA426004EFF9A /* Carduelis chloris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B8F1E1AA425004EFF9A /* Carduelis chloris.jpg */; };
-		D6491C9A1E1AA426004EFF9A /* Carduelis flammea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B901E1AA425004EFF9A /* Carduelis flammea.jpg */; };
-		D6491C9B1E1AA426004EFF9A /* Carduelis flavirostris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B911E1AA425004EFF9A /* Carduelis flavirostris.jpg */; };
-		D6491C9C1E1AA426004EFF9A /* Carduelis hornemanni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B921E1AA425004EFF9A /* Carduelis hornemanni.jpg */; };
-		D6491C9D1E1AA426004EFF9A /* Carduelis spinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B931E1AA425004EFF9A /* Carduelis spinus.jpg */; };
-		D6491C9E1E1AA426004EFF9A /* Carpodacus erythrinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B941E1AA425004EFF9A /* Carpodacus erythrinus.jpg */; };
-		D6491C9F1E1AA426004EFF9A /* Cepphus grylle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B951E1AA425004EFF9A /* Cepphus grylle.jpg */; };
-		D6491CA01E1AA426004EFF9A /* Certhia familiaris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B961E1AA425004EFF9A /* Certhia familiaris.jpg */; };
-		D6491CA11E1AA426004EFF9A /* Charadrius dubius.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B971E1AA425004EFF9A /* Charadrius dubius.jpg */; };
-		D6491CA21E1AA426004EFF9A /* Charadrius hiaticula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B981E1AA425004EFF9A /* Charadrius hiaticula.jpg */; };
-		D6491CA31E1AA426004EFF9A /* Charadrius morinellus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B991E1AA425004EFF9A /* Charadrius morinellus.jpg */; };
-		D6491CA41E1AA426004EFF9A /* Chlidonias niger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B9A1E1AA425004EFF9A /* Chlidonias niger.jpg */; };
-		D6491CA51E1AA426004EFF9A /* Ciconia ciconia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B9B1E1AA425004EFF9A /* Ciconia ciconia.jpg */; };
-		D6491CA61E1AA426004EFF9A /* Cinclus cinclus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B9C1E1AA425004EFF9A /* Cinclus cinclus.jpg */; };
-		D6491CA71E1AA426004EFF9A /* Circus aeruginosus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B9D1E1AA425004EFF9A /* Circus aeruginosus.jpg */; };
-		D6491CA81E1AA426004EFF9A /* Circus cyaneus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B9E1E1AA425004EFF9A /* Circus cyaneus.jpg */; };
-		D6491CA91E1AA426004EFF9A /* Circus macrourus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491B9F1E1AA425004EFF9A /* Circus macrourus.jpg */; };
-		D6491CAA1E1AA426004EFF9A /* Circus pygargus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA01E1AA425004EFF9A /* Circus pygargus.jpg */; };
-		D6491CAB1E1AA426004EFF9A /* Clangula hyemalis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA11E1AA425004EFF9A /* Clangula hyemalis.jpg */; };
-		D6491CAC1E1AA426004EFF9A /* Coccothraustes coccothraustes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA21E1AA425004EFF9A /* Coccothraustes coccothraustes.jpg */; };
-		D6491CAD1E1AA426004EFF9A /* Columba livia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA31E1AA425004EFF9A /* Columba livia.jpg */; };
-		D6491CAE1E1AA426004EFF9A /* Columba oenas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA41E1AA425004EFF9A /* Columba oenas.jpg */; };
-		D6491CAF1E1AA426004EFF9A /* Columba palumbus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA51E1AA425004EFF9A /* Columba palumbus.jpg */; };
-		D6491CB01E1AA426004EFF9A /* Corvus corax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA61E1AA425004EFF9A /* Corvus corax.jpg */; };
-		D6491CB11E1AA426004EFF9A /* Corvus corone cornix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA71E1AA425004EFF9A /* Corvus corone cornix.jpg */; };
-		D6491CB21E1AA426004EFF9A /* Corvus frugilegus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA81E1AA425004EFF9A /* Corvus frugilegus.jpg */; };
-		D6491CB31E1AA426004EFF9A /* Corvus monedula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BA91E1AA425004EFF9A /* Corvus monedula.jpg */; };
-		D6491CB41E1AA426004EFF9A /* Coturnix coturnix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BAA1E1AA425004EFF9A /* Coturnix coturnix.jpg */; };
-		D6491CB51E1AA426004EFF9A /* Crex crex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BAB1E1AA425004EFF9A /* Crex crex.jpg */; };
-		D6491CB61E1AA426004EFF9A /* Cuculus canorus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BAC1E1AA425004EFF9A /* Cuculus canorus.jpg */; };
-		D6491CB71E1AA426004EFF9A /* Cygnus cygnus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BAD1E1AA425004EFF9A /* Cygnus cygnus.jpg */; };
-		D6491CB81E1AA426004EFF9A /* Cygnus olor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BAE1E1AA425004EFF9A /* Cygnus olor.jpg */; };
-		D6491CB91E1AA426004EFF9A /* Delichon urbicum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BAF1E1AA425004EFF9A /* Delichon urbicum.jpg */; };
-		D6491CBA1E1AA426004EFF9A /* Dendrocopos leucotos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB01E1AA425004EFF9A /* Dendrocopos leucotos.jpg */; };
-		D6491CBB1E1AA426004EFF9A /* Dendrocopos major.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB11E1AA425004EFF9A /* Dendrocopos major.jpg */; };
-		D6491CBC1E1AA426004EFF9A /* Dendrocopos minor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB21E1AA425004EFF9A /* Dendrocopos minor.jpg */; };
-		D6491CBD1E1AA426004EFF9A /* Dryocopus martius.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB31E1AA425004EFF9A /* Dryocopus martius.jpg */; };
-		D6491CBE1E1AA426004EFF9A /* Emberiza aureola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB41E1AA425004EFF9A /* Emberiza aureola.jpg */; };
-		D6491CBF1E1AA426004EFF9A /* Emberiza citrinella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB51E1AA425004EFF9A /* Emberiza citrinella.jpg */; };
-		D6491CC01E1AA426004EFF9A /* Emberiza hortulana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB61E1AA425004EFF9A /* Emberiza hortulana.jpg */; };
-		D6491CC11E1AA426004EFF9A /* Emberiza pusilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB71E1AA425004EFF9A /* Emberiza pusilla.jpg */; };
-		D6491CC21E1AA426004EFF9A /* Emberiza rustica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB81E1AA425004EFF9A /* Emberiza rustica.jpg */; };
-		D6491CC31E1AA426004EFF9A /* Emberiza schoeniclus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BB91E1AA425004EFF9A /* Emberiza schoeniclus.jpg */; };
-		D6491CC41E1AA426004EFF9A /* Eremophila alpestris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BBA1E1AA425004EFF9A /* Eremophila alpestris.jpg */; };
-		D6491CC51E1AA426004EFF9A /* Erithacus rubecula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BBB1E1AA425004EFF9A /* Erithacus rubecula.jpg */; };
-		D6491CC61E1AA426004EFF9A /* Falco columbarius.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BBC1E1AA425004EFF9A /* Falco columbarius.jpg */; };
-		D6491CC71E1AA426004EFF9A /* Falco peregrinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BBD1E1AA425004EFF9A /* Falco peregrinus.jpg */; };
-		D6491CC81E1AA426004EFF9A /* Falco rusticolus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BBE1E1AA425004EFF9A /* Falco rusticolus.jpg */; };
-		D6491CC91E1AA426004EFF9A /* Falco subbuteo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BBF1E1AA425004EFF9A /* Falco subbuteo.jpg */; };
-		D6491CCA1E1AA426004EFF9A /* Falco tinnunculus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC01E1AA425004EFF9A /* Falco tinnunculus.jpg */; };
-		D6491CCB1E1AA426004EFF9A /* Falco vespertinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC11E1AA425004EFF9A /* Falco vespertinus.jpg */; };
-		D6491CCC1E1AA426004EFF9A /* Ficedula hypoleuca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC21E1AA425004EFF9A /* Ficedula hypoleuca.jpg */; };
-		D6491CCD1E1AA426004EFF9A /* Ficedula parva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC31E1AA425004EFF9A /* Ficedula parva.jpg */; };
-		D6491CCE1E1AA426004EFF9A /* Fringilla coelebs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC41E1AA425004EFF9A /* Fringilla coelebs.jpg */; };
-		D6491CCF1E1AA426004EFF9A /* Fringilla montifringilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC51E1AA425004EFF9A /* Fringilla montifringilla.jpg */; };
-		D6491CD01E1AA426004EFF9A /* Fulica atra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC61E1AA425004EFF9A /* Fulica atra.jpg */; };
-		D6491CD11E1AA426004EFF9A /* Gallinago delicata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC71E1AA425004EFF9A /* Gallinago delicata.jpg */; };
-		D6491CD21E1AA426004EFF9A /* Gallinago gallinago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC81E1AA425004EFF9A /* Gallinago gallinago.jpg */; };
-		D6491CD31E1AA426004EFF9A /* Gallinago media.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BC91E1AA425004EFF9A /* Gallinago media.jpg */; };
-		D6491CD41E1AA426004EFF9A /* Gallinula chloropus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BCA1E1AA425004EFF9A /* Gallinula chloropus.jpg */; };
-		D6491CD51E1AA426004EFF9A /* Garrulus glandarius.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BCB1E1AA425004EFF9A /* Garrulus glandarius.jpg */; };
-		D6491CD61E1AA426004EFF9A /* Gavia arctica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BCC1E1AA425004EFF9A /* Gavia arctica.jpg */; };
-		D6491CD71E1AA426004EFF9A /* Gavia stellata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BCD1E1AA425004EFF9A /* Gavia stellata.jpg */; };
-		D6491CD81E1AA426004EFF9A /* Glaucidium passerinum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BCE1E1AA425004EFF9A /* Glaucidium passerinum.jpg */; };
-		D6491CD91E1AA426004EFF9A /* Grus grus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BCF1E1AA425004EFF9A /* Grus grus.jpg */; };
-		D6491CDA1E1AA426004EFF9A /* Haematopus ostralegus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD01E1AA425004EFF9A /* Haematopus ostralegus.jpg */; };
-		D6491CDB1E1AA426004EFF9A /* Haliaeetus albicilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD11E1AA425004EFF9A /* Haliaeetus albicilla.jpg */; };
-		D6491CDC1E1AA426004EFF9A /* Hippolais caligata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD21E1AA425004EFF9A /* Hippolais caligata.jpg */; };
-		D6491CDD1E1AA426004EFF9A /* Hippolais icterina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD31E1AA425004EFF9A /* Hippolais icterina.jpg */; };
-		D6491CDE1E1AA426004EFF9A /* Hirundo rustica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD41E1AA425004EFF9A /* Hirundo rustica.jpg */; };
-		D6491CDF1E1AA426004EFF9A /* Hydrocoleus minutus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD51E1AA425004EFF9A /* Hydrocoleus minutus.jpg */; };
-		D6491CE01E1AA426004EFF9A /* Hydroprogne caspia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD61E1AA425004EFF9A /* Hydroprogne caspia.jpg */; };
-		D6491CE11E1AA426004EFF9A /* Jynx torquilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD71E1AA425004EFF9A /* Jynx torquilla.jpg */; };
-		D6491CE21E1AA426004EFF9A /* Lagopus lagopus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD81E1AA425004EFF9A /* Lagopus lagopus.jpg */; };
-		D6491CE31E1AA426004EFF9A /* Lagopus muta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BD91E1AA425004EFF9A /* Lagopus muta.jpg */; };
-		D6491CE41E1AA426004EFF9A /* Lanius collurio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BDA1E1AA425004EFF9A /* Lanius collurio.jpg */; };
-		D6491CE51E1AA426004EFF9A /* Lanius excubitor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BDB1E1AA425004EFF9A /* Lanius excubitor.jpg */; };
-		D6491CE61E1AA426004EFF9A /* Larus argentatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BDC1E1AA425004EFF9A /* Larus argentatus.jpg */; };
-		D6491CE71E1AA426004EFF9A /* Larus canus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BDD1E1AA425004EFF9A /* Larus canus.jpg */; };
-		D6491CE81E1AA426004EFF9A /* Larus fuscus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BDE1E1AA425004EFF9A /* Larus fuscus.jpg */; };
-		D6491CE91E1AA426004EFF9A /* Larus marinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BDF1E1AA425004EFF9A /* Larus marinus.jpg */; };
-		D6491CEA1E1AA426004EFF9A /* Larus ridibundus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE01E1AA425004EFF9A /* Larus ridibundus.jpg */; };
-		D6491CEB1E1AA426004EFF9A /* Limicola falcinellus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE11E1AA425004EFF9A /* Limicola falcinellus.jpg */; };
-		D6491CEC1E1AA426004EFF9A /* Limosa lapponica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE21E1AA425004EFF9A /* Limosa lapponica.jpg */; };
-		D6491CED1E1AA426004EFF9A /* Limosa limosa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE31E1AA425004EFF9A /* Limosa limosa.jpg */; };
-		D6491CEE1E1AA426004EFF9A /* lintuatlas-lajikuvat.xls in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE41E1AA425004EFF9A /* lintuatlas-lajikuvat.xls */; };
-		D6491CEF1E1AA426004EFF9A /* lintuatlas-lajikuvat_SLAVE.xls in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE51E1AA425004EFF9A /* lintuatlas-lajikuvat_SLAVE.xls */; };
-		D6491CF01E1AA426004EFF9A /* Locustella fluviatilis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE61E1AA425004EFF9A /* Locustella fluviatilis.jpg */; };
-		D6491CF11E1AA426004EFF9A /* Locustella luscinioides.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE71E1AA425004EFF9A /* Locustella luscinioides.jpg */; };
-		D6491CF21E1AA426004EFF9A /* Locustella naevia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE81E1AA425004EFF9A /* Locustella naevia.jpg */; };
-		D6491CF31E1AA426004EFF9A /* Loxia curvirostra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BE91E1AA425004EFF9A /* Loxia curvirostra.jpg */; };
-		D6491CF41E1AA426004EFF9A /* Loxia leucoptera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BEA1E1AA425004EFF9A /* Loxia leucoptera.jpg */; };
-		D6491CF51E1AA426004EFF9A /* Loxia pytyopsittacus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BEB1E1AA425004EFF9A /* Loxia pytyopsittacus.jpg */; };
-		D6491CF61E1AA426004EFF9A /* Lullula arborea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BEC1E1AA425004EFF9A /* Lullula arborea.jpg */; };
-		D6491CF71E1AA426004EFF9A /* Luscinia luscinia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BED1E1AA425004EFF9A /* Luscinia luscinia.jpg */; };
-		D6491CF81E1AA426004EFF9A /* Luscinia svecica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BEE1E1AA425004EFF9A /* Luscinia svecica.jpg */; };
-		D6491CF91E1AA426004EFF9A /* Lymnocryptes minimus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BEF1E1AA425004EFF9A /* Lymnocryptes minimus.jpg */; };
-		D6491CFA1E1AA426004EFF9A /* Lyrurus tetrix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF01E1AA425004EFF9A /* Lyrurus tetrix.jpg */; };
-		D6491CFB1E1AA426004EFF9A /* Melanitta fusca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF11E1AA425004EFF9A /* Melanitta fusca.jpg */; };
-		D6491CFC1E1AA426004EFF9A /* Melanitta nigra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF21E1AA425004EFF9A /* Melanitta nigra.jpg */; };
-		D6491CFD1E1AA426004EFF9A /* Mergellus albellus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF31E1AA425004EFF9A /* Mergellus albellus.jpg */; };
-		D6491CFE1E1AA426004EFF9A /* Mergus merganser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF41E1AA425004EFF9A /* Mergus merganser.jpg */; };
-		D6491CFF1E1AA426004EFF9A /* Mergus serrator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF51E1AA425004EFF9A /* Mergus serrator.jpg */; };
-		D6491D001E1AA426004EFF9A /* Milvus migrans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF61E1AA425004EFF9A /* Milvus migrans.jpg */; };
-		D6491D011E1AA426004EFF9A /* Milvus milvus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF71E1AA425004EFF9A /* Milvus milvus.jpg */; };
-		D6491D021E1AA426004EFF9A /* Motacilla alba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF81E1AA425004EFF9A /* Motacilla alba.jpg */; };
-		D6491D031E1AA426004EFF9A /* Motacilla cinerea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BF91E1AA425004EFF9A /* Motacilla cinerea.jpg */; };
-		D6491D041E1AA426004EFF9A /* Motacilla citreola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BFA1E1AA425004EFF9A /* Motacilla citreola.jpg */; };
-		D6491D051E1AA426004EFF9A /* Motacilla flava.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BFB1E1AA425004EFF9A /* Motacilla flava.jpg */; };
-		D6491D061E1AA426004EFF9A /* Muscicapa striata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BFC1E1AA425004EFF9A /* Muscicapa striata.jpg */; };
-		D6491D071E1AA426004EFF9A /* Netta rufina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BFD1E1AA425004EFF9A /* Netta rufina.jpg */; };
-		D6491D081E1AA426004EFF9A /* Nucifraga caryocatactes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BFE1E1AA425004EFF9A /* Nucifraga caryocatactes.jpg */; };
-		D6491D091E1AA426004EFF9A /* Numenius arquata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491BFF1E1AA425004EFF9A /* Numenius arquata.jpg */; };
-		D6491D0A1E1AA426004EFF9A /* Numenius phaeopus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C001E1AA425004EFF9A /* Numenius phaeopus.jpg */; };
-		D6491D0B1E1AA426004EFF9A /* Nyctea scandiaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C011E1AA425004EFF9A /* Nyctea scandiaca.jpg */; };
-		D6491D0C1E1AA426004EFF9A /* Oenanthe oenanthe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C021E1AA425004EFF9A /* Oenanthe oenanthe.jpg */; };
-		D6491D0D1E1AA426004EFF9A /* Oriolus oriolus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C031E1AA425004EFF9A /* Oriolus oriolus.jpg */; };
-		D6491D0E1E1AA426004EFF9A /* Pandion haliaetus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C041E1AA425004EFF9A /* Pandion haliaetus.jpg */; };
-		D6491D0F1E1AA426004EFF9A /* Panurus biarmicus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C051E1AA425004EFF9A /* Panurus biarmicus.jpg */; };
-		D6491D101E1AA426004EFF9A /* Parus ater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C061E1AA425004EFF9A /* Parus ater.jpg */; };
-		D6491D111E1AA426004EFF9A /* Parus caeruleus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C071E1AA425004EFF9A /* Parus caeruleus.jpg */; };
-		D6491D121E1AA426004EFF9A /* Parus cinctus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C081E1AA425004EFF9A /* Parus cinctus.jpg */; };
-		D6491D131E1AA426004EFF9A /* Parus cristatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C091E1AA425004EFF9A /* Parus cristatus.jpg */; };
-		D6491D141E1AA426004EFF9A /* Parus cyanus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C0A1E1AA425004EFF9A /* Parus cyanus.jpg */; };
-		D6491D151E1AA426004EFF9A /* Parus major.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C0B1E1AA425004EFF9A /* Parus major.jpg */; };
-		D6491D161E1AA426004EFF9A /* Parus montanus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C0C1E1AA425004EFF9A /* Parus montanus.jpg */; };
-		D6491D171E1AA426004EFF9A /* Passer domesticus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C0D1E1AA425004EFF9A /* Passer domesticus.jpg */; };
-		D6491D181E1AA426004EFF9A /* Passer montanus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C0E1E1AA425004EFF9A /* Passer montanus.jpg */; };
-		D6491D191E1AA426004EFF9A /* Perdix perdix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C0F1E1AA425004EFF9A /* Perdix perdix.jpg */; };
-		D6491D1A1E1AA426004EFF9A /* Perisoreus infaustus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C101E1AA425004EFF9A /* Perisoreus infaustus.jpg */; };
-		D6491D1B1E1AA426004EFF9A /* Pernis apivorus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C111E1AA425004EFF9A /* Pernis apivorus.jpg */; };
-		D6491D1C1E1AA426004EFF9A /* Phalacrocorax carbo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C121E1AA425004EFF9A /* Phalacrocorax carbo.jpg */; };
-		D6491D1D1E1AA426004EFF9A /* Phalaropus lobatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C131E1AA425004EFF9A /* Phalaropus lobatus.jpg */; };
-		D6491D1E1E1AA426004EFF9A /* Phasianus colchicus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C141E1AA425004EFF9A /* Phasianus colchicus.jpg */; };
-		D6491D1F1E1AA426004EFF9A /* Philomachus pugnax.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C151E1AA425004EFF9A /* Philomachus pugnax.jpg */; };
-		D6491D201E1AA426004EFF9A /* Phoenicurus ochruros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C161E1AA425004EFF9A /* Phoenicurus ochruros.jpg */; };
-		D6491D211E1AA426004EFF9A /* Phoenicurus phoenicurus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C171E1AA425004EFF9A /* Phoenicurus phoenicurus.jpg */; };
-		D6491D221E1AA426004EFF9A /* Phylloscopus borealis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C181E1AA425004EFF9A /* Phylloscopus borealis.jpg */; };
-		D6491D231E1AA426004EFF9A /* Phylloscopus collybita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C191E1AA425004EFF9A /* Phylloscopus collybita.jpg */; };
-		D6491D241E1AA426004EFF9A /* Phylloscopus inornatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C1A1E1AA425004EFF9A /* Phylloscopus inornatus.jpg */; };
-		D6491D251E1AA426004EFF9A /* Phylloscopus sibilatrix.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C1B1E1AA425004EFF9A /* Phylloscopus sibilatrix.jpg */; };
-		D6491D261E1AA426004EFF9A /* Phylloscopus trochiloides.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C1C1E1AA425004EFF9A /* Phylloscopus trochiloides.jpg */; };
-		D6491D271E1AA426004EFF9A /* Phylloscopus trochilus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C1D1E1AA425004EFF9A /* Phylloscopus trochilus.jpg */; };
-		D6491D281E1AA426004EFF9A /* Pica pica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C1E1E1AA425004EFF9A /* Pica pica.jpg */; };
-		D6491D291E1AA426004EFF9A /* Picoides tridactylus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C1F1E1AA425004EFF9A /* Picoides tridactylus.jpg */; };
-		D6491D2A1E1AA426004EFF9A /* Picus canus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C201E1AA425004EFF9A /* Picus canus.jpg */; };
-		D6491D2B1E1AA426004EFF9A /* Pinicola enucleator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C211E1AA425004EFF9A /* Pinicola enucleator.jpg */; };
-		D6491D2C1E1AA426004EFF9A /* Plectrophenax nivalis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C221E1AA425004EFF9A /* Plectrophenax nivalis.jpg */; };
-		D6491D2D1E1AA426004EFF9A /* Pluvialis apricaria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C231E1AA425004EFF9A /* Pluvialis apricaria.jpg */; };
-		D6491D2E1E1AA426004EFF9A /* Podiceps auritus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C241E1AA425004EFF9A /* Podiceps auritus.jpg */; };
-		D6491D2F1E1AA426004EFF9A /* Podiceps cristatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C251E1AA425004EFF9A /* Podiceps cristatus.jpg */; };
-		D6491D301E1AA426004EFF9A /* Podiceps grisegena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C261E1AA425004EFF9A /* Podiceps grisegena.jpg */; };
-		D6491D311E1AA426004EFF9A /* Porzana parva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C271E1AA425004EFF9A /* Porzana parva.jpg */; };
-		D6491D321E1AA426004EFF9A /* Porzana porzana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C281E1AA425004EFF9A /* Porzana porzana.jpg */; };
-		D6491D331E1AA426004EFF9A /* Prunella modularis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C291E1AA425004EFF9A /* Prunella modularis.jpg */; };
-		D6491D341E1AA426004EFF9A /* Pyrrhula pyrrhula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C2A1E1AA425004EFF9A /* Pyrrhula pyrrhula.jpg */; };
-		D6491D351E1AA426004EFF9A /* Rallus aquaticus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C2B1E1AA425004EFF9A /* Rallus aquaticus.jpg */; };
-		D6491D361E1AA426004EFF9A /* Regulus regulus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C2C1E1AA425004EFF9A /* Regulus regulus.jpg */; };
-		D6491D371E1AA426004EFF9A /* Remiz pendulinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C2D1E1AA425004EFF9A /* Remiz pendulinus.jpg */; };
-		D6491D381E1AA426004EFF9A /* Riparia riparia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C2E1E1AA425004EFF9A /* Riparia riparia.jpg */; };
-		D6491D391E1AA426004EFF9A /* Rissa tridactyla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C2F1E1AA425004EFF9A /* Rissa tridactyla.jpg */; };
-		D6491D3A1E1AA426004EFF9A /* Saxicola rubetra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C301E1AA425004EFF9A /* Saxicola rubetra.jpg */; };
-		D6491D3B1E1AA426004EFF9A /* Saxicola torquatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C311E1AA425004EFF9A /* Saxicola torquatus.jpg */; };
-		D6491D3C1E1AA426004EFF9A /* Scolopax rusticola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C321E1AA425004EFF9A /* Scolopax rusticola.jpg */; };
-		D6491D3D1E1AA426004EFF9A /* Serinus serinus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C331E1AA425004EFF9A /* Serinus serinus.jpg */; };
-		D6491D3E1E1AA426004EFF9A /* Sitta europaea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C341E1AA425004EFF9A /* Sitta europaea.jpg */; };
-		D6491D3F1E1AA426004EFF9A /* Somateria mollissima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C351E1AA425004EFF9A /* Somateria mollissima.jpg */; };
-		D6491D401E1AA426004EFF9A /* Somateria spectabilis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C361E1AA425004EFF9A /* Somateria spectabilis.jpg */; };
-		D6491D411E1AA426004EFF9A /* Stercorarius longicaudus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C371E1AA425004EFF9A /* Stercorarius longicaudus.jpg */; };
-		D6491D421E1AA426004EFF9A /* Stercorarius parasiticus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C381E1AA425004EFF9A /* Stercorarius parasiticus.jpg */; };
-		D6491D431E1AA426004EFF9A /* Sterna hirundo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C391E1AA425004EFF9A /* Sterna hirundo.jpg */; };
-		D6491D441E1AA426004EFF9A /* Sterna paradisaea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C3A1E1AA425004EFF9A /* Sterna paradisaea.jpg */; };
-		D6491D451E1AA426004EFF9A /* Sternula albifrons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C3B1E1AA425004EFF9A /* Sternula albifrons.jpg */; };
-		D6491D461E1AA426004EFF9A /* Streptopelia decaocto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C3C1E1AA425004EFF9A /* Streptopelia decaocto.jpg */; };
-		D6491D471E1AA426004EFF9A /* Streptopelia turtur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C3D1E1AA425004EFF9A /* Streptopelia turtur.jpg */; };
-		D6491D481E1AA426004EFF9A /* Strix aluco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C3E1E1AA425004EFF9A /* Strix aluco.jpg */; };
-		D6491D491E1AA426004EFF9A /* Strix nebulosa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C3F1E1AA425004EFF9A /* Strix nebulosa.jpg */; };
-		D6491D4A1E1AA426004EFF9A /* Strix uralensis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C401E1AA425004EFF9A /* Strix uralensis.jpg */; };
-		D6491D4B1E1AA426004EFF9A /* Sturnus vulgaris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C411E1AA425004EFF9A /* Sturnus vulgaris.jpg */; };
-		D6491D4C1E1AA426004EFF9A /* Surnia ulula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C421E1AA425004EFF9A /* Surnia ulula.jpg */; };
-		D6491D4D1E1AA426004EFF9A /* Sylvia atricapilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C431E1AA425004EFF9A /* Sylvia atricapilla.jpg */; };
-		D6491D4E1E1AA426004EFF9A /* Sylvia borin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C441E1AA425004EFF9A /* Sylvia borin.jpg */; };
-		D6491D4F1E1AA426004EFF9A /* Sylvia communis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C451E1AA425004EFF9A /* Sylvia communis.jpg */; };
-		D6491D501E1AA426004EFF9A /* Sylvia curruca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C461E1AA425004EFF9A /* Sylvia curruca.jpg */; };
-		D6491D511E1AA426004EFF9A /* Sylvia nisoria.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C471E1AA425004EFF9A /* Sylvia nisoria.jpg */; };
-		D6491D521E1AA426004EFF9A /* Tachybaptus ruficollis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C481E1AA425004EFF9A /* Tachybaptus ruficollis.jpg */; };
-		D6491D531E1AA426004EFF9A /* Tadorna tadorna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C491E1AA425004EFF9A /* Tadorna tadorna.jpg */; };
-		D6491D541E1AA426004EFF9A /* Tarsiger cyanurus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C4A1E1AA425004EFF9A /* Tarsiger cyanurus.jpg */; };
-		D6491D551E1AA426004EFF9A /* Tetrao urogallus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C4B1E1AA425004EFF9A /* Tetrao urogallus.jpg */; };
-		D6491D561E1AA426004EFF9A /* Tetrastes bonasia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C4C1E1AA425004EFF9A /* Tetrastes bonasia.jpg */; };
-		D6491D571E1AA426004EFF9A /* Tringa erythropus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C4D1E1AA425004EFF9A /* Tringa erythropus.jpg */; };
-		D6491D581E1AA426004EFF9A /* Tringa glareola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C4E1E1AA425004EFF9A /* Tringa glareola.jpg */; };
-		D6491D591E1AA426004EFF9A /* Tringa nebularia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C4F1E1AA425004EFF9A /* Tringa nebularia.jpg */; };
-		D6491D5A1E1AA426004EFF9A /* Tringa ochropus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C501E1AA425004EFF9A /* Tringa ochropus.jpg */; };
-		D6491D5B1E1AA426004EFF9A /* Tringa stagnatilis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C511E1AA425004EFF9A /* Tringa stagnatilis.jpg */; };
-		D6491D5C1E1AA426004EFF9A /* Tringa totanus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C521E1AA425004EFF9A /* Tringa totanus.jpg */; };
-		D6491D5D1E1AA426004EFF9A /* Troglodytes troglodytes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C531E1AA425004EFF9A /* Troglodytes troglodytes.jpg */; };
-		D6491D5E1E1AA426004EFF9A /* Turdus iliacus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C541E1AA425004EFF9A /* Turdus iliacus.jpg */; };
-		D6491D5F1E1AA426004EFF9A /* Turdus merula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C551E1AA425004EFF9A /* Turdus merula.jpg */; };
-		D6491D601E1AA426004EFF9A /* Turdus philomelos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C561E1AA425004EFF9A /* Turdus philomelos.jpg */; };
-		D6491D611E1AA426004EFF9A /* Turdus pilaris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C571E1AA425004EFF9A /* Turdus pilaris.jpg */; };
-		D6491D621E1AA426004EFF9A /* Turdus torquatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C581E1AA425004EFF9A /* Turdus torquatus.jpg */; };
-		D6491D631E1AA426004EFF9A /* Turdus viscivorus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C591E1AA425004EFF9A /* Turdus viscivorus.jpg */; };
-		D6491D641E1AA426004EFF9A /* Uria aalge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C5A1E1AA425004EFF9A /* Uria aalge.jpg */; };
-		D6491D651E1AA426004EFF9A /* Vanellus vanellus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C5B1E1AA425004EFF9A /* Vanellus vanellus.jpg */; };
-		D6491D661E1AA426004EFF9A /* Xenus cinereus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6491C5C1E1AA425004EFF9A /* Xenus cinereus.jpg */; };
 		D651D02A1E266F7F005376FC /* ANAPEN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D651D0201E266F7F005376FC /* ANAPEN.mp3 */; };
 		D651D02B1E266F7F005376FC /* ARDCIN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D651D0211E266F7F005376FC /* ARDCIN.mp3 */; };
 		D651D02C1E266F7F005376FC /* BUBBUB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D651D0221E266F7F005376FC /* BUBBUB.mp3 */; };
@@ -577,7 +311,6 @@
 		D6A7E3CD1E252C1F0003B8B4 /* LR_Vanellus vanellus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A7E2C21E252C1F0003B8B4 /* LR_Vanellus vanellus.jpg */; };
 		D6A7E3CE1E252C1F0003B8B4 /* LR_Xenus cinereus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A7E2C31E252C1F0003B8B4 /* LR_Xenus cinereus.jpg */; };
 		D6D60DFA1E1E3EF80067C407 /* CLAHYE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D60DF91E1E3EF80067C407 /* CLAHYE.mp3 */; };
-		D6D60DFC1E1E45E60067C407 /* Unknown Version.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D60DFB1E1E45E60067C407 /* Unknown Version.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -612,272 +345,6 @@
 		D6491B481E1AA1AD004EFF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6491B4A1E1AA1AD004EFF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6491B501E1AA27F004EFF9A /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
-		D6491B531E1AA425004EFF9A /* Accipiter gentilis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Accipiter gentilis.jpg"; sourceTree = "<group>"; };
-		D6491B541E1AA425004EFF9A /* Accipiter nisus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Accipiter nisus.jpg"; sourceTree = "<group>"; };
-		D6491B551E1AA425004EFF9A /* Acrocephalus arundinaceus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acrocephalus arundinaceus.jpg"; sourceTree = "<group>"; };
-		D6491B561E1AA425004EFF9A /* Acrocephalus dumetorum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acrocephalus dumetorum.jpg"; sourceTree = "<group>"; };
-		D6491B571E1AA425004EFF9A /* Acrocephalus palustris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acrocephalus palustris.jpg"; sourceTree = "<group>"; };
-		D6491B581E1AA425004EFF9A /* Acrocephalus schoenobaenus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acrocephalus schoenobaenus.jpg"; sourceTree = "<group>"; };
-		D6491B591E1AA425004EFF9A /* Acrocephalus scirpaceus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Acrocephalus scirpaceus.jpg"; sourceTree = "<group>"; };
-		D6491B5A1E1AA425004EFF9A /* Actitis hypoleucos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Actitis hypoleucos.jpg"; sourceTree = "<group>"; };
-		D6491B5B1E1AA425004EFF9A /* Aegithalos caudatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aegithalos caudatus.jpg"; sourceTree = "<group>"; };
-		D6491B5C1E1AA425004EFF9A /* Aegolius funereus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aegolius funereus.jpg"; sourceTree = "<group>"; };
-		D6491B5D1E1AA425004EFF9A /* Alauda arvensis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alauda arvensis.jpg"; sourceTree = "<group>"; };
-		D6491B5E1E1AA425004EFF9A /* Alca torda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alca torda.jpg"; sourceTree = "<group>"; };
-		D6491B5F1E1AA425004EFF9A /* Alcedo atthis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Alcedo atthis.jpg"; sourceTree = "<group>"; };
-		D6491B601E1AA425004EFF9A /* Anas acuta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anas acuta.jpg"; sourceTree = "<group>"; };
-		D6491B611E1AA425004EFF9A /* Anas clypeata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anas clypeata.jpg"; sourceTree = "<group>"; };
-		D6491B621E1AA425004EFF9A /* Anas crecca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anas crecca.jpg"; sourceTree = "<group>"; };
-		D6491B631E1AA425004EFF9A /* Anas penelope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anas penelope.jpg"; sourceTree = "<group>"; };
-		D6491B641E1AA425004EFF9A /* Anas platyrhynchos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anas platyrhynchos.jpg"; sourceTree = "<group>"; };
-		D6491B651E1AA425004EFF9A /* Anas querquedula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anas querquedula.jpg"; sourceTree = "<group>"; };
-		D6491B661E1AA425004EFF9A /* Anas strepera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anas strepera.jpg"; sourceTree = "<group>"; };
-		D6491B671E1AA425004EFF9A /* Anser anser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anser anser.jpg"; sourceTree = "<group>"; };
-		D6491B681E1AA425004EFF9A /* Anser caerulescens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anser caerulescens.jpg"; sourceTree = "<group>"; };
-		D6491B691E1AA425004EFF9A /* Anser erythropus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anser erythropus.jpg"; sourceTree = "<group>"; };
-		D6491B6A1E1AA425004EFF9A /* Anser fabalis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anser fabalis.jpg"; sourceTree = "<group>"; };
-		D6491B6B1E1AA425004EFF9A /* Anser indicus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anser indicus.jpg"; sourceTree = "<group>"; };
-		D6491B6C1E1AA425004EFF9A /* Anthus campestris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anthus campestris.jpg"; sourceTree = "<group>"; };
-		D6491B6D1E1AA425004EFF9A /* Anthus cervinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anthus cervinus.jpg"; sourceTree = "<group>"; };
-		D6491B6E1E1AA425004EFF9A /* Anthus petrosus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anthus petrosus.jpg"; sourceTree = "<group>"; };
-		D6491B6F1E1AA425004EFF9A /* Anthus pratensis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anthus pratensis.jpg"; sourceTree = "<group>"; };
-		D6491B701E1AA425004EFF9A /* Anthus trivialis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anthus trivialis.jpg"; sourceTree = "<group>"; };
-		D6491B711E1AA425004EFF9A /* Apus apus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apus apus.jpg"; sourceTree = "<group>"; };
-		D6491B721E1AA425004EFF9A /* Aquila chrysaetos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aquila chrysaetos.jpg"; sourceTree = "<group>"; };
-		D6491B731E1AA425004EFF9A /* Aquila clanga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aquila clanga.jpg"; sourceTree = "<group>"; };
-		D6491B741E1AA425004EFF9A /* Aquila pomarina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aquila pomarina.jpg"; sourceTree = "<group>"; };
-		D6491B751E1AA425004EFF9A /* Ardea cinerea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ardea cinerea.jpg"; sourceTree = "<group>"; };
-		D6491B761E1AA425004EFF9A /* Arenaria interpres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arenaria interpres.jpg"; sourceTree = "<group>"; };
-		D6491B771E1AA425004EFF9A /* Asio flammeus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Asio flammeus.jpg"; sourceTree = "<group>"; };
-		D6491B781E1AA425004EFF9A /* Asio otus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Asio otus.jpg"; sourceTree = "<group>"; };
-		D6491B791E1AA425004EFF9A /* Aythya ferina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aythya ferina.jpg"; sourceTree = "<group>"; };
-		D6491B7A1E1AA425004EFF9A /* Aythya fuligula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aythya fuligula.jpg"; sourceTree = "<group>"; };
-		D6491B7B1E1AA425004EFF9A /* Aythya marila.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aythya marila.jpg"; sourceTree = "<group>"; };
-		D6491B7C1E1AA425004EFF9A /* Bombycilla garrulus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bombycilla garrulus.jpg"; sourceTree = "<group>"; };
-		D6491B7D1E1AA425004EFF9A /* Botaurus stellaris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Botaurus stellaris.jpg"; sourceTree = "<group>"; };
-		D6491B7E1E1AA425004EFF9A /* Branta bernicla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Branta bernicla.jpg"; sourceTree = "<group>"; };
-		D6491B7F1E1AA425004EFF9A /* Branta canadensis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Branta canadensis.jpg"; sourceTree = "<group>"; };
-		D6491B801E1AA425004EFF9A /* Branta leucopsis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Branta leucopsis.jpg"; sourceTree = "<group>"; };
-		D6491B811E1AA425004EFF9A /* Bubo bubo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bubo bubo.jpg"; sourceTree = "<group>"; };
-		D6491B821E1AA425004EFF9A /* Bucephala clangula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bucephala clangula.jpg"; sourceTree = "<group>"; };
-		D6491B831E1AA425004EFF9A /* Buteo buteo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buteo buteo.jpg"; sourceTree = "<group>"; };
-		D6491B841E1AA425004EFF9A /* Buteo lagopus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Buteo lagopus.jpg"; sourceTree = "<group>"; };
-		D6491B851E1AA425004EFF9A /* Calcarius lapponicus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calcarius lapponicus.jpg"; sourceTree = "<group>"; };
-		D6491B861E1AA425004EFF9A /* Calidris alba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calidris alba.jpg"; sourceTree = "<group>"; };
-		D6491B871E1AA425004EFF9A /* Calidris alpina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calidris alpina.jpg"; sourceTree = "<group>"; };
-		D6491B881E1AA425004EFF9A /* Calidris ferruginea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calidris ferruginea.jpg"; sourceTree = "<group>"; };
-		D6491B891E1AA425004EFF9A /* Calidris maritima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calidris maritima.jpg"; sourceTree = "<group>"; };
-		D6491B8A1E1AA425004EFF9A /* Calidris minuta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calidris minuta.jpg"; sourceTree = "<group>"; };
-		D6491B8B1E1AA425004EFF9A /* Calidris temminckii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Calidris temminckii.jpg"; sourceTree = "<group>"; };
-		D6491B8C1E1AA425004EFF9A /* Caprimulgus europaeus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Caprimulgus europaeus.jpg"; sourceTree = "<group>"; };
-		D6491B8D1E1AA425004EFF9A /* Carduelis cannabina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carduelis cannabina.jpg"; sourceTree = "<group>"; };
-		D6491B8E1E1AA425004EFF9A /* Carduelis carduelis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carduelis carduelis.jpg"; sourceTree = "<group>"; };
-		D6491B8F1E1AA425004EFF9A /* Carduelis chloris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carduelis chloris.jpg"; sourceTree = "<group>"; };
-		D6491B901E1AA425004EFF9A /* Carduelis flammea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carduelis flammea.jpg"; sourceTree = "<group>"; };
-		D6491B911E1AA425004EFF9A /* Carduelis flavirostris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carduelis flavirostris.jpg"; sourceTree = "<group>"; };
-		D6491B921E1AA425004EFF9A /* Carduelis hornemanni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carduelis hornemanni.jpg"; sourceTree = "<group>"; };
-		D6491B931E1AA425004EFF9A /* Carduelis spinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carduelis spinus.jpg"; sourceTree = "<group>"; };
-		D6491B941E1AA425004EFF9A /* Carpodacus erythrinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carpodacus erythrinus.jpg"; sourceTree = "<group>"; };
-		D6491B951E1AA425004EFF9A /* Cepphus grylle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cepphus grylle.jpg"; sourceTree = "<group>"; };
-		D6491B961E1AA425004EFF9A /* Certhia familiaris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Certhia familiaris.jpg"; sourceTree = "<group>"; };
-		D6491B971E1AA425004EFF9A /* Charadrius dubius.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charadrius dubius.jpg"; sourceTree = "<group>"; };
-		D6491B981E1AA425004EFF9A /* Charadrius hiaticula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charadrius hiaticula.jpg"; sourceTree = "<group>"; };
-		D6491B991E1AA425004EFF9A /* Charadrius morinellus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Charadrius morinellus.jpg"; sourceTree = "<group>"; };
-		D6491B9A1E1AA425004EFF9A /* Chlidonias niger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chlidonias niger.jpg"; sourceTree = "<group>"; };
-		D6491B9B1E1AA425004EFF9A /* Ciconia ciconia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ciconia ciconia.jpg"; sourceTree = "<group>"; };
-		D6491B9C1E1AA425004EFF9A /* Cinclus cinclus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cinclus cinclus.jpg"; sourceTree = "<group>"; };
-		D6491B9D1E1AA425004EFF9A /* Circus aeruginosus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circus aeruginosus.jpg"; sourceTree = "<group>"; };
-		D6491B9E1E1AA425004EFF9A /* Circus cyaneus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circus cyaneus.jpg"; sourceTree = "<group>"; };
-		D6491B9F1E1AA425004EFF9A /* Circus macrourus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circus macrourus.jpg"; sourceTree = "<group>"; };
-		D6491BA01E1AA425004EFF9A /* Circus pygargus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circus pygargus.jpg"; sourceTree = "<group>"; };
-		D6491BA11E1AA425004EFF9A /* Clangula hyemalis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Clangula hyemalis.jpg"; sourceTree = "<group>"; };
-		D6491BA21E1AA425004EFF9A /* Coccothraustes coccothraustes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Coccothraustes coccothraustes.jpg"; sourceTree = "<group>"; };
-		D6491BA31E1AA425004EFF9A /* Columba livia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Columba livia.jpg"; sourceTree = "<group>"; };
-		D6491BA41E1AA425004EFF9A /* Columba oenas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Columba oenas.jpg"; sourceTree = "<group>"; };
-		D6491BA51E1AA425004EFF9A /* Columba palumbus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Columba palumbus.jpg"; sourceTree = "<group>"; };
-		D6491BA61E1AA425004EFF9A /* Corvus corax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corvus corax.jpg"; sourceTree = "<group>"; };
-		D6491BA71E1AA425004EFF9A /* Corvus corone cornix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corvus corone cornix.jpg"; sourceTree = "<group>"; };
-		D6491BA81E1AA425004EFF9A /* Corvus frugilegus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corvus frugilegus.jpg"; sourceTree = "<group>"; };
-		D6491BA91E1AA425004EFF9A /* Corvus monedula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corvus monedula.jpg"; sourceTree = "<group>"; };
-		D6491BAA1E1AA425004EFF9A /* Coturnix coturnix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Coturnix coturnix.jpg"; sourceTree = "<group>"; };
-		D6491BAB1E1AA425004EFF9A /* Crex crex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Crex crex.jpg"; sourceTree = "<group>"; };
-		D6491BAC1E1AA425004EFF9A /* Cuculus canorus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cuculus canorus.jpg"; sourceTree = "<group>"; };
-		D6491BAD1E1AA425004EFF9A /* Cygnus cygnus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cygnus cygnus.jpg"; sourceTree = "<group>"; };
-		D6491BAE1E1AA425004EFF9A /* Cygnus olor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cygnus olor.jpg"; sourceTree = "<group>"; };
-		D6491BAF1E1AA425004EFF9A /* Delichon urbicum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Delichon urbicum.jpg"; sourceTree = "<group>"; };
-		D6491BB01E1AA425004EFF9A /* Dendrocopos leucotos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dendrocopos leucotos.jpg"; sourceTree = "<group>"; };
-		D6491BB11E1AA425004EFF9A /* Dendrocopos major.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dendrocopos major.jpg"; sourceTree = "<group>"; };
-		D6491BB21E1AA425004EFF9A /* Dendrocopos minor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dendrocopos minor.jpg"; sourceTree = "<group>"; };
-		D6491BB31E1AA425004EFF9A /* Dryocopus martius.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dryocopus martius.jpg"; sourceTree = "<group>"; };
-		D6491BB41E1AA425004EFF9A /* Emberiza aureola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emberiza aureola.jpg"; sourceTree = "<group>"; };
-		D6491BB51E1AA425004EFF9A /* Emberiza citrinella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emberiza citrinella.jpg"; sourceTree = "<group>"; };
-		D6491BB61E1AA425004EFF9A /* Emberiza hortulana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emberiza hortulana.jpg"; sourceTree = "<group>"; };
-		D6491BB71E1AA425004EFF9A /* Emberiza pusilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emberiza pusilla.jpg"; sourceTree = "<group>"; };
-		D6491BB81E1AA425004EFF9A /* Emberiza rustica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emberiza rustica.jpg"; sourceTree = "<group>"; };
-		D6491BB91E1AA425004EFF9A /* Emberiza schoeniclus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emberiza schoeniclus.jpg"; sourceTree = "<group>"; };
-		D6491BBA1E1AA425004EFF9A /* Eremophila alpestris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Eremophila alpestris.jpg"; sourceTree = "<group>"; };
-		D6491BBB1E1AA425004EFF9A /* Erithacus rubecula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Erithacus rubecula.jpg"; sourceTree = "<group>"; };
-		D6491BBC1E1AA425004EFF9A /* Falco columbarius.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falco columbarius.jpg"; sourceTree = "<group>"; };
-		D6491BBD1E1AA425004EFF9A /* Falco peregrinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falco peregrinus.jpg"; sourceTree = "<group>"; };
-		D6491BBE1E1AA425004EFF9A /* Falco rusticolus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falco rusticolus.jpg"; sourceTree = "<group>"; };
-		D6491BBF1E1AA425004EFF9A /* Falco subbuteo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falco subbuteo.jpg"; sourceTree = "<group>"; };
-		D6491BC01E1AA425004EFF9A /* Falco tinnunculus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falco tinnunculus.jpg"; sourceTree = "<group>"; };
-		D6491BC11E1AA425004EFF9A /* Falco vespertinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Falco vespertinus.jpg"; sourceTree = "<group>"; };
-		D6491BC21E1AA425004EFF9A /* Ficedula hypoleuca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ficedula hypoleuca.jpg"; sourceTree = "<group>"; };
-		D6491BC31E1AA425004EFF9A /* Ficedula parva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ficedula parva.jpg"; sourceTree = "<group>"; };
-		D6491BC41E1AA425004EFF9A /* Fringilla coelebs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fringilla coelebs.jpg"; sourceTree = "<group>"; };
-		D6491BC51E1AA425004EFF9A /* Fringilla montifringilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fringilla montifringilla.jpg"; sourceTree = "<group>"; };
-		D6491BC61E1AA425004EFF9A /* Fulica atra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fulica atra.jpg"; sourceTree = "<group>"; };
-		D6491BC71E1AA425004EFF9A /* Gallinago delicata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gallinago delicata.jpg"; sourceTree = "<group>"; };
-		D6491BC81E1AA425004EFF9A /* Gallinago gallinago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gallinago gallinago.jpg"; sourceTree = "<group>"; };
-		D6491BC91E1AA425004EFF9A /* Gallinago media.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gallinago media.jpg"; sourceTree = "<group>"; };
-		D6491BCA1E1AA425004EFF9A /* Gallinula chloropus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gallinula chloropus.jpg"; sourceTree = "<group>"; };
-		D6491BCB1E1AA425004EFF9A /* Garrulus glandarius.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Garrulus glandarius.jpg"; sourceTree = "<group>"; };
-		D6491BCC1E1AA425004EFF9A /* Gavia arctica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gavia arctica.jpg"; sourceTree = "<group>"; };
-		D6491BCD1E1AA425004EFF9A /* Gavia stellata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gavia stellata.jpg"; sourceTree = "<group>"; };
-		D6491BCE1E1AA425004EFF9A /* Glaucidium passerinum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glaucidium passerinum.jpg"; sourceTree = "<group>"; };
-		D6491BCF1E1AA425004EFF9A /* Grus grus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grus grus.jpg"; sourceTree = "<group>"; };
-		D6491BD01E1AA425004EFF9A /* Haematopus ostralegus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haematopus ostralegus.jpg"; sourceTree = "<group>"; };
-		D6491BD11E1AA425004EFF9A /* Haliaeetus albicilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haliaeetus albicilla.jpg"; sourceTree = "<group>"; };
-		D6491BD21E1AA425004EFF9A /* Hippolais caligata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hippolais caligata.jpg"; sourceTree = "<group>"; };
-		D6491BD31E1AA425004EFF9A /* Hippolais icterina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hippolais icterina.jpg"; sourceTree = "<group>"; };
-		D6491BD41E1AA425004EFF9A /* Hirundo rustica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hirundo rustica.jpg"; sourceTree = "<group>"; };
-		D6491BD51E1AA425004EFF9A /* Hydrocoleus minutus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hydrocoleus minutus.jpg"; sourceTree = "<group>"; };
-		D6491BD61E1AA425004EFF9A /* Hydroprogne caspia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hydroprogne caspia.jpg"; sourceTree = "<group>"; };
-		D6491BD71E1AA425004EFF9A /* Jynx torquilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jynx torquilla.jpg"; sourceTree = "<group>"; };
-		D6491BD81E1AA425004EFF9A /* Lagopus lagopus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lagopus lagopus.jpg"; sourceTree = "<group>"; };
-		D6491BD91E1AA425004EFF9A /* Lagopus muta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lagopus muta.jpg"; sourceTree = "<group>"; };
-		D6491BDA1E1AA425004EFF9A /* Lanius collurio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lanius collurio.jpg"; sourceTree = "<group>"; };
-		D6491BDB1E1AA425004EFF9A /* Lanius excubitor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lanius excubitor.jpg"; sourceTree = "<group>"; };
-		D6491BDC1E1AA425004EFF9A /* Larus argentatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Larus argentatus.jpg"; sourceTree = "<group>"; };
-		D6491BDD1E1AA425004EFF9A /* Larus canus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Larus canus.jpg"; sourceTree = "<group>"; };
-		D6491BDE1E1AA425004EFF9A /* Larus fuscus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Larus fuscus.jpg"; sourceTree = "<group>"; };
-		D6491BDF1E1AA425004EFF9A /* Larus marinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Larus marinus.jpg"; sourceTree = "<group>"; };
-		D6491BE01E1AA425004EFF9A /* Larus ridibundus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Larus ridibundus.jpg"; sourceTree = "<group>"; };
-		D6491BE11E1AA425004EFF9A /* Limicola falcinellus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Limicola falcinellus.jpg"; sourceTree = "<group>"; };
-		D6491BE21E1AA425004EFF9A /* Limosa lapponica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Limosa lapponica.jpg"; sourceTree = "<group>"; };
-		D6491BE31E1AA425004EFF9A /* Limosa limosa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Limosa limosa.jpg"; sourceTree = "<group>"; };
-		D6491BE41E1AA425004EFF9A /* lintuatlas-lajikuvat.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lintuatlas-lajikuvat.xls"; sourceTree = "<group>"; };
-		D6491BE51E1AA425004EFF9A /* lintuatlas-lajikuvat_SLAVE.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lintuatlas-lajikuvat_SLAVE.xls"; sourceTree = "<group>"; };
-		D6491BE61E1AA425004EFF9A /* Locustella fluviatilis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Locustella fluviatilis.jpg"; sourceTree = "<group>"; };
-		D6491BE71E1AA425004EFF9A /* Locustella luscinioides.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Locustella luscinioides.jpg"; sourceTree = "<group>"; };
-		D6491BE81E1AA425004EFF9A /* Locustella naevia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Locustella naevia.jpg"; sourceTree = "<group>"; };
-		D6491BE91E1AA425004EFF9A /* Loxia curvirostra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Loxia curvirostra.jpg"; sourceTree = "<group>"; };
-		D6491BEA1E1AA425004EFF9A /* Loxia leucoptera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Loxia leucoptera.jpg"; sourceTree = "<group>"; };
-		D6491BEB1E1AA425004EFF9A /* Loxia pytyopsittacus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Loxia pytyopsittacus.jpg"; sourceTree = "<group>"; };
-		D6491BEC1E1AA425004EFF9A /* Lullula arborea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lullula arborea.jpg"; sourceTree = "<group>"; };
-		D6491BED1E1AA425004EFF9A /* Luscinia luscinia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Luscinia luscinia.jpg"; sourceTree = "<group>"; };
-		D6491BEE1E1AA425004EFF9A /* Luscinia svecica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Luscinia svecica.jpg"; sourceTree = "<group>"; };
-		D6491BEF1E1AA425004EFF9A /* Lymnocryptes minimus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lymnocryptes minimus.jpg"; sourceTree = "<group>"; };
-		D6491BF01E1AA425004EFF9A /* Lyrurus tetrix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lyrurus tetrix.jpg"; sourceTree = "<group>"; };
-		D6491BF11E1AA425004EFF9A /* Melanitta fusca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Melanitta fusca.jpg"; sourceTree = "<group>"; };
-		D6491BF21E1AA425004EFF9A /* Melanitta nigra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Melanitta nigra.jpg"; sourceTree = "<group>"; };
-		D6491BF31E1AA425004EFF9A /* Mergellus albellus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mergellus albellus.jpg"; sourceTree = "<group>"; };
-		D6491BF41E1AA425004EFF9A /* Mergus merganser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mergus merganser.jpg"; sourceTree = "<group>"; };
-		D6491BF51E1AA425004EFF9A /* Mergus serrator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mergus serrator.jpg"; sourceTree = "<group>"; };
-		D6491BF61E1AA425004EFF9A /* Milvus migrans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Milvus migrans.jpg"; sourceTree = "<group>"; };
-		D6491BF71E1AA425004EFF9A /* Milvus milvus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Milvus milvus.jpg"; sourceTree = "<group>"; };
-		D6491BF81E1AA425004EFF9A /* Motacilla alba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Motacilla alba.jpg"; sourceTree = "<group>"; };
-		D6491BF91E1AA425004EFF9A /* Motacilla cinerea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Motacilla cinerea.jpg"; sourceTree = "<group>"; };
-		D6491BFA1E1AA425004EFF9A /* Motacilla citreola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Motacilla citreola.jpg"; sourceTree = "<group>"; };
-		D6491BFB1E1AA425004EFF9A /* Motacilla flava.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Motacilla flava.jpg"; sourceTree = "<group>"; };
-		D6491BFC1E1AA425004EFF9A /* Muscicapa striata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Muscicapa striata.jpg"; sourceTree = "<group>"; };
-		D6491BFD1E1AA425004EFF9A /* Netta rufina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Netta rufina.jpg"; sourceTree = "<group>"; };
-		D6491BFE1E1AA425004EFF9A /* Nucifraga caryocatactes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nucifraga caryocatactes.jpg"; sourceTree = "<group>"; };
-		D6491BFF1E1AA425004EFF9A /* Numenius arquata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Numenius arquata.jpg"; sourceTree = "<group>"; };
-		D6491C001E1AA425004EFF9A /* Numenius phaeopus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Numenius phaeopus.jpg"; sourceTree = "<group>"; };
-		D6491C011E1AA425004EFF9A /* Nyctea scandiaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nyctea scandiaca.jpg"; sourceTree = "<group>"; };
-		D6491C021E1AA425004EFF9A /* Oenanthe oenanthe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oenanthe oenanthe.jpg"; sourceTree = "<group>"; };
-		D6491C031E1AA425004EFF9A /* Oriolus oriolus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Oriolus oriolus.jpg"; sourceTree = "<group>"; };
-		D6491C041E1AA425004EFF9A /* Pandion haliaetus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pandion haliaetus.jpg"; sourceTree = "<group>"; };
-		D6491C051E1AA425004EFF9A /* Panurus biarmicus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Panurus biarmicus.jpg"; sourceTree = "<group>"; };
-		D6491C061E1AA425004EFF9A /* Parus ater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parus ater.jpg"; sourceTree = "<group>"; };
-		D6491C071E1AA425004EFF9A /* Parus caeruleus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parus caeruleus.jpg"; sourceTree = "<group>"; };
-		D6491C081E1AA425004EFF9A /* Parus cinctus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parus cinctus.jpg"; sourceTree = "<group>"; };
-		D6491C091E1AA425004EFF9A /* Parus cristatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parus cristatus.jpg"; sourceTree = "<group>"; };
-		D6491C0A1E1AA425004EFF9A /* Parus cyanus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parus cyanus.jpg"; sourceTree = "<group>"; };
-		D6491C0B1E1AA425004EFF9A /* Parus major.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parus major.jpg"; sourceTree = "<group>"; };
-		D6491C0C1E1AA425004EFF9A /* Parus montanus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Parus montanus.jpg"; sourceTree = "<group>"; };
-		D6491C0D1E1AA425004EFF9A /* Passer domesticus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Passer domesticus.jpg"; sourceTree = "<group>"; };
-		D6491C0E1E1AA425004EFF9A /* Passer montanus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Passer montanus.jpg"; sourceTree = "<group>"; };
-		D6491C0F1E1AA425004EFF9A /* Perdix perdix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Perdix perdix.jpg"; sourceTree = "<group>"; };
-		D6491C101E1AA425004EFF9A /* Perisoreus infaustus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Perisoreus infaustus.jpg"; sourceTree = "<group>"; };
-		D6491C111E1AA425004EFF9A /* Pernis apivorus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pernis apivorus.jpg"; sourceTree = "<group>"; };
-		D6491C121E1AA425004EFF9A /* Phalacrocorax carbo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phalacrocorax carbo.jpg"; sourceTree = "<group>"; };
-		D6491C131E1AA425004EFF9A /* Phalaropus lobatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phalaropus lobatus.jpg"; sourceTree = "<group>"; };
-		D6491C141E1AA425004EFF9A /* Phasianus colchicus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phasianus colchicus.jpg"; sourceTree = "<group>"; };
-		D6491C151E1AA425004EFF9A /* Philomachus pugnax.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Philomachus pugnax.jpg"; sourceTree = "<group>"; };
-		D6491C161E1AA425004EFF9A /* Phoenicurus ochruros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phoenicurus ochruros.jpg"; sourceTree = "<group>"; };
-		D6491C171E1AA425004EFF9A /* Phoenicurus phoenicurus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phoenicurus phoenicurus.jpg"; sourceTree = "<group>"; };
-		D6491C181E1AA425004EFF9A /* Phylloscopus borealis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phylloscopus borealis.jpg"; sourceTree = "<group>"; };
-		D6491C191E1AA425004EFF9A /* Phylloscopus collybita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phylloscopus collybita.jpg"; sourceTree = "<group>"; };
-		D6491C1A1E1AA425004EFF9A /* Phylloscopus inornatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phylloscopus inornatus.jpg"; sourceTree = "<group>"; };
-		D6491C1B1E1AA425004EFF9A /* Phylloscopus sibilatrix.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phylloscopus sibilatrix.jpg"; sourceTree = "<group>"; };
-		D6491C1C1E1AA425004EFF9A /* Phylloscopus trochiloides.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phylloscopus trochiloides.jpg"; sourceTree = "<group>"; };
-		D6491C1D1E1AA425004EFF9A /* Phylloscopus trochilus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Phylloscopus trochilus.jpg"; sourceTree = "<group>"; };
-		D6491C1E1E1AA425004EFF9A /* Pica pica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pica pica.jpg"; sourceTree = "<group>"; };
-		D6491C1F1E1AA425004EFF9A /* Picoides tridactylus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Picoides tridactylus.jpg"; sourceTree = "<group>"; };
-		D6491C201E1AA425004EFF9A /* Picus canus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Picus canus.jpg"; sourceTree = "<group>"; };
-		D6491C211E1AA425004EFF9A /* Pinicola enucleator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pinicola enucleator.jpg"; sourceTree = "<group>"; };
-		D6491C221E1AA425004EFF9A /* Plectrophenax nivalis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Plectrophenax nivalis.jpg"; sourceTree = "<group>"; };
-		D6491C231E1AA425004EFF9A /* Pluvialis apricaria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pluvialis apricaria.jpg"; sourceTree = "<group>"; };
-		D6491C241E1AA425004EFF9A /* Podiceps auritus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Podiceps auritus.jpg"; sourceTree = "<group>"; };
-		D6491C251E1AA425004EFF9A /* Podiceps cristatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Podiceps cristatus.jpg"; sourceTree = "<group>"; };
-		D6491C261E1AA425004EFF9A /* Podiceps grisegena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Podiceps grisegena.jpg"; sourceTree = "<group>"; };
-		D6491C271E1AA425004EFF9A /* Porzana parva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porzana parva.jpg"; sourceTree = "<group>"; };
-		D6491C281E1AA425004EFF9A /* Porzana porzana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Porzana porzana.jpg"; sourceTree = "<group>"; };
-		D6491C291E1AA425004EFF9A /* Prunella modularis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Prunella modularis.jpg"; sourceTree = "<group>"; };
-		D6491C2A1E1AA425004EFF9A /* Pyrrhula pyrrhula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pyrrhula pyrrhula.jpg"; sourceTree = "<group>"; };
-		D6491C2B1E1AA425004EFF9A /* Rallus aquaticus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rallus aquaticus.jpg"; sourceTree = "<group>"; };
-		D6491C2C1E1AA425004EFF9A /* Regulus regulus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Regulus regulus.jpg"; sourceTree = "<group>"; };
-		D6491C2D1E1AA425004EFF9A /* Remiz pendulinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Remiz pendulinus.jpg"; sourceTree = "<group>"; };
-		D6491C2E1E1AA425004EFF9A /* Riparia riparia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Riparia riparia.jpg"; sourceTree = "<group>"; };
-		D6491C2F1E1AA425004EFF9A /* Rissa tridactyla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rissa tridactyla.jpg"; sourceTree = "<group>"; };
-		D6491C301E1AA425004EFF9A /* Saxicola rubetra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Saxicola rubetra.jpg"; sourceTree = "<group>"; };
-		D6491C311E1AA425004EFF9A /* Saxicola torquatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Saxicola torquatus.jpg"; sourceTree = "<group>"; };
-		D6491C321E1AA425004EFF9A /* Scolopax rusticola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Scolopax rusticola.jpg"; sourceTree = "<group>"; };
-		D6491C331E1AA425004EFF9A /* Serinus serinus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Serinus serinus.jpg"; sourceTree = "<group>"; };
-		D6491C341E1AA425004EFF9A /* Sitta europaea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sitta europaea.jpg"; sourceTree = "<group>"; };
-		D6491C351E1AA425004EFF9A /* Somateria mollissima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Somateria mollissima.jpg"; sourceTree = "<group>"; };
-		D6491C361E1AA425004EFF9A /* Somateria spectabilis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Somateria spectabilis.jpg"; sourceTree = "<group>"; };
-		D6491C371E1AA425004EFF9A /* Stercorarius longicaudus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stercorarius longicaudus.jpg"; sourceTree = "<group>"; };
-		D6491C381E1AA425004EFF9A /* Stercorarius parasiticus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stercorarius parasiticus.jpg"; sourceTree = "<group>"; };
-		D6491C391E1AA425004EFF9A /* Sterna hirundo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sterna hirundo.jpg"; sourceTree = "<group>"; };
-		D6491C3A1E1AA425004EFF9A /* Sterna paradisaea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sterna paradisaea.jpg"; sourceTree = "<group>"; };
-		D6491C3B1E1AA425004EFF9A /* Sternula albifrons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sternula albifrons.jpg"; sourceTree = "<group>"; };
-		D6491C3C1E1AA425004EFF9A /* Streptopelia decaocto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Streptopelia decaocto.jpg"; sourceTree = "<group>"; };
-		D6491C3D1E1AA425004EFF9A /* Streptopelia turtur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Streptopelia turtur.jpg"; sourceTree = "<group>"; };
-		D6491C3E1E1AA425004EFF9A /* Strix aluco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strix aluco.jpg"; sourceTree = "<group>"; };
-		D6491C3F1E1AA425004EFF9A /* Strix nebulosa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strix nebulosa.jpg"; sourceTree = "<group>"; };
-		D6491C401E1AA425004EFF9A /* Strix uralensis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strix uralensis.jpg"; sourceTree = "<group>"; };
-		D6491C411E1AA425004EFF9A /* Sturnus vulgaris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sturnus vulgaris.jpg"; sourceTree = "<group>"; };
-		D6491C421E1AA425004EFF9A /* Surnia ulula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Surnia ulula.jpg"; sourceTree = "<group>"; };
-		D6491C431E1AA425004EFF9A /* Sylvia atricapilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sylvia atricapilla.jpg"; sourceTree = "<group>"; };
-		D6491C441E1AA425004EFF9A /* Sylvia borin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sylvia borin.jpg"; sourceTree = "<group>"; };
-		D6491C451E1AA425004EFF9A /* Sylvia communis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sylvia communis.jpg"; sourceTree = "<group>"; };
-		D6491C461E1AA425004EFF9A /* Sylvia curruca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sylvia curruca.jpg"; sourceTree = "<group>"; };
-		D6491C471E1AA425004EFF9A /* Sylvia nisoria.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sylvia nisoria.jpg"; sourceTree = "<group>"; };
-		D6491C481E1AA425004EFF9A /* Tachybaptus ruficollis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tachybaptus ruficollis.jpg"; sourceTree = "<group>"; };
-		D6491C491E1AA425004EFF9A /* Tadorna tadorna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tadorna tadorna.jpg"; sourceTree = "<group>"; };
-		D6491C4A1E1AA425004EFF9A /* Tarsiger cyanurus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tarsiger cyanurus.jpg"; sourceTree = "<group>"; };
-		D6491C4B1E1AA425004EFF9A /* Tetrao urogallus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tetrao urogallus.jpg"; sourceTree = "<group>"; };
-		D6491C4C1E1AA425004EFF9A /* Tetrastes bonasia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tetrastes bonasia.jpg"; sourceTree = "<group>"; };
-		D6491C4D1E1AA425004EFF9A /* Tringa erythropus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tringa erythropus.jpg"; sourceTree = "<group>"; };
-		D6491C4E1E1AA425004EFF9A /* Tringa glareola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tringa glareola.jpg"; sourceTree = "<group>"; };
-		D6491C4F1E1AA425004EFF9A /* Tringa nebularia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tringa nebularia.jpg"; sourceTree = "<group>"; };
-		D6491C501E1AA425004EFF9A /* Tringa ochropus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tringa ochropus.jpg"; sourceTree = "<group>"; };
-		D6491C511E1AA425004EFF9A /* Tringa stagnatilis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tringa stagnatilis.jpg"; sourceTree = "<group>"; };
-		D6491C521E1AA425004EFF9A /* Tringa totanus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tringa totanus.jpg"; sourceTree = "<group>"; };
-		D6491C531E1AA425004EFF9A /* Troglodytes troglodytes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Troglodytes troglodytes.jpg"; sourceTree = "<group>"; };
-		D6491C541E1AA425004EFF9A /* Turdus iliacus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Turdus iliacus.jpg"; sourceTree = "<group>"; };
-		D6491C551E1AA425004EFF9A /* Turdus merula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Turdus merula.jpg"; sourceTree = "<group>"; };
-		D6491C561E1AA425004EFF9A /* Turdus philomelos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Turdus philomelos.jpg"; sourceTree = "<group>"; };
-		D6491C571E1AA425004EFF9A /* Turdus pilaris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Turdus pilaris.jpg"; sourceTree = "<group>"; };
-		D6491C581E1AA425004EFF9A /* Turdus torquatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Turdus torquatus.jpg"; sourceTree = "<group>"; };
-		D6491C591E1AA425004EFF9A /* Turdus viscivorus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Turdus viscivorus.jpg"; sourceTree = "<group>"; };
-		D6491C5A1E1AA425004EFF9A /* Uria aalge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Uria aalge.jpg"; sourceTree = "<group>"; };
-		D6491C5B1E1AA425004EFF9A /* Vanellus vanellus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vanellus vanellus.jpg"; sourceTree = "<group>"; };
-		D6491C5C1E1AA425004EFF9A /* Xenus cinereus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Xenus cinereus.jpg"; sourceTree = "<group>"; };
 		D651D0201E266F7F005376FC /* ANAPEN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ANAPEN.mp3; sourceTree = "<group>"; };
 		D651D0211E266F7F005376FC /* ARDCIN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ARDCIN.mp3; sourceTree = "<group>"; };
 		D651D0221E266F7F005376FC /* BUBBUB.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BUBBUB.mp3; sourceTree = "<group>"; };
@@ -1165,7 +632,6 @@
 		D6A7E2C31E252C1F0003B8B4 /* LR_Xenus cinereus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LR_Xenus cinereus.jpg"; sourceTree = "<group>"; };
 		D6D60DF81E1E36410067C407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D6D60DF91E1E3EF80067C407 /* CLAHYE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CLAHYE.mp3; sourceTree = "<group>"; };
-		D6D60DFB1E1E45E60067C407 /* Unknown Version.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Unknown Version.jpg"; sourceTree = "<group>"; };
 		D6D7FB611E1D0AC300E25ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		D6D7FB631E1D0AC500E25ADA /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1238,280 +704,6 @@
 			path = Birds;
 			sourceTree = "<group>";
 		};
-		D6491B521E1AA425004EFF9A /* images */ = {
-			isa = PBXGroup;
-			children = (
-				D6D60DFB1E1E45E60067C407 /* Unknown Version.jpg */,
-				D6491B531E1AA425004EFF9A /* Accipiter gentilis.jpg */,
-				D6491B541E1AA425004EFF9A /* Accipiter nisus.jpg */,
-				D6491B551E1AA425004EFF9A /* Acrocephalus arundinaceus.jpg */,
-				D6491B561E1AA425004EFF9A /* Acrocephalus dumetorum.jpg */,
-				D6491B571E1AA425004EFF9A /* Acrocephalus palustris.jpg */,
-				D6491B581E1AA425004EFF9A /* Acrocephalus schoenobaenus.jpg */,
-				D6491B591E1AA425004EFF9A /* Acrocephalus scirpaceus.jpg */,
-				D6491B5A1E1AA425004EFF9A /* Actitis hypoleucos.jpg */,
-				D6491B5B1E1AA425004EFF9A /* Aegithalos caudatus.jpg */,
-				D6491B5C1E1AA425004EFF9A /* Aegolius funereus.jpg */,
-				D6491B5D1E1AA425004EFF9A /* Alauda arvensis.jpg */,
-				D6491B5E1E1AA425004EFF9A /* Alca torda.jpg */,
-				D6491B5F1E1AA425004EFF9A /* Alcedo atthis.jpg */,
-				D6491B601E1AA425004EFF9A /* Anas acuta.jpg */,
-				D6491B611E1AA425004EFF9A /* Anas clypeata.jpg */,
-				D6491B621E1AA425004EFF9A /* Anas crecca.jpg */,
-				D6491B631E1AA425004EFF9A /* Anas penelope.jpg */,
-				D6491B641E1AA425004EFF9A /* Anas platyrhynchos.jpg */,
-				D6491B651E1AA425004EFF9A /* Anas querquedula.jpg */,
-				D6491B661E1AA425004EFF9A /* Anas strepera.jpg */,
-				D6491B671E1AA425004EFF9A /* Anser anser.jpg */,
-				D6491B681E1AA425004EFF9A /* Anser caerulescens.jpg */,
-				D6491B691E1AA425004EFF9A /* Anser erythropus.jpg */,
-				D6491B6A1E1AA425004EFF9A /* Anser fabalis.jpg */,
-				D6491B6B1E1AA425004EFF9A /* Anser indicus.jpg */,
-				D6491B6C1E1AA425004EFF9A /* Anthus campestris.jpg */,
-				D6491B6D1E1AA425004EFF9A /* Anthus cervinus.jpg */,
-				D6491B6E1E1AA425004EFF9A /* Anthus petrosus.jpg */,
-				D6491B6F1E1AA425004EFF9A /* Anthus pratensis.jpg */,
-				D6491B701E1AA425004EFF9A /* Anthus trivialis.jpg */,
-				D6491B711E1AA425004EFF9A /* Apus apus.jpg */,
-				D6491B721E1AA425004EFF9A /* Aquila chrysaetos.jpg */,
-				D6491B731E1AA425004EFF9A /* Aquila clanga.jpg */,
-				D6491B741E1AA425004EFF9A /* Aquila pomarina.jpg */,
-				D6491B751E1AA425004EFF9A /* Ardea cinerea.jpg */,
-				D6491B761E1AA425004EFF9A /* Arenaria interpres.jpg */,
-				D6491B771E1AA425004EFF9A /* Asio flammeus.jpg */,
-				D6491B781E1AA425004EFF9A /* Asio otus.jpg */,
-				D6491B791E1AA425004EFF9A /* Aythya ferina.jpg */,
-				D6491B7A1E1AA425004EFF9A /* Aythya fuligula.jpg */,
-				D6491B7B1E1AA425004EFF9A /* Aythya marila.jpg */,
-				D6491B7C1E1AA425004EFF9A /* Bombycilla garrulus.jpg */,
-				D6491B7D1E1AA425004EFF9A /* Botaurus stellaris.jpg */,
-				D6491B7E1E1AA425004EFF9A /* Branta bernicla.jpg */,
-				D6491B7F1E1AA425004EFF9A /* Branta canadensis.jpg */,
-				D6491B801E1AA425004EFF9A /* Branta leucopsis.jpg */,
-				D6491B811E1AA425004EFF9A /* Bubo bubo.jpg */,
-				D6491B821E1AA425004EFF9A /* Bucephala clangula.jpg */,
-				D6491B831E1AA425004EFF9A /* Buteo buteo.jpg */,
-				D6491B841E1AA425004EFF9A /* Buteo lagopus.jpg */,
-				D6491B851E1AA425004EFF9A /* Calcarius lapponicus.jpg */,
-				D6491B861E1AA425004EFF9A /* Calidris alba.jpg */,
-				D6491B871E1AA425004EFF9A /* Calidris alpina.jpg */,
-				D6491B881E1AA425004EFF9A /* Calidris ferruginea.jpg */,
-				D6491B891E1AA425004EFF9A /* Calidris maritima.jpg */,
-				D6491B8A1E1AA425004EFF9A /* Calidris minuta.jpg */,
-				D6491B8B1E1AA425004EFF9A /* Calidris temminckii.jpg */,
-				D6491B8C1E1AA425004EFF9A /* Caprimulgus europaeus.jpg */,
-				D6491B8D1E1AA425004EFF9A /* Carduelis cannabina.jpg */,
-				D6491B8E1E1AA425004EFF9A /* Carduelis carduelis.jpg */,
-				D6491B8F1E1AA425004EFF9A /* Carduelis chloris.jpg */,
-				D6491B901E1AA425004EFF9A /* Carduelis flammea.jpg */,
-				D6491B911E1AA425004EFF9A /* Carduelis flavirostris.jpg */,
-				D6491B921E1AA425004EFF9A /* Carduelis hornemanni.jpg */,
-				D6491B931E1AA425004EFF9A /* Carduelis spinus.jpg */,
-				D6491B941E1AA425004EFF9A /* Carpodacus erythrinus.jpg */,
-				D6491B951E1AA425004EFF9A /* Cepphus grylle.jpg */,
-				D6491B961E1AA425004EFF9A /* Certhia familiaris.jpg */,
-				D6491B971E1AA425004EFF9A /* Charadrius dubius.jpg */,
-				D6491B981E1AA425004EFF9A /* Charadrius hiaticula.jpg */,
-				D6491B991E1AA425004EFF9A /* Charadrius morinellus.jpg */,
-				D6491B9A1E1AA425004EFF9A /* Chlidonias niger.jpg */,
-				D6491B9B1E1AA425004EFF9A /* Ciconia ciconia.jpg */,
-				D6491B9C1E1AA425004EFF9A /* Cinclus cinclus.jpg */,
-				D6491B9D1E1AA425004EFF9A /* Circus aeruginosus.jpg */,
-				D6491B9E1E1AA425004EFF9A /* Circus cyaneus.jpg */,
-				D6491B9F1E1AA425004EFF9A /* Circus macrourus.jpg */,
-				D6491BA01E1AA425004EFF9A /* Circus pygargus.jpg */,
-				D6491BA11E1AA425004EFF9A /* Clangula hyemalis.jpg */,
-				D6491BA21E1AA425004EFF9A /* Coccothraustes coccothraustes.jpg */,
-				D6491BA31E1AA425004EFF9A /* Columba livia.jpg */,
-				D6491BA41E1AA425004EFF9A /* Columba oenas.jpg */,
-				D6491BA51E1AA425004EFF9A /* Columba palumbus.jpg */,
-				D6491BA61E1AA425004EFF9A /* Corvus corax.jpg */,
-				D6491BA71E1AA425004EFF9A /* Corvus corone cornix.jpg */,
-				D6491BA81E1AA425004EFF9A /* Corvus frugilegus.jpg */,
-				D6491BA91E1AA425004EFF9A /* Corvus monedula.jpg */,
-				D6491BAA1E1AA425004EFF9A /* Coturnix coturnix.jpg */,
-				D6491BAB1E1AA425004EFF9A /* Crex crex.jpg */,
-				D6491BAC1E1AA425004EFF9A /* Cuculus canorus.jpg */,
-				D6491BAD1E1AA425004EFF9A /* Cygnus cygnus.jpg */,
-				D6491BAE1E1AA425004EFF9A /* Cygnus olor.jpg */,
-				D6491BAF1E1AA425004EFF9A /* Delichon urbicum.jpg */,
-				D6491BB01E1AA425004EFF9A /* Dendrocopos leucotos.jpg */,
-				D6491BB11E1AA425004EFF9A /* Dendrocopos major.jpg */,
-				D6491BB21E1AA425004EFF9A /* Dendrocopos minor.jpg */,
-				D6491BB31E1AA425004EFF9A /* Dryocopus martius.jpg */,
-				D6491BB41E1AA425004EFF9A /* Emberiza aureola.jpg */,
-				D6491BB51E1AA425004EFF9A /* Emberiza citrinella.jpg */,
-				D6491BB61E1AA425004EFF9A /* Emberiza hortulana.jpg */,
-				D6491BB71E1AA425004EFF9A /* Emberiza pusilla.jpg */,
-				D6491BB81E1AA425004EFF9A /* Emberiza rustica.jpg */,
-				D6491BB91E1AA425004EFF9A /* Emberiza schoeniclus.jpg */,
-				D6491BBA1E1AA425004EFF9A /* Eremophila alpestris.jpg */,
-				D6491BBB1E1AA425004EFF9A /* Erithacus rubecula.jpg */,
-				D6491BBC1E1AA425004EFF9A /* Falco columbarius.jpg */,
-				D6491BBD1E1AA425004EFF9A /* Falco peregrinus.jpg */,
-				D6491BBE1E1AA425004EFF9A /* Falco rusticolus.jpg */,
-				D6491BBF1E1AA425004EFF9A /* Falco subbuteo.jpg */,
-				D6491BC01E1AA425004EFF9A /* Falco tinnunculus.jpg */,
-				D6491BC11E1AA425004EFF9A /* Falco vespertinus.jpg */,
-				D6491BC21E1AA425004EFF9A /* Ficedula hypoleuca.jpg */,
-				D6491BC31E1AA425004EFF9A /* Ficedula parva.jpg */,
-				D6491BC41E1AA425004EFF9A /* Fringilla coelebs.jpg */,
-				D6491BC51E1AA425004EFF9A /* Fringilla montifringilla.jpg */,
-				D6491BC61E1AA425004EFF9A /* Fulica atra.jpg */,
-				D6491BC71E1AA425004EFF9A /* Gallinago delicata.jpg */,
-				D6491BC81E1AA425004EFF9A /* Gallinago gallinago.jpg */,
-				D6491BC91E1AA425004EFF9A /* Gallinago media.jpg */,
-				D6491BCA1E1AA425004EFF9A /* Gallinula chloropus.jpg */,
-				D6491BCB1E1AA425004EFF9A /* Garrulus glandarius.jpg */,
-				D6491BCC1E1AA425004EFF9A /* Gavia arctica.jpg */,
-				D6491BCD1E1AA425004EFF9A /* Gavia stellata.jpg */,
-				D6491BCE1E1AA425004EFF9A /* Glaucidium passerinum.jpg */,
-				D6491BCF1E1AA425004EFF9A /* Grus grus.jpg */,
-				D6491BD01E1AA425004EFF9A /* Haematopus ostralegus.jpg */,
-				D6491BD11E1AA425004EFF9A /* Haliaeetus albicilla.jpg */,
-				D6491BD21E1AA425004EFF9A /* Hippolais caligata.jpg */,
-				D6491BD31E1AA425004EFF9A /* Hippolais icterina.jpg */,
-				D6491BD41E1AA425004EFF9A /* Hirundo rustica.jpg */,
-				D6491BD51E1AA425004EFF9A /* Hydrocoleus minutus.jpg */,
-				D6491BD61E1AA425004EFF9A /* Hydroprogne caspia.jpg */,
-				D6491BD71E1AA425004EFF9A /* Jynx torquilla.jpg */,
-				D6491BD81E1AA425004EFF9A /* Lagopus lagopus.jpg */,
-				D6491BD91E1AA425004EFF9A /* Lagopus muta.jpg */,
-				D6491BDA1E1AA425004EFF9A /* Lanius collurio.jpg */,
-				D6491BDB1E1AA425004EFF9A /* Lanius excubitor.jpg */,
-				D6491BDC1E1AA425004EFF9A /* Larus argentatus.jpg */,
-				D6491BDD1E1AA425004EFF9A /* Larus canus.jpg */,
-				D6491BDE1E1AA425004EFF9A /* Larus fuscus.jpg */,
-				D6491BDF1E1AA425004EFF9A /* Larus marinus.jpg */,
-				D6491BE01E1AA425004EFF9A /* Larus ridibundus.jpg */,
-				D6491BE11E1AA425004EFF9A /* Limicola falcinellus.jpg */,
-				D6491BE21E1AA425004EFF9A /* Limosa lapponica.jpg */,
-				D6491BE31E1AA425004EFF9A /* Limosa limosa.jpg */,
-				D6491BE41E1AA425004EFF9A /* lintuatlas-lajikuvat.xls */,
-				D6491BE51E1AA425004EFF9A /* lintuatlas-lajikuvat_SLAVE.xls */,
-				D6491BE61E1AA425004EFF9A /* Locustella fluviatilis.jpg */,
-				D6491BE71E1AA425004EFF9A /* Locustella luscinioides.jpg */,
-				D6491BE81E1AA425004EFF9A /* Locustella naevia.jpg */,
-				D6491BE91E1AA425004EFF9A /* Loxia curvirostra.jpg */,
-				D6491BEA1E1AA425004EFF9A /* Loxia leucoptera.jpg */,
-				D6491BEB1E1AA425004EFF9A /* Loxia pytyopsittacus.jpg */,
-				D6491BEC1E1AA425004EFF9A /* Lullula arborea.jpg */,
-				D6491BED1E1AA425004EFF9A /* Luscinia luscinia.jpg */,
-				D6491BEE1E1AA425004EFF9A /* Luscinia svecica.jpg */,
-				D6491BEF1E1AA425004EFF9A /* Lymnocryptes minimus.jpg */,
-				D6491BF01E1AA425004EFF9A /* Lyrurus tetrix.jpg */,
-				D6491BF11E1AA425004EFF9A /* Melanitta fusca.jpg */,
-				D6491BF21E1AA425004EFF9A /* Melanitta nigra.jpg */,
-				D6491BF31E1AA425004EFF9A /* Mergellus albellus.jpg */,
-				D6491BF41E1AA425004EFF9A /* Mergus merganser.jpg */,
-				D6491BF51E1AA425004EFF9A /* Mergus serrator.jpg */,
-				D6491BF61E1AA425004EFF9A /* Milvus migrans.jpg */,
-				D6491BF71E1AA425004EFF9A /* Milvus milvus.jpg */,
-				D6491BF81E1AA425004EFF9A /* Motacilla alba.jpg */,
-				D6491BF91E1AA425004EFF9A /* Motacilla cinerea.jpg */,
-				D6491BFA1E1AA425004EFF9A /* Motacilla citreola.jpg */,
-				D6491BFB1E1AA425004EFF9A /* Motacilla flava.jpg */,
-				D6491BFC1E1AA425004EFF9A /* Muscicapa striata.jpg */,
-				D6491BFD1E1AA425004EFF9A /* Netta rufina.jpg */,
-				D6491BFE1E1AA425004EFF9A /* Nucifraga caryocatactes.jpg */,
-				D6491BFF1E1AA425004EFF9A /* Numenius arquata.jpg */,
-				D6491C001E1AA425004EFF9A /* Numenius phaeopus.jpg */,
-				D6491C011E1AA425004EFF9A /* Nyctea scandiaca.jpg */,
-				D6491C021E1AA425004EFF9A /* Oenanthe oenanthe.jpg */,
-				D6491C031E1AA425004EFF9A /* Oriolus oriolus.jpg */,
-				D6491C041E1AA425004EFF9A /* Pandion haliaetus.jpg */,
-				D6491C051E1AA425004EFF9A /* Panurus biarmicus.jpg */,
-				D6491C061E1AA425004EFF9A /* Parus ater.jpg */,
-				D6491C071E1AA425004EFF9A /* Parus caeruleus.jpg */,
-				D6491C081E1AA425004EFF9A /* Parus cinctus.jpg */,
-				D6491C091E1AA425004EFF9A /* Parus cristatus.jpg */,
-				D6491C0A1E1AA425004EFF9A /* Parus cyanus.jpg */,
-				D6491C0B1E1AA425004EFF9A /* Parus major.jpg */,
-				D6491C0C1E1AA425004EFF9A /* Parus montanus.jpg */,
-				D6491C0D1E1AA425004EFF9A /* Passer domesticus.jpg */,
-				D6491C0E1E1AA425004EFF9A /* Passer montanus.jpg */,
-				D6491C0F1E1AA425004EFF9A /* Perdix perdix.jpg */,
-				D6491C101E1AA425004EFF9A /* Perisoreus infaustus.jpg */,
-				D6491C111E1AA425004EFF9A /* Pernis apivorus.jpg */,
-				D6491C121E1AA425004EFF9A /* Phalacrocorax carbo.jpg */,
-				D6491C131E1AA425004EFF9A /* Phalaropus lobatus.jpg */,
-				D6491C141E1AA425004EFF9A /* Phasianus colchicus.jpg */,
-				D6491C151E1AA425004EFF9A /* Philomachus pugnax.jpg */,
-				D6491C161E1AA425004EFF9A /* Phoenicurus ochruros.jpg */,
-				D6491C171E1AA425004EFF9A /* Phoenicurus phoenicurus.jpg */,
-				D6491C181E1AA425004EFF9A /* Phylloscopus borealis.jpg */,
-				D6491C191E1AA425004EFF9A /* Phylloscopus collybita.jpg */,
-				D6491C1A1E1AA425004EFF9A /* Phylloscopus inornatus.jpg */,
-				D6491C1B1E1AA425004EFF9A /* Phylloscopus sibilatrix.jpg */,
-				D6491C1C1E1AA425004EFF9A /* Phylloscopus trochiloides.jpg */,
-				D6491C1D1E1AA425004EFF9A /* Phylloscopus trochilus.jpg */,
-				D6491C1E1E1AA425004EFF9A /* Pica pica.jpg */,
-				D6491C1F1E1AA425004EFF9A /* Picoides tridactylus.jpg */,
-				D6491C201E1AA425004EFF9A /* Picus canus.jpg */,
-				D6491C211E1AA425004EFF9A /* Pinicola enucleator.jpg */,
-				D6491C221E1AA425004EFF9A /* Plectrophenax nivalis.jpg */,
-				D6491C231E1AA425004EFF9A /* Pluvialis apricaria.jpg */,
-				D6491C241E1AA425004EFF9A /* Podiceps auritus.jpg */,
-				D6491C251E1AA425004EFF9A /* Podiceps cristatus.jpg */,
-				D6491C261E1AA425004EFF9A /* Podiceps grisegena.jpg */,
-				D6491C271E1AA425004EFF9A /* Porzana parva.jpg */,
-				D6491C281E1AA425004EFF9A /* Porzana porzana.jpg */,
-				D6491C291E1AA425004EFF9A /* Prunella modularis.jpg */,
-				D6491C2A1E1AA425004EFF9A /* Pyrrhula pyrrhula.jpg */,
-				D6491C2B1E1AA425004EFF9A /* Rallus aquaticus.jpg */,
-				D6491C2C1E1AA425004EFF9A /* Regulus regulus.jpg */,
-				D6491C2D1E1AA425004EFF9A /* Remiz pendulinus.jpg */,
-				D6491C2E1E1AA425004EFF9A /* Riparia riparia.jpg */,
-				D6491C2F1E1AA425004EFF9A /* Rissa tridactyla.jpg */,
-				D6491C301E1AA425004EFF9A /* Saxicola rubetra.jpg */,
-				D6491C311E1AA425004EFF9A /* Saxicola torquatus.jpg */,
-				D6491C321E1AA425004EFF9A /* Scolopax rusticola.jpg */,
-				D6491C331E1AA425004EFF9A /* Serinus serinus.jpg */,
-				D6491C341E1AA425004EFF9A /* Sitta europaea.jpg */,
-				D6491C351E1AA425004EFF9A /* Somateria mollissima.jpg */,
-				D6491C361E1AA425004EFF9A /* Somateria spectabilis.jpg */,
-				D6491C371E1AA425004EFF9A /* Stercorarius longicaudus.jpg */,
-				D6491C381E1AA425004EFF9A /* Stercorarius parasiticus.jpg */,
-				D6491C391E1AA425004EFF9A /* Sterna hirundo.jpg */,
-				D6491C3A1E1AA425004EFF9A /* Sterna paradisaea.jpg */,
-				D6491C3B1E1AA425004EFF9A /* Sternula albifrons.jpg */,
-				D6491C3C1E1AA425004EFF9A /* Streptopelia decaocto.jpg */,
-				D6491C3D1E1AA425004EFF9A /* Streptopelia turtur.jpg */,
-				D6491C3E1E1AA425004EFF9A /* Strix aluco.jpg */,
-				D6491C3F1E1AA425004EFF9A /* Strix nebulosa.jpg */,
-				D6491C401E1AA425004EFF9A /* Strix uralensis.jpg */,
-				D6491C411E1AA425004EFF9A /* Sturnus vulgaris.jpg */,
-				D6491C421E1AA425004EFF9A /* Surnia ulula.jpg */,
-				D6491C431E1AA425004EFF9A /* Sylvia atricapilla.jpg */,
-				D6491C441E1AA425004EFF9A /* Sylvia borin.jpg */,
-				D6491C451E1AA425004EFF9A /* Sylvia communis.jpg */,
-				D6491C461E1AA425004EFF9A /* Sylvia curruca.jpg */,
-				D6491C471E1AA425004EFF9A /* Sylvia nisoria.jpg */,
-				D6491C481E1AA425004EFF9A /* Tachybaptus ruficollis.jpg */,
-				D6491C491E1AA425004EFF9A /* Tadorna tadorna.jpg */,
-				D6491C4A1E1AA425004EFF9A /* Tarsiger cyanurus.jpg */,
-				D6491C4B1E1AA425004EFF9A /* Tetrao urogallus.jpg */,
-				D6491C4C1E1AA425004EFF9A /* Tetrastes bonasia.jpg */,
-				D6491C4D1E1AA425004EFF9A /* Tringa erythropus.jpg */,
-				D6491C4E1E1AA425004EFF9A /* Tringa glareola.jpg */,
-				D6491C4F1E1AA425004EFF9A /* Tringa nebularia.jpg */,
-				D6491C501E1AA425004EFF9A /* Tringa ochropus.jpg */,
-				D6491C511E1AA425004EFF9A /* Tringa stagnatilis.jpg */,
-				D6491C521E1AA425004EFF9A /* Tringa totanus.jpg */,
-				D6491C531E1AA425004EFF9A /* Troglodytes troglodytes.jpg */,
-				D6491C541E1AA425004EFF9A /* Turdus iliacus.jpg */,
-				D6491C551E1AA425004EFF9A /* Turdus merula.jpg */,
-				D6491C561E1AA425004EFF9A /* Turdus philomelos.jpg */,
-				D6491C571E1AA425004EFF9A /* Turdus pilaris.jpg */,
-				D6491C581E1AA425004EFF9A /* Turdus torquatus.jpg */,
-				D6491C591E1AA425004EFF9A /* Turdus viscivorus.jpg */,
-				D6491C5A1E1AA425004EFF9A /* Uria aalge.jpg */,
-				D6491C5B1E1AA425004EFF9A /* Vanellus vanellus.jpg */,
-				D6491C5C1E1AA425004EFF9A /* Xenus cinereus.jpg */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
 		D6832DE61E1CD54800F1E860 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1569,7 +761,6 @@
 		D6832DFD1E1CD57D00F1E860 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				D6491B521E1AA425004EFF9A /* images */,
 				D6A7E1B81E252C1E0003B8B4 /* images-lowres */,
 				D6832DE71E1CD55800F1E860 /* sounds */,
 			);
@@ -1909,18 +1100,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6491CD31E1AA426004EFF9A /* Gallinago media.jpg in Resources */,
 				D6A7E33A1E252C1F0003B8B4 /* LR_Gallinago media.jpg in Resources */,
-				D6491CAC1E1AA426004EFF9A /* Coccothraustes coccothraustes.jpg in Resources */,
-				D6491CE01E1AA426004EFF9A /* Hydroprogne caspia.jpg in Resources */,
-				D6491CA31E1AA426004EFF9A /* Charadrius morinellus.jpg in Resources */,
-				D6491D491E1AA426004EFF9A /* Strix nebulosa.jpg in Resources */,
 				D6A7E3901E252C1F0003B8B4 /* LR_Picoides tridactylus.jpg in Resources */,
 				D651D02E1E266F7F005376FC /* FALCOL.mp3 in Resources */,
 				D6A7E32C1E252C1F0003B8B4 /* LR_Erithacus rubecula.jpg in Resources */,
-				D6491D0C1E1AA426004EFF9A /* Oenanthe oenanthe.jpg in Resources */,
-				D6491C7A1E1AA425004EFF9A /* Anthus trivialis.jpg in Resources */,
-				D6491C901E1AA426004EFF9A /* Calidris alba.jpg in Resources */,
 				D6A7E31B1E252C1F0003B8B4 /* LR_Coturnix coturnix.jpg in Resources */,
 				D6A7E3821E252C1F0003B8B4 /* LR_Pernis apivorus.jpg in Resources */,
 				D6A7E2CF1E252C1F0003B8B4 /* LR_Alca torda.jpg in Resources */,
@@ -1928,37 +1111,19 @@
 				D6A7E38F1E252C1F0003B8B4 /* LR_Pica pica.jpg in Resources */,
 				D6A7E3AD1E252C1F0003B8B4 /* LR_Streptopelia decaocto.jpg in Resources */,
 				D6A7E33D1E252C1F0003B8B4 /* LR_Gavia arctica.jpg in Resources */,
-				D6491CEF1E1AA426004EFF9A /* lintuatlas-lajikuvat_SLAVE.xls in Resources */,
 				D6A7E3941E252C1F0003B8B4 /* LR_Pluvialis apricaria.jpg in Resources */,
-				D6491CE91E1AA426004EFF9A /* Larus marinus.jpg in Resources */,
 				D6A7E3791E252C1F0003B8B4 /* LR_Parus cinctus.jpg in Resources */,
-				D6491D1E1E1AA426004EFF9A /* Phasianus colchicus.jpg in Resources */,
-				D6491C631E1AA425004EFF9A /* Acrocephalus scirpaceus.jpg in Resources */,
-				D6491CBD1E1AA426004EFF9A /* Dryocopus martius.jpg in Resources */,
-				D6491C6E1E1AA425004EFF9A /* Anas platyrhynchos.jpg in Resources */,
 				D6A7E3731E252C1F0003B8B4 /* LR_Oenanthe oenanthe.jpg in Resources */,
-				D6491D601E1AA426004EFF9A /* Turdus philomelos.jpg in Resources */,
-				D6491CBC1E1AA426004EFF9A /* Dendrocopos minor.jpg in Resources */,
-				D6491CCD1E1AA426004EFF9A /* Ficedula parva.jpg in Resources */,
-				D6491CB21E1AA426004EFF9A /* Corvus frugilegus.jpg in Resources */,
 				D6A7E3251E252C1F0003B8B4 /* LR_Emberiza aureola.jpg in Resources */,
 				D6A7E31E1E252C1F0003B8B4 /* LR_Cygnus cygnus.jpg in Resources */,
-				D6491C941E1AA426004EFF9A /* Calidris minuta.jpg in Resources */,
 				D6832DF91E1CD55800F1E860 /* PARMAJ.mp3 in Resources */,
 				D6A7E3291E252C1F0003B8B4 /* LR_Emberiza rustica.jpg in Resources */,
 				D6A7E3A11E252C1F0003B8B4 /* LR_Saxicola rubetra.jpg in Resources */,
-				D6491D461E1AA426004EFF9A /* Streptopelia decaocto.jpg in Resources */,
 				D6A7E3C71E252C1F0003B8B4 /* LR_Turdus philomelos.jpg in Resources */,
-				D6491D421E1AA426004EFF9A /* Stercorarius parasiticus.jpg in Resources */,
 				D6A7E36C1E252C1F0003B8B4 /* LR_Motacilla flava.jpg in Resources */,
 				D6A7E3361E252C1F0003B8B4 /* LR_Fringilla montifringilla.jpg in Resources */,
-				D6491CBE1E1AA426004EFF9A /* Emberiza aureola.jpg in Resources */,
-				D6491D251E1AA426004EFF9A /* Phylloscopus sibilatrix.jpg in Resources */,
 				D6A7E2F51E252C1F0003B8B4 /* LR_Buteo lagopus.jpg in Resources */,
-				D6491C6A1E1AA425004EFF9A /* Anas acuta.jpg in Resources */,
-				D6491D5E1E1AA426004EFF9A /* Turdus iliacus.jpg in Resources */,
 				D6832DF71E1CD55800F1E860 /* FRIMON.mp3 in Resources */,
-				D6491CE31E1AA426004EFF9A /* Lagopus muta.jpg in Resources */,
 				D6A7E3CC1E252C1F0003B8B4 /* LR_Uria aalge.jpg in Resources */,
 				D6A7E34B1E252C1F0003B8B4 /* LR_Lanius collurio.jpg in Resources */,
 				D6A7E3471E252C1F0003B8B4 /* LR_Hydroprogne caspia.jpg in Resources */,
@@ -1966,51 +1131,30 @@
 				D6A7E37B1E252C1F0003B8B4 /* LR_Parus cyanus.jpg in Resources */,
 				D6A7E3B01E252C1F0003B8B4 /* LR_Strix nebulosa.jpg in Resources */,
 				D6A7E3231E252C1F0003B8B4 /* LR_Dendrocopos minor.jpg in Resources */,
-				D6491CE21E1AA426004EFF9A /* Lagopus lagopus.jpg in Resources */,
 				D6A7E3B11E252C1F0003B8B4 /* LR_Strix uralensis.jpg in Resources */,
-				D6491CF31E1AA426004EFF9A /* Loxia curvirostra.jpg in Resources */,
-				D6491D4C1E1AA426004EFF9A /* Surnia ulula.jpg in Resources */,
-				D6491C661E1AA425004EFF9A /* Aegolius funereus.jpg in Resources */,
 				D6A7E2FA1E252C1F0003B8B4 /* LR_Calidris maritima.jpg in Resources */,
 				D651D02B1E266F7F005376FC /* ARDCIN.mp3 in Resources */,
 				D6A7E3711E252C1F0003B8B4 /* LR_Numenius phaeopus.jpg in Resources */,
 				D6A7E2D11E252C1F0003B8B4 /* LR_Anas acuta.jpg in Resources */,
 				D6A7E3B51E252C1F0003B8B4 /* LR_Sylvia borin.jpg in Resources */,
-				D6491D111E1AA426004EFF9A /* Parus caeruleus.jpg in Resources */,
 				D6A7E30C1E252C1F0003B8B4 /* LR_Ciconia ciconia.jpg in Resources */,
-				D6491C891E1AA426004EFF9A /* Branta canadensis.jpg in Resources */,
 				D6A7E3531E252C1F0003B8B4 /* LR_Limosa lapponica.jpg in Resources */,
 				D6A7E3C31E252C1F0003B8B4 /* LR_Tringa totanus.jpg in Resources */,
 				D6A7E2F31E252C1F0003B8B4 /* LR_Bucephala clangula.jpg in Resources */,
-				D6491D091E1AA426004EFF9A /* Numenius arquata.jpg in Resources */,
-				D6491C931E1AA426004EFF9A /* Calidris maritima.jpg in Resources */,
 				D6A7E3181E252C1F0003B8B4 /* LR_Corvus corone cornix.jpg in Resources */,
-				D6491D1D1E1AA426004EFF9A /* Phalaropus lobatus.jpg in Resources */,
 				D6A7E2FC1E252C1F0003B8B4 /* LR_Calidris temminckii.jpg in Resources */,
-				D6491D4B1E1AA426004EFF9A /* Sturnus vulgaris.jpg in Resources */,
 				D6A7E3841E252C1F0003B8B4 /* LR_Phalaropus lobatus.jpg in Resources */,
-				D6491C721E1AA425004EFF9A /* Anser caerulescens.jpg in Resources */,
 				D6A7E3461E252C1F0003B8B4 /* LR_Hydrocoleus minutus.jpg in Resources */,
-				D6491CC51E1AA426004EFF9A /* Erithacus rubecula.jpg in Resources */,
 				D6A7E3611E252C1F0003B8B4 /* LR_Lyrurus tetrix.jpg in Resources */,
-				D6491CAE1E1AA426004EFF9A /* Columba oenas.jpg in Resources */,
 				D6A7E3771E252C1F0003B8B4 /* LR_Parus ater.jpg in Resources */,
-				D6491C651E1AA425004EFF9A /* Aegithalos caudatus.jpg in Resources */,
-				D6491C871E1AA426004EFF9A /* Botaurus stellaris.jpg in Resources */,
 				D6A7E3221E252C1F0003B8B4 /* LR_Dendrocopos major.jpg in Resources */,
-				D6491C681E1AA425004EFF9A /* Alca torda.jpg in Resources */,
 				D6A7E2EB1E252C1F0003B8B4 /* LR_Aythya fuligula.jpg in Resources */,
 				D6A7E39F1E252C1F0003B8B4 /* LR_Riparia riparia.jpg in Resources */,
 				D6A7E3891E252C1F0003B8B4 /* LR_Phylloscopus borealis.jpg in Resources */,
 				D6A7E31D1E252C1F0003B8B4 /* LR_Cuculus canorus.jpg in Resources */,
-				D6491D521E1AA426004EFF9A /* Tachybaptus ruficollis.jpg in Resources */,
-				D6491C671E1AA425004EFF9A /* Alauda arvensis.jpg in Resources */,
-				D6491CB81E1AA426004EFF9A /* Cygnus olor.jpg in Resources */,
 				D6A7E35F1E252C1F0003B8B4 /* LR_Luscinia svecica.jpg in Resources */,
-				D6491D4E1E1AA426004EFF9A /* Sylvia borin.jpg in Resources */,
 				D6A7E2E91E252C1F0003B8B4 /* LR_Asio otus.jpg in Resources */,
 				D6A7E2DE1E252C1F0003B8B4 /* LR_Anthus cervinus.jpg in Resources */,
-				D6491CD51E1AA426004EFF9A /* Garrulus glandarius.jpg in Resources */,
 				D6A7E3571E252C1F0003B8B4 /* LR_Locustella fluviatilis.jpg in Resources */,
 				D6A7E36A1E252C1F0003B8B4 /* LR_Motacilla cinerea.jpg in Resources */,
 				D6A7E3431E252C1F0003B8B4 /* LR_Hippolais caligata.jpg in Resources */,
@@ -2019,413 +1163,213 @@
 				D6A7E3411E252C1F0003B8B4 /* LR_Haematopus ostralegus.jpg in Resources */,
 				D6A7E3241E252C1F0003B8B4 /* LR_Dryocopus martius.jpg in Resources */,
 				D6A7E3001E252C1F0003B8B4 /* LR_Carduelis chloris.jpg in Resources */,
-				D6491C691E1AA425004EFF9A /* Alcedo atthis.jpg in Resources */,
-				D6491D2C1E1AA426004EFF9A /* Plectrophenax nivalis.jpg in Resources */,
 				D6A7E2C51E252C1F0003B8B4 /* LR_Accipiter nisus.jpg in Resources */,
 				D651D02A1E266F7F005376FC /* ANAPEN.mp3 in Resources */,
-				D6491D5A1E1AA426004EFF9A /* Tringa ochropus.jpg in Resources */,
 				D6A7E38D1E252C1F0003B8B4 /* LR_Phylloscopus trochiloides.jpg in Resources */,
-				D6491D2B1E1AA426004EFF9A /* Pinicola enucleator.jpg in Resources */,
 				D6A7E32E1E252C1F0003B8B4 /* LR_Falco peregrinus.jpg in Resources */,
 				D6A7E3681E252C1F0003B8B4 /* LR_Milvus milvus.jpg in Resources */,
 				D6832DF41E1CD55800F1E860 /* CARSPI.mp3 in Resources */,
 				D6A7E32A1E252C1F0003B8B4 /* LR_Emberiza schoeniclus.jpg in Resources */,
 				D6A7E39B1E252C1F0003B8B4 /* LR_Pyrrhula pyrrhula.jpg in Resources */,
-				D6491CA61E1AA426004EFF9A /* Cinclus cinclus.jpg in Resources */,
-				D6491D3F1E1AA426004EFF9A /* Somateria mollissima.jpg in Resources */,
-				D6491CF91E1AA426004EFF9A /* Lymnocryptes minimus.jpg in Resources */,
 				D6A7E32D1E252C1F0003B8B4 /* LR_Falco columbarius.jpg in Resources */,
 				D6A7E3CE1E252C1F0003B8B4 /* LR_Xenus cinereus.jpg in Resources */,
 				D6A7E3971E252C1F0003B8B4 /* LR_Podiceps grisegena.jpg in Resources */,
-				D6491CC31E1AA426004EFF9A /* Emberiza schoeniclus.jpg in Resources */,
 				D6A7E2EF1E252C1F0003B8B4 /* LR_Branta bernicla.jpg in Resources */,
-				D6491CE51E1AA426004EFF9A /* Lanius excubitor.jpg in Resources */,
 				D6A7E3CA1E252C1F0003B8B4 /* LR_Turdus viscivorus.jpg in Resources */,
 				D6A7E2D51E252C1F0003B8B4 /* LR_Anas platyrhynchos.jpg in Resources */,
 				D6A7E3401E252C1F0003B8B4 /* LR_Grus grus.jpg in Resources */,
 				D6A7E3C41E252C1F0003B8B4 /* LR_Troglodytes troglodytes.jpg in Resources */,
-				D6491CDB1E1AA426004EFF9A /* Haliaeetus albicilla.jpg in Resources */,
 				D6A7E3BA1E252C1F0003B8B4 /* LR_Tadorna tadorna.jpg in Resources */,
 				D6A7E2FE1E252C1F0003B8B4 /* LR_Carduelis cannabina.jpg in Resources */,
-				D6491D401E1AA426004EFF9A /* Somateria spectabilis.jpg in Resources */,
 				D6A7E2D31E252C1F0003B8B4 /* LR_Anas crecca.jpg in Resources */,
-				D6491D351E1AA426004EFF9A /* Rallus aquaticus.jpg in Resources */,
 				D6A7E3441E252C1F0003B8B4 /* LR_Hippolais icterina.jpg in Resources */,
-				D6491C841E1AA426004EFF9A /* Aythya fuligula.jpg in Resources */,
 				D6A7E3911E252C1F0003B8B4 /* LR_Picus canus.jpg in Resources */,
-				D6491D0F1E1AA426004EFF9A /* Panurus biarmicus.jpg in Resources */,
 				D6A7E3151E252C1F0003B8B4 /* LR_Columba oenas.jpg in Resources */,
-				D6491D1F1E1AA426004EFF9A /* Philomachus pugnax.jpg in Resources */,
 				D651D0301E266F7F005376FC /* PHACOL.mp3 in Resources */,
 				D6A7E3881E252C1F0003B8B4 /* LR_Phoenicurus phoenicurus.jpg in Resources */,
 				D6A7E3BE1E252C1F0003B8B4 /* LR_Tringa erythropus.jpg in Resources */,
-				D6491C781E1AA425004EFF9A /* Anthus petrosus.jpg in Resources */,
 				D6A7E3081E252C1F0003B8B4 /* LR_Charadrius dubius.jpg in Resources */,
-				D6491CEE1E1AA426004EFF9A /* lintuatlas-lajikuvat.xls in Resources */,
-				D6491C8C1E1AA426004EFF9A /* Bucephala clangula.jpg in Resources */,
-				D6491D411E1AA426004EFF9A /* Stercorarius longicaudus.jpg in Resources */,
-				D6491C7D1E1AA425004EFF9A /* Aquila clanga.jpg in Resources */,
-				D6491CB61E1AA426004EFF9A /* Cuculus canorus.jpg in Resources */,
-				D6491CB51E1AA426004EFF9A /* Crex crex.jpg in Resources */,
-				D6491D641E1AA426004EFF9A /* Uria aalge.jpg in Resources */,
-				D6491D121E1AA426004EFF9A /* Parus cinctus.jpg in Resources */,
-				D6491CDA1E1AA426004EFF9A /* Haematopus ostralegus.jpg in Resources */,
-				D6491D4F1E1AA426004EFF9A /* Sylvia communis.jpg in Resources */,
 				D6A7E39A1E252C1F0003B8B4 /* LR_Prunella modularis.jpg in Resources */,
 				D6A7E3A21E252C1F0003B8B4 /* LR_Saxicola torquatus.jpg in Resources */,
 				D651D02C1E266F7F005376FC /* BUBBUB.mp3 in Resources */,
 				D6A7E2D01E252C1F0003B8B4 /* LR_Alcedo atthis.jpg in Resources */,
 				D6A7E3C61E252C1F0003B8B4 /* LR_Turdus merula.jpg in Resources */,
-				D6491D661E1AA426004EFF9A /* Xenus cinereus.jpg in Resources */,
-				D6491CB71E1AA426004EFF9A /* Cygnus cygnus.jpg in Resources */,
-				D6491C961E1AA426004EFF9A /* Caprimulgus europaeus.jpg in Resources */,
 				D6A7E3CB1E252C1F0003B8B4 /* LR_Unknown Version.jpg in Resources */,
 				D6A7E35D1E252C1F0003B8B4 /* LR_Lullula arborea.jpg in Resources */,
 				D6A7E3751E252C1F0003B8B4 /* LR_Pandion haliaetus.jpg in Resources */,
-				D6491D2D1E1AA426004EFF9A /* Pluvialis apricaria.jpg in Resources */,
-				D6491CD81E1AA426004EFF9A /* Glaucidium passerinum.jpg in Resources */,
-				D6491C601E1AA425004EFF9A /* Acrocephalus dumetorum.jpg in Resources */,
-				D6491CA41E1AA426004EFF9A /* Chlidonias niger.jpg in Resources */,
-				D6491C7E1E1AA426004EFF9A /* Aquila pomarina.jpg in Resources */,
-				D6491CB91E1AA426004EFF9A /* Delichon urbicum.jpg in Resources */,
-				D6491D151E1AA426004EFF9A /* Parus major.jpg in Resources */,
 				D6A7E3C91E252C1F0003B8B4 /* LR_Turdus torquatus.jpg in Resources */,
-				D6491CEB1E1AA426004EFF9A /* Limicola falcinellus.jpg in Resources */,
-				D6491C7C1E1AA425004EFF9A /* Aquila chrysaetos.jpg in Resources */,
 				D6A7E3451E252C1F0003B8B4 /* LR_Hirundo rustica.jpg in Resources */,
 				D6A7E3171E252C1F0003B8B4 /* LR_Corvus corax.jpg in Resources */,
 				D6A7E37A1E252C1F0003B8B4 /* LR_Parus cristatus.jpg in Resources */,
 				D640343C1E1BBE0900EDD9A7 /* Localizable.strings in Resources */,
-				D6491C5D1E1AA425004EFF9A /* Accipiter gentilis.jpg in Resources */,
-				D6491C9C1E1AA426004EFF9A /* Carduelis hornemanni.jpg in Resources */,
 				D6A7E3141E252C1F0003B8B4 /* LR_Columba livia.jpg in Resources */,
-				D6491D0B1E1AA426004EFF9A /* Nyctea scandiaca.jpg in Resources */,
-				D6491C701E1AA425004EFF9A /* Anas strepera.jpg in Resources */,
-				D6491D3C1E1AA426004EFF9A /* Scolopax rusticola.jpg in Resources */,
 				D6A7E3B81E252C1F0003B8B4 /* LR_Sylvia nisoria.jpg in Resources */,
-				D6491D2E1E1AA426004EFF9A /* Podiceps auritus.jpg in Resources */,
 				D6A7E3991E252C1F0003B8B4 /* LR_Porzana porzana.jpg in Resources */,
 				D6A7E2D41E252C1F0003B8B4 /* LR_Anas penelope.jpg in Resources */,
-				D6491CF21E1AA426004EFF9A /* Locustella naevia.jpg in Resources */,
-				D6491D631E1AA426004EFF9A /* Turdus viscivorus.jpg in Resources */,
 				D6A7E3311E252C1F0003B8B4 /* LR_Falco tinnunculus.jpg in Resources */,
-				D6491C621E1AA425004EFF9A /* Acrocephalus schoenobaenus.jpg in Resources */,
 				D6A7E2E81E252C1F0003B8B4 /* LR_Asio flammeus.jpg in Resources */,
 				D6A7E35C1E252C1F0003B8B4 /* LR_Loxia pytyopsittacus.jpg in Resources */,
 				D6A7E2DB1E252C1F0003B8B4 /* LR_Anser fabalis.jpg in Resources */,
-				D6491CD41E1AA426004EFF9A /* Gallinula chloropus.jpg in Resources */,
-				D6491D221E1AA426004EFF9A /* Phylloscopus borealis.jpg in Resources */,
-				D6491D4D1E1AA426004EFF9A /* Sylvia atricapilla.jpg in Resources */,
-				D6491D5F1E1AA426004EFF9A /* Turdus merula.jpg in Resources */,
-				D6491C801E1AA426004EFF9A /* Arenaria interpres.jpg in Resources */,
 				D6A7E3C21E252C1F0003B8B4 /* LR_Tringa stagnatilis.jpg in Resources */,
-				D6491CE81E1AA426004EFF9A /* Larus fuscus.jpg in Resources */,
 				D6A7E2EC1E252C1F0003B8B4 /* LR_Aythya marila.jpg in Resources */,
-				D6491D281E1AA426004EFF9A /* Pica pica.jpg in Resources */,
 				D6A7E3871E252C1F0003B8B4 /* LR_Phoenicurus ochruros.jpg in Resources */,
-				D6491D5C1E1AA426004EFF9A /* Tringa totanus.jpg in Resources */,
-				D6491D031E1AA426004EFF9A /* Motacilla cinerea.jpg in Resources */,
 				D651D0331E266F7F005376FC /* URIAAL.mp3 in Resources */,
 				D6832DF81E1CD55800F1E860 /* MUSSTR.mp3 in Resources */,
 				D6A7E3641E252C1F0003B8B4 /* LR_Mergellus albellus.jpg in Resources */,
 				D6A7E3B61E252C1F0003B8B4 /* LR_Sylvia communis.jpg in Resources */,
 				D6A7E2C41E252C1F0003B8B4 /* LR_Accipiter gentilis.jpg in Resources */,
-				D6491CED1E1AA426004EFF9A /* Limosa limosa.jpg in Resources */,
-				D6491CD61E1AA426004EFF9A /* Gavia arctica.jpg in Resources */,
 				D6A7E2E41E252C1F0003B8B4 /* LR_Aquila clanga.jpg in Resources */,
 				D6A7E2DF1E252C1F0003B8B4 /* LR_Anthus petrosus.jpg in Resources */,
-				D6491D291E1AA426004EFF9A /* Picoides tridactylus.jpg in Resources */,
 				D6A7E3B41E252C1F0003B8B4 /* LR_Sylvia atricapilla.jpg in Resources */,
 				D6A7E39D1E252C1F0003B8B4 /* LR_Regulus regulus.jpg in Resources */,
 				D6A7E37E1E252C1F0003B8B4 /* LR_Passer domesticus.jpg in Resources */,
-				D6491C9F1E1AA426004EFF9A /* Cepphus grylle.jpg in Resources */,
 				D6A7E3061E252C1F0003B8B4 /* LR_Cepphus grylle.jpg in Resources */,
-				D6491C9B1E1AA426004EFF9A /* Carduelis flavirostris.jpg in Resources */,
-				D6491D3E1E1AA426004EFF9A /* Sitta europaea.jpg in Resources */,
 				D6A7E3051E252C1F0003B8B4 /* LR_Carpodacus erythrinus.jpg in Resources */,
 				D6A7E3801E252C1F0003B8B4 /* LR_Perdix perdix.jpg in Resources */,
-				D6491CEA1E1AA426004EFF9A /* Larus ridibundus.jpg in Resources */,
 				D6A7E33E1E252C1F0003B8B4 /* LR_Gavia stellata.jpg in Resources */,
-				D6491CAB1E1AA426004EFF9A /* Clangula hyemalis.jpg in Resources */,
-				D6491CC81E1AA426004EFF9A /* Falco rusticolus.jpg in Resources */,
-				D6491D241E1AA426004EFF9A /* Phylloscopus inornatus.jpg in Resources */,
 				D6A7E3B71E252C1F0003B8B4 /* LR_Sylvia curruca.jpg in Resources */,
 				D6A7E35B1E252C1F0003B8B4 /* LR_Loxia leucoptera.jpg in Resources */,
-				D6491CB31E1AA426004EFF9A /* Corvus monedula.jpg in Resources */,
 				D6A7E2ED1E252C1F0003B8B4 /* LR_Bombycilla garrulus.jpg in Resources */,
 				D6A7E3521E252C1F0003B8B4 /* LR_Limicola falcinellus.jpg in Resources */,
-				D6491C6B1E1AA425004EFF9A /* Anas clypeata.jpg in Resources */,
-				D6491D451E1AA426004EFF9A /* Sternula albifrons.jpg in Resources */,
 				D651D02F1E266F7F005376FC /* LARARG.mp3 in Resources */,
 				D6A7E3A01E252C1F0003B8B4 /* LR_Rissa tridactyla.jpg in Resources */,
 				D6A7E3851E252C1F0003B8B4 /* LR_Phasianus colchicus.jpg in Resources */,
 				D6A7E3371E252C1F0003B8B4 /* LR_Fulica atra.jpg in Resources */,
 				D6A7E3B31E252C1F0003B8B4 /* LR_Surnia ulula.jpg in Resources */,
-				D6491CF11E1AA426004EFF9A /* Locustella luscinioides.jpg in Resources */,
 				D6A7E2F81E252C1F0003B8B4 /* LR_Calidris alpina.jpg in Resources */,
-				D6491CC21E1AA426004EFF9A /* Emberiza rustica.jpg in Resources */,
 				D6A7E39C1E252C1F0003B8B4 /* LR_Rallus aquaticus.jpg in Resources */,
 				D6A7E2CC1E252C1F0003B8B4 /* LR_Aegithalos caudatus.jpg in Resources */,
 				D6A7E31F1E252C1F0003B8B4 /* LR_Cygnus olor.jpg in Resources */,
 				D6A7E31A1E252C1F0003B8B4 /* LR_Corvus monedula.jpg in Resources */,
 				D6832DF61E1CD55800F1E860 /* FRICOE.mp3 in Resources */,
-				D6491D441E1AA426004EFF9A /* Sterna paradisaea.jpg in Resources */,
-				D6491D3D1E1AA426004EFF9A /* Serinus serinus.jpg in Resources */,
 				D6A7E3931E252C1F0003B8B4 /* LR_Plectrophenax nivalis.jpg in Resources */,
-				D6491CC61E1AA426004EFF9A /* Falco columbarius.jpg in Resources */,
 				D6A7E3691E252C1F0003B8B4 /* LR_Motacilla alba.jpg in Resources */,
 				D6A7E3921E252C1F0003B8B4 /* LR_Pinicola enucleator.jpg in Resources */,
-				D6491CFB1E1AA426004EFF9A /* Melanitta fusca.jpg in Resources */,
-				D6491CAA1E1AA426004EFF9A /* Circus pygargus.jpg in Resources */,
 				D6A7E34E1E252C1F0003B8B4 /* LR_Larus canus.jpg in Resources */,
 				D6A7E2C81E252C1F0003B8B4 /* LR_Acrocephalus palustris.jpg in Resources */,
-				D6491CB01E1AA426004EFF9A /* Corvus corax.jpg in Resources */,
-				D6491CF61E1AA426004EFF9A /* Lullula arborea.jpg in Resources */,
-				D6491D321E1AA426004EFF9A /* Porzana porzana.jpg in Resources */,
-				D6491C8D1E1AA426004EFF9A /* Buteo buteo.jpg in Resources */,
 				D6A7E2D91E252C1F0003B8B4 /* LR_Anser caerulescens.jpg in Resources */,
 				D6A7E3071E252C1F0003B8B4 /* LR_Certhia familiaris.jpg in Resources */,
 				D6A7E2D81E252C1F0003B8B4 /* LR_Anser anser.jpg in Resources */,
-				D6491CCB1E1AA426004EFF9A /* Falco vespertinus.jpg in Resources */,
-				D6491C911E1AA426004EFF9A /* Calidris alpina.jpg in Resources */,
-				D6491CD01E1AA426004EFF9A /* Fulica atra.jpg in Resources */,
-				D6491D0A1E1AA426004EFF9A /* Numenius phaeopus.jpg in Resources */,
 				D6A7E2CE1E252C1F0003B8B4 /* LR_Alauda arvensis.jpg in Resources */,
-				D6491D1B1E1AA426004EFF9A /* Pernis apivorus.jpg in Resources */,
 				D6A7E38E1E252C1F0003B8B4 /* LR_Phylloscopus trochilus.jpg in Resources */,
-				D6491C881E1AA426004EFF9A /* Branta bernicla.jpg in Resources */,
-				D6491CC11E1AA426004EFF9A /* Emberiza pusilla.jpg in Resources */,
 				D6A7E2DD1E252C1F0003B8B4 /* LR_Anthus campestris.jpg in Resources */,
 				D6A7E30B1E252C1F0003B8B4 /* LR_Chlidonias niger.jpg in Resources */,
 				D6A7E2DA1E252C1F0003B8B4 /* LR_Anser erythropus.jpg in Resources */,
-				D6491D361E1AA426004EFF9A /* Regulus regulus.jpg in Resources */,
 				D6A7E2E11E252C1F0003B8B4 /* LR_Anthus trivialis.jpg in Resources */,
 				D6A7E2CA1E252C1F0003B8B4 /* LR_Acrocephalus scirpaceus.jpg in Resources */,
 				D6A7E3811E252C1F0003B8B4 /* LR_Perisoreus infaustus.jpg in Resources */,
 				D6A7E2EE1E252C1F0003B8B4 /* LR_Botaurus stellaris.jpg in Resources */,
 				D6A7E3111E252C1F0003B8B4 /* LR_Circus pygargus.jpg in Resources */,
 				D64034471E1BC8F100EDD9A7 /* Settings.bundle in Resources */,
-				D6491CAF1E1AA426004EFF9A /* Columba palumbus.jpg in Resources */,
-				D6491D3A1E1AA426004EFF9A /* Saxicola rubetra.jpg in Resources */,
 				D6A7E38C1E252C1F0003B8B4 /* LR_Phylloscopus sibilatrix.jpg in Resources */,
 				D6832DF51E1CD55800F1E860 /* ERIRUB.mp3 in Resources */,
-				D6491C791E1AA425004EFF9A /* Anthus pratensis.jpg in Resources */,
-				D6491D311E1AA426004EFF9A /* Porzana parva.jpg in Resources */,
 				D651D0311E266F7F005376FC /* PICCAN.mp3 in Resources */,
 				D6A7E3AF1E252C1F0003B8B4 /* LR_Strix aluco.jpg in Resources */,
 				D6A7E3A41E252C1F0003B8B4 /* LR_Serinus serinus.jpg in Resources */,
-				D6491CE11E1AA426004EFF9A /* Jynx torquilla.jpg in Resources */,
 				D6A7E2FB1E252C1F0003B8B4 /* LR_Calidris minuta.jpg in Resources */,
 				D6A7E3A51E252C1F0003B8B4 /* LR_Sitta europaea.jpg in Resources */,
 				D6A7E2E31E252C1F0003B8B4 /* LR_Aquila chrysaetos.jpg in Resources */,
 				D6A7E3501E252C1F0003B8B4 /* LR_Larus marinus.jpg in Resources */,
-				D6491C7F1E1AA426004EFF9A /* Ardea cinerea.jpg in Resources */,
-				D6491C861E1AA426004EFF9A /* Bombycilla garrulus.jpg in Resources */,
-				D6491D581E1AA426004EFF9A /* Tringa glareola.jpg in Resources */,
-				D6491D501E1AA426004EFF9A /* Sylvia curruca.jpg in Resources */,
 				D6A7E36B1E252C1F0003B8B4 /* LR_Motacilla citreola.jpg in Resources */,
-				D6491C9E1E1AA426004EFF9A /* Carpodacus erythrinus.jpg in Resources */,
-				D6491D551E1AA426004EFF9A /* Tetrao urogallus.jpg in Resources */,
 				D6A7E2E21E252C1F0003B8B4 /* LR_Apus apus.jpg in Resources */,
 				D6A7E3581E252C1F0003B8B4 /* LR_Locustella luscinioides.jpg in Resources */,
-				D6491CC91E1AA426004EFF9A /* Falco subbuteo.jpg in Resources */,
 				D6A7E3861E252C1F0003B8B4 /* LR_Philomachus pugnax.jpg in Resources */,
 				D6A7E3C11E252C1F0003B8B4 /* LR_Tringa ochropus.jpg in Resources */,
 				D6A7E32F1E252C1F0003B8B4 /* LR_Falco rusticolus.jpg in Resources */,
-				D6491C6D1E1AA425004EFF9A /* Anas penelope.jpg in Resources */,
 				D6A7E35E1E252C1F0003B8B4 /* LR_Luscinia luscinia.jpg in Resources */,
 				D6A7E3BC1E252C1F0003B8B4 /* LR_Tetrao urogallus.jpg in Resources */,
 				D6A7E3131E252C1F0003B8B4 /* LR_Coccothraustes coccothraustes.jpg in Resources */,
-				D6491D471E1AA426004EFF9A /* Streptopelia turtur.jpg in Resources */,
-				D6491CEC1E1AA426004EFF9A /* Limosa lapponica.jpg in Resources */,
-				D6491CBF1E1AA426004EFF9A /* Emberiza citrinella.jpg in Resources */,
-				D6491CC71E1AA426004EFF9A /* Falco peregrinus.jpg in Resources */,
-				D6491CBB1E1AA426004EFF9A /* Dendrocopos major.jpg in Resources */,
 				D6A7E2E61E252C1F0003B8B4 /* LR_Ardea cinerea.jpg in Resources */,
-				D6491CDF1E1AA426004EFF9A /* Hydrocoleus minutus.jpg in Resources */,
 				D6A7E36F1E252C1F0003B8B4 /* LR_Nucifraga caryocatactes.jpg in Resources */,
 				D6A7E3021E252C1F0003B8B4 /* LR_Carduelis flavirostris.jpg in Resources */,
 				D6A7E3961E252C1F0003B8B4 /* LR_Podiceps cristatus.jpg in Resources */,
 				D6A7E31C1E252C1F0003B8B4 /* LR_Crex crex.jpg in Resources */,
 				D6A7E3511E252C1F0003B8B4 /* LR_Larus ridibundus.jpg in Resources */,
-				D6491C9D1E1AA426004EFF9A /* Carduelis spinus.jpg in Resources */,
-				D6491C611E1AA425004EFF9A /* Acrocephalus palustris.jpg in Resources */,
 				D6832DFB1E1CD55800F1E860 /* TURILI.mp3 in Resources */,
-				D6491D341E1AA426004EFF9A /* Pyrrhula pyrrhula.jpg in Resources */,
 				D6A7E2D21E252C1F0003B8B4 /* LR_Anas clypeata.jpg in Resources */,
-				D6491CB11E1AA426004EFF9A /* Corvus corone cornix.jpg in Resources */,
 				D6A7E2CB1E252C1F0003B8B4 /* LR_Actitis hypoleucos.jpg in Resources */,
 				D6A7E3701E252C1F0003B8B4 /* LR_Numenius arquata.jpg in Resources */,
 				D6A7E30F1E252C1F0003B8B4 /* LR_Circus cyaneus.jpg in Resources */,
-				D6491D161E1AA426004EFF9A /* Parus montanus.jpg in Resources */,
-				D6491D611E1AA426004EFF9A /* Turdus pilaris.jpg in Resources */,
 				D6A7E3B91E252C1F0003B8B4 /* LR_Tachybaptus ruficollis.jpg in Resources */,
-				D6491D141E1AA426004EFF9A /* Parus cyanus.jpg in Resources */,
-				D6491D071E1AA426004EFF9A /* Netta rufina.jpg in Resources */,
-				D6491CFF1E1AA426004EFF9A /* Mergus serrator.jpg in Resources */,
 				D6A7E30E1E252C1F0003B8B4 /* LR_Circus aeruginosus.jpg in Resources */,
-				D6491CC41E1AA426004EFF9A /* Eremophila alpestris.jpg in Resources */,
-				D6491D431E1AA426004EFF9A /* Sterna hirundo.jpg in Resources */,
 				D6D60DFA1E1E3EF80067C407 /* CLAHYE.mp3 in Resources */,
-				D6491D5D1E1AA426004EFF9A /* Troglodytes troglodytes.jpg in Resources */,
-				D6491CA01E1AA426004EFF9A /* Certhia familiaris.jpg in Resources */,
-				D6491CA91E1AA426004EFF9A /* Circus macrourus.jpg in Resources */,
-				D6491CC01E1AA426004EFF9A /* Emberiza hortulana.jpg in Resources */,
 				D6A7E2D61E252C1F0003B8B4 /* LR_Anas querquedula.jpg in Resources */,
-				D6491C771E1AA425004EFF9A /* Anthus cervinus.jpg in Resources */,
 				D6A7E3721E252C1F0003B8B4 /* LR_Nyctea scandiaca.jpg in Resources */,
-				D6491D301E1AA426004EFF9A /* Podiceps grisegena.jpg in Resources */,
 				D6A7E3601E252C1F0003B8B4 /* LR_Lymnocryptes minimus.jpg in Resources */,
-				D6491C851E1AA426004EFF9A /* Aythya marila.jpg in Resources */,
 				D6A7E3101E252C1F0003B8B4 /* LR_Circus macrourus.jpg in Resources */,
-				D6491C5E1E1AA425004EFF9A /* Accipiter nisus.jpg in Resources */,
 				D6A7E3C51E252C1F0003B8B4 /* LR_Turdus iliacus.jpg in Resources */,
-				D6D60DFC1E1E45E60067C407 /* Unknown Version.jpg in Resources */,
 				D6A7E3A61E252C1F0003B8B4 /* LR_Somateria mollissima.jpg in Resources */,
 				D6A7E3041E252C1F0003B8B4 /* LR_Carduelis spinus.jpg in Resources */,
-				D6491C8F1E1AA426004EFF9A /* Calcarius lapponicus.jpg in Resources */,
 				D6A7E37F1E252C1F0003B8B4 /* LR_Passer montanus.jpg in Resources */,
 				D6A7E33C1E252C1F0003B8B4 /* LR_Garrulus glandarius.jpg in Resources */,
 				D6A7E3301E252C1F0003B8B4 /* LR_Falco subbuteo.jpg in Resources */,
-				D6491CD11E1AA426004EFF9A /* Gallinago delicata.jpg in Resources */,
 				D6A7E3A81E252C1F0003B8B4 /* LR_Stercorarius longicaudus.jpg in Resources */,
-				D6491C951E1AA426004EFF9A /* Calidris temminckii.jpg in Resources */,
-				D6491C711E1AA425004EFF9A /* Anser anser.jpg in Resources */,
-				D6491CF71E1AA426004EFF9A /* Luscinia luscinia.jpg in Resources */,
-				D6491CE61E1AA426004EFF9A /* Larus argentatus.jpg in Resources */,
 				D6A7E2F61E252C1F0003B8B4 /* LR_Calcarius lapponicus.jpg in Resources */,
 				D6A7E3BF1E252C1F0003B8B4 /* LR_Tringa glareola.jpg in Resources */,
 				D6A7E35A1E252C1F0003B8B4 /* LR_Loxia curvirostra.jpg in Resources */,
 				D6A7E3191E252C1F0003B8B4 /* LR_Corvus frugilegus.jpg in Resources */,
-				D6491D201E1AA426004EFF9A /* Phoenicurus ochruros.jpg in Resources */,
-				D6491D061E1AA426004EFF9A /* Muscicapa striata.jpg in Resources */,
 				D6A7E3CD1E252C1F0003B8B4 /* LR_Vanellus vanellus.jpg in Resources */,
-				D6491CFE1E1AA426004EFF9A /* Mergus merganser.jpg in Resources */,
-				D6491CA51E1AA426004EFF9A /* Ciconia ciconia.jpg in Resources */,
 				D651D0321E266F7F005376FC /* PICPIC.mp3 in Resources */,
-				D6491D391E1AA426004EFF9A /* Rissa tridactyla.jpg in Resources */,
-				D6491D2F1E1AA426004EFF9A /* Podiceps cristatus.jpg in Resources */,
 				D6A7E3AC1E252C1F0003B8B4 /* LR_Sternula albifrons.jpg in Resources */,
-				D6491C831E1AA426004EFF9A /* Aythya ferina.jpg in Resources */,
 				D6A7E33B1E252C1F0003B8B4 /* LR_Gallinula chloropus.jpg in Resources */,
-				D6491C981E1AA426004EFF9A /* Carduelis carduelis.jpg in Resources */,
-				D6491D381E1AA426004EFF9A /* Riparia riparia.jpg in Resources */,
 				D6A7E3781E252C1F0003B8B4 /* LR_Parus caeruleus.jpg in Resources */,
-				D6491CF41E1AA426004EFF9A /* Loxia leucoptera.jpg in Resources */,
-				D6491C5F1E1AA425004EFF9A /* Acrocephalus arundinaceus.jpg in Resources */,
 				D6A7E2C91E252C1F0003B8B4 /* LR_Acrocephalus schoenobaenus.jpg in Resources */,
-				D6491CA71E1AA426004EFF9A /* Circus aeruginosus.jpg in Resources */,
-				D6491CDE1E1AA426004EFF9A /* Hirundo rustica.jpg in Resources */,
-				D6491D371E1AA426004EFF9A /* Remiz pendulinus.jpg in Resources */,
-				D6491D571E1AA426004EFF9A /* Tringa erythropus.jpg in Resources */,
 				D6A7E3761E252C1F0003B8B4 /* LR_Panurus biarmicus.jpg in Resources */,
-				D6491CE41E1AA426004EFF9A /* Lanius collurio.jpg in Resources */,
 				D6A7E38B1E252C1F0003B8B4 /* LR_Phylloscopus inornatus.jpg in Resources */,
-				D6491D0E1E1AA426004EFF9A /* Pandion haliaetus.jpg in Resources */,
-				D6491CFC1E1AA426004EFF9A /* Melanitta nigra.jpg in Resources */,
 				D6A7E3381E252C1F0003B8B4 /* LR_Gallinago delicata.jpg in Resources */,
 				D6A7E33F1E252C1F0003B8B4 /* LR_Glaucidium passerinum.jpg in Resources */,
-				D6491D591E1AA426004EFF9A /* Tringa nebularia.jpg in Resources */,
 				D6A7E36E1E252C1F0003B8B4 /* LR_Netta rufina.jpg in Resources */,
-				D6491CDC1E1AA426004EFF9A /* Hippolais caligata.jpg in Resources */,
-				D6491D041E1AA426004EFF9A /* Motacilla citreola.jpg in Resources */,
-				D6491CCE1E1AA426004EFF9A /* Fringilla coelebs.jpg in Resources */,
-				D6491C6F1E1AA425004EFF9A /* Anas querquedula.jpg in Resources */,
 				D6A7E2E51E252C1F0003B8B4 /* LR_Aquila pomarina.jpg in Resources */,
 				D6A7E3481E252C1F0003B8B4 /* LR_Jynx torquilla.jpg in Resources */,
 				D6A7E3A91E252C1F0003B8B4 /* LR_Stercorarius parasiticus.jpg in Resources */,
-				D6491D021E1AA426004EFF9A /* Motacilla alba.jpg in Resources */,
 				D6A7E3271E252C1F0003B8B4 /* LR_Emberiza hortulana.jpg in Resources */,
 				D6A7E3421E252C1F0003B8B4 /* LR_Haliaeetus albicilla.jpg in Resources */,
-				D6491D4A1E1AA426004EFF9A /* Strix uralensis.jpg in Resources */,
 				D6A7E3331E252C1F0003B8B4 /* LR_Ficedula hypoleuca.jpg in Resources */,
 				D6A7E2D71E252C1F0003B8B4 /* LR_Anas strepera.jpg in Resources */,
 				D6A7E3BB1E252C1F0003B8B4 /* LR_Tarsiger cyanurus.jpg in Resources */,
 				D6A7E3671E252C1F0003B8B4 /* LR_Milvus migrans.jpg in Resources */,
 				D6A7E3661E252C1F0003B8B4 /* LR_Mergus serrator.jpg in Resources */,
-				D6491CD21E1AA426004EFF9A /* Gallinago gallinago.jpg in Resources */,
 				D6832DFA1E1CD55800F1E860 /* PHYLUS.mp3 in Resources */,
-				D6491D651E1AA426004EFF9A /* Vanellus vanellus.jpg in Resources */,
-				D6491CCF1E1AA426004EFF9A /* Fringilla montifringilla.jpg in Resources */,
-				D6491C751E1AA425004EFF9A /* Anser indicus.jpg in Resources */,
-				D6491D271E1AA426004EFF9A /* Phylloscopus trochilus.jpg in Resources */,
-				D6491D101E1AA426004EFF9A /* Parus ater.jpg in Resources */,
 				D6A7E2FF1E252C1F0003B8B4 /* LR_Carduelis carduelis.jpg in Resources */,
-				D6491D051E1AA426004EFF9A /* Motacilla flava.jpg in Resources */,
 				D6A7E3121E252C1F0003B8B4 /* LR_Clangula hyemalis.jpg in Resources */,
-				D6491CA21E1AA426004EFF9A /* Charadrius hiaticula.jpg in Resources */,
-				D6491C811E1AA426004EFF9A /* Asio flammeus.jpg in Resources */,
 				D6A7E3091E252C1F0003B8B4 /* LR_Charadrius hiaticula.jpg in Resources */,
 				D6A7E2F71E252C1F0003B8B4 /* LR_Calidris alba.jpg in Resources */,
 				D6A7E2C71E252C1F0003B8B4 /* LR_Acrocephalus dumetorum.jpg in Resources */,
-				D6491D211E1AA426004EFF9A /* Phoenicurus phoenicurus.jpg in Resources */,
-				D6491C971E1AA426004EFF9A /* Carduelis cannabina.jpg in Resources */,
-				D6491D5B1E1AA426004EFF9A /* Tringa stagnatilis.jpg in Resources */,
 				D6A7E2F01E252C1F0003B8B4 /* LR_Branta canadensis.jpg in Resources */,
-				D6491D191E1AA426004EFF9A /* Perdix perdix.jpg in Resources */,
-				D6491CF81E1AA426004EFF9A /* Luscinia svecica.jpg in Resources */,
-				D6491C821E1AA426004EFF9A /* Asio otus.jpg in Resources */,
 				D6A7E3651E252C1F0003B8B4 /* LR_Mergus merganser.jpg in Resources */,
-				D6491C8A1E1AA426004EFF9A /* Branta leucopsis.jpg in Resources */,
 				D6A7E3AB1E252C1F0003B8B4 /* LR_Sterna paradisaea.jpg in Resources */,
 				D6A7E34C1E252C1F0003B8B4 /* LR_Lanius excubitor.jpg in Resources */,
 				D6A7E3741E252C1F0003B8B4 /* LR_Oriolus oriolus.jpg in Resources */,
-				D6491D2A1E1AA426004EFF9A /* Picus canus.jpg in Resources */,
 				D6A7E34D1E252C1F0003B8B4 /* LR_Larus argentatus.jpg in Resources */,
 				D6A7E3341E252C1F0003B8B4 /* LR_Ficedula parva.jpg in Resources */,
-				D6491C8B1E1AA426004EFF9A /* Bubo bubo.jpg in Resources */,
 				D6A7E3C81E252C1F0003B8B4 /* LR_Turdus pilaris.jpg in Resources */,
-				D6491D331E1AA426004EFF9A /* Prunella modularis.jpg in Resources */,
 				D6A7E30A1E252C1F0003B8B4 /* LR_Charadrius morinellus.jpg in Resources */,
 				D6A7E3B21E252C1F0003B8B4 /* LR_Sturnus vulgaris.jpg in Resources */,
 				D6A7E2F21E252C1F0003B8B4 /* LR_Bubo bubo.jpg in Resources */,
-				D6491C991E1AA426004EFF9A /* Carduelis chloris.jpg in Resources */,
 				D6A7E3AA1E252C1F0003B8B4 /* LR_Sterna hirundo.jpg in Resources */,
-				D6491D531E1AA426004EFF9A /* Tadorna tadorna.jpg in Resources */,
 				D6491B491E1AA1AD004EFF9A /* LaunchScreen.storyboard in Resources */,
-				D6491CB41E1AA426004EFF9A /* Coturnix coturnix.jpg in Resources */,
 				D6A7E3541E252C1F0003B8B4 /* LR_Limosa limosa.jpg in Resources */,
 				D6A7E2E01E252C1F0003B8B4 /* LR_Anthus pratensis.jpg in Resources */,
 				D6A7E3261E252C1F0003B8B4 /* LR_Emberiza citrinella.jpg in Resources */,
-				D6491C761E1AA425004EFF9A /* Anthus campestris.jpg in Resources */,
-				D6491CA81E1AA426004EFF9A /* Circus cyaneus.jpg in Resources */,
-				D6491CAD1E1AA426004EFF9A /* Columba livia.jpg in Resources */,
 				D6A7E3031E252C1F0003B8B4 /* LR_Carduelis hornemanni.jpg in Resources */,
-				D6491D011E1AA426004EFF9A /* Milvus milvus.jpg in Resources */,
 				D6A7E3831E252C1F0003B8B4 /* LR_Phalacrocorax carbo.jpg in Resources */,
 				D6491B461E1AA1AD004EFF9A /* Assets.xcassets in Resources */,
-				D6491CFA1E1AA426004EFF9A /* Lyrurus tetrix.jpg in Resources */,
-				D6491CA11E1AA426004EFF9A /* Charadrius dubius.jpg in Resources */,
 				D6A7E3351E252C1F0003B8B4 /* LR_Fringilla coelebs.jpg in Resources */,
 				D6A7E2CD1E252C1F0003B8B4 /* LR_Aegolius funereus.jpg in Resources */,
-				D6491D1C1E1AA426004EFF9A /* Phalacrocorax carbo.jpg in Resources */,
-				D6491CDD1E1AA426004EFF9A /* Hippolais icterina.jpg in Resources */,
-				D6491D1A1E1AA426004EFF9A /* Perisoreus infaustus.jpg in Resources */,
-				D6491C9A1E1AA426004EFF9A /* Carduelis flammea.jpg in Resources */,
 				D6A7E37C1E252C1F0003B8B4 /* LR_Parus major.jpg in Resources */,
 				D6A7E2EA1E252C1F0003B8B4 /* LR_Aythya ferina.jpg in Resources */,
 				D6491B441E1AA1AD004EFF9A /* Main.storyboard in Resources */,
 				D6A7E3161E252C1F0003B8B4 /* LR_Columba palumbus.jpg in Resources */,
 				D6A7E36D1E252C1F0003B8B4 /* LR_Muscicapa striata.jpg in Resources */,
-				D6491CCA1E1AA426004EFF9A /* Falco tinnunculus.jpg in Resources */,
 				D6A7E3011E252C1F0003B8B4 /* LR_Carduelis flammea.jpg in Resources */,
 				D6A7E3491E252C1F0003B8B4 /* LR_Lagopus lagopus.jpg in Resources */,
-				D6491D511E1AA426004EFF9A /* Sylvia nisoria.jpg in Resources */,
 				D6A7E3391E252C1F0003B8B4 /* LR_Gallinago gallinago.jpg in Resources */,
-				D6491D261E1AA426004EFF9A /* Phylloscopus trochiloides.jpg in Resources */,
-				D6491C641E1AA425004EFF9A /* Actitis hypoleucos.jpg in Resources */,
-				D6491CE71E1AA426004EFF9A /* Larus canus.jpg in Resources */,
 				D6A7E2DC1E252C1F0003B8B4 /* LR_Anser indicus.jpg in Resources */,
 				D6A7E2FD1E252C1F0003B8B4 /* LR_Caprimulgus europaeus.jpg in Resources */,
 				D6A7E2E71E252C1F0003B8B4 /* LR_Arenaria interpres.jpg in Resources */,
 				D6A7E30D1E252C1F0003B8B4 /* LR_Cinclus cinclus.jpg in Resources */,
-				D6491D171E1AA426004EFF9A /* Passer domesticus.jpg in Resources */,
-				D6491C8E1E1AA426004EFF9A /* Buteo lagopus.jpg in Resources */,
 				D64034411E1BC88400EDD9A7 /* InfoPlist.strings in Resources */,
 				D6A7E3951E252C1F0003B8B4 /* LR_Podiceps auritus.jpg in Resources */,
-				D6491C6C1E1AA425004EFF9A /* Anas crecca.jpg in Resources */,
-				D6491CD71E1AA426004EFF9A /* Gavia stellata.jpg in Resources */,
-				D6491C741E1AA425004EFF9A /* Anser fabalis.jpg in Resources */,
 				D6A7E3211E252C1F0003B8B4 /* LR_Dendrocopos leucotos.jpg in Resources */,
 				D6A7E3A31E252C1F0003B8B4 /* LR_Scolopax rusticola.jpg in Resources */,
 				D6A7E2F41E252C1F0003B8B4 /* LR_Buteo buteo.jpg in Resources */,
@@ -2434,39 +1378,19 @@
 				D6A7E3201E252C1F0003B8B4 /* LR_Delichon urbicum.jpg in Resources */,
 				D6A7E3A71E252C1F0003B8B4 /* LR_Somateria spectabilis.jpg in Resources */,
 				D6A7E3C01E252C1F0003B8B4 /* LR_Tringa nebularia.jpg in Resources */,
-				D6491CF01E1AA426004EFF9A /* Locustella fluviatilis.jpg in Resources */,
 				D6A7E3281E252C1F0003B8B4 /* LR_Emberiza pusilla.jpg in Resources */,
-				D6491D3B1E1AA426004EFF9A /* Saxicola torquatus.jpg in Resources */,
-				D6491D001E1AA426004EFF9A /* Milvus migrans.jpg in Resources */,
 				D6A7E32B1E252C1F0003B8B4 /* LR_Eremophila alpestris.jpg in Resources */,
-				D6491CCC1E1AA426004EFF9A /* Ficedula hypoleuca.jpg in Resources */,
 				D651D02D1E266F7F005376FC /* CORRAX.mp3 in Resources */,
-				D6491C921E1AA426004EFF9A /* Calidris ferruginea.jpg in Resources */,
-				D6491D481E1AA426004EFF9A /* Strix aluco.jpg in Resources */,
-				D6491D231E1AA426004EFF9A /* Phylloscopus collybita.jpg in Resources */,
-				D6491C7B1E1AA425004EFF9A /* Apus apus.jpg in Resources */,
-				D6491D561E1AA426004EFF9A /* Tetrastes bonasia.jpg in Resources */,
 				D6A7E39E1E252C1F0003B8B4 /* LR_Remiz pendulinus.jpg in Resources */,
-				D6491CBA1E1AA426004EFF9A /* Dendrocopos leucotos.jpg in Resources */,
 				D6A7E3BD1E252C1F0003B8B4 /* LR_Tetrastes bonasia.jpg in Resources */,
 				D6832DF21E1CD55800F1E860 /* ANTTRI.mp3 in Resources */,
-				D6491D541E1AA426004EFF9A /* Tarsiger cyanurus.jpg in Resources */,
-				D6491CF51E1AA426004EFF9A /* Loxia pytyopsittacus.jpg in Resources */,
-				D6491D181E1AA426004EFF9A /* Passer montanus.jpg in Resources */,
-				D6491D081E1AA426004EFF9A /* Nucifraga caryocatactes.jpg in Resources */,
 				D6A7E3621E252C1F0003B8B4 /* LR_Melanitta fusca.jpg in Resources */,
 				D6A7E34F1E252C1F0003B8B4 /* LR_Larus fuscus.jpg in Resources */,
-				D6491D131E1AA426004EFF9A /* Parus cristatus.jpg in Resources */,
 				D6A7E3AE1E252C1F0003B8B4 /* LR_Streptopelia turtur.jpg in Resources */,
 				D6A7E38A1E252C1F0003B8B4 /* LR_Phylloscopus collybita.jpg in Resources */,
 				D6A7E2F11E252C1F0003B8B4 /* LR_Branta leucopsis.jpg in Resources */,
-				D6491D0D1E1AA426004EFF9A /* Oriolus oriolus.jpg in Resources */,
-				D6491D621E1AA426004EFF9A /* Turdus torquatus.jpg in Resources */,
-				D6491CFD1E1AA426004EFF9A /* Mergellus albellus.jpg in Resources */,
 				D6A7E3591E252C1F0003B8B4 /* LR_Locustella naevia.jpg in Resources */,
-				D6491CD91E1AA426004EFF9A /* Grus grus.jpg in Resources */,
 				D6A7E34A1E252C1F0003B8B4 /* LR_Lagopus muta.jpg in Resources */,
-				D6491C731E1AA425004EFF9A /* Anser erythropus.jpg in Resources */,
 				D6A7E37D1E252C1F0003B8B4 /* LR_Parus montanus.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
