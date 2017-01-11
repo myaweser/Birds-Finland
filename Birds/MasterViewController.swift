@@ -191,7 +191,11 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let selectedBird: Bird
                 if searchController.isActive && searchController.searchBar.text != "" {
-                    selectedBird = filteredBirds[indexPath.row]
+                    if indexPath.section == 0 {
+                        selectedBird = favorites[indexPath.row]
+                    } else {
+                        selectedBird = filteredBirds[indexPath.row]
+                    }
                     //TODO: Can't use history if using search
                     UserDefaults.standard.set(-1, forKey: "lastBird")
                 } else if indexPath.section == 0 {
@@ -236,9 +240,9 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
-            return NSLocalizedString("Favorites", comment: "Section title for favorites")
+            return "\(NSLocalizedString("Favorites", comment: "Section title for favorites")) (\(favorites.count))"
         default:
-            return NSLocalizedString("All", comment: "Section title for all")
+            return NSLocalizedString("Birds", comment: "Section title for birds")
         }
     }
     
