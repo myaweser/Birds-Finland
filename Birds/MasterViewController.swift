@@ -375,6 +375,14 @@ extension MasterViewController: UISearchResultsUpdating {
         let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
         filterContentForSearchText(searchText: searchController.searchBar.text!, scope: scope)
     }
+    public func searchBarShouldBeginEditing(_ searchBar: UISearchBar) -> Bool {
+        //remove favorites
+        tableView.beginUpdates()
+        self.favorites = []
+        tableView.reloadSections(IndexSet(integer: 0), with: .automatic)
+        tableView.endUpdates()
+        return true
+    }
 }
 extension MasterViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
