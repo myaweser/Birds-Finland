@@ -83,6 +83,7 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             }
             if let imageView = self.birdImageView {
                 imageView.contentMode = .scaleAspectFit
+                imageView.image = UIImage(named: "LR_\(selectedBird.latinName).jpg")
                 imageView.imageFromServerURL(urlString: "https://eaststudios.fi/api/BirdsFI/v1/images/\(selectedBird.latinName).jpg".addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!)
 
             }
