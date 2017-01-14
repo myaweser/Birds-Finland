@@ -310,6 +310,10 @@
 		D6A7E3CC1E252C1F0003B8B4 /* LR_Uria aalge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A7E2C11E252C1F0003B8B4 /* LR_Uria aalge.jpg */; };
 		D6A7E3CD1E252C1F0003B8B4 /* LR_Vanellus vanellus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A7E2C21E252C1F0003B8B4 /* LR_Vanellus vanellus.jpg */; };
 		D6A7E3CE1E252C1F0003B8B4 /* LR_Xenus cinereus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A7E2C31E252C1F0003B8B4 /* LR_Xenus cinereus.jpg */; };
+		D6AEB5EE1E2A108200F5D553 /* ANAACU.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6AEB5EA1E2A108200F5D553 /* ANAACU.mp3 */; };
+		D6AEB5EF1E2A108200F5D553 /* BUBUT.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6AEB5EB1E2A108200F5D553 /* BUBUT.mp3 */; };
+		D6AEB5F01E2A108200F5D553 /* SOMMOL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6AEB5EC1E2A108200F5D553 /* SOMMOL.mp3 */; };
+		D6AEB5F11E2A108200F5D553 /* STERHIR.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6AEB5ED1E2A108200F5D553 /* STERHIR.mp3 */; };
 		D6D60DFA1E1E3EF80067C407 /* CLAHYE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6D60DF91E1E3EF80067C407 /* CLAHYE.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -630,6 +634,10 @@
 		D6A7E2C11E252C1F0003B8B4 /* LR_Uria aalge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LR_Uria aalge.jpg"; sourceTree = "<group>"; };
 		D6A7E2C21E252C1F0003B8B4 /* LR_Vanellus vanellus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LR_Vanellus vanellus.jpg"; sourceTree = "<group>"; };
 		D6A7E2C31E252C1F0003B8B4 /* LR_Xenus cinereus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LR_Xenus cinereus.jpg"; sourceTree = "<group>"; };
+		D6AEB5EA1E2A108200F5D553 /* ANAACU.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ANAACU.mp3; sourceTree = "<group>"; };
+		D6AEB5EB1E2A108200F5D553 /* BUBUT.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BUBUT.mp3; sourceTree = "<group>"; };
+		D6AEB5EC1E2A108200F5D553 /* SOMMOL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SOMMOL.mp3; sourceTree = "<group>"; };
+		D6AEB5ED1E2A108200F5D553 /* STERHIR.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = STERHIR.mp3; sourceTree = "<group>"; };
 		D6D60DF81E1E36410067C407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D6D60DF91E1E3EF80067C407 /* CLAHYE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CLAHYE.mp3; sourceTree = "<group>"; };
 		D6D7FB611E1D0AC300E25ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -716,6 +724,10 @@
 		D6832DE71E1CD55800F1E860 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				D6AEB5EA1E2A108200F5D553 /* ANAACU.mp3 */,
+				D6AEB5EB1E2A108200F5D553 /* BUBUT.mp3 */,
+				D6AEB5EC1E2A108200F5D553 /* SOMMOL.mp3 */,
+				D6AEB5ED1E2A108200F5D553 /* STERHIR.mp3 */,
 				D651D0201E266F7F005376FC /* ANAPEN.mp3 */,
 				D651D0211E266F7F005376FC /* ARDCIN.mp3 */,
 				D651D0221E266F7F005376FC /* BUBBUB.mp3 */,
@@ -1159,6 +1171,7 @@
 				D6A7E36A1E252C1F0003B8B4 /* LR_Motacilla cinerea.jpg in Resources */,
 				D6A7E3431E252C1F0003B8B4 /* LR_Hippolais caligata.jpg in Resources */,
 				D6A7E2F91E252C1F0003B8B4 /* LR_Calidris ferruginea.jpg in Resources */,
+				D6AEB5F01E2A108200F5D553 /* SOMMOL.mp3 in Resources */,
 				D6832DF31E1CD55800F1E860 /* BRACAN.mp3 in Resources */,
 				D6A7E3411E252C1F0003B8B4 /* LR_Haematopus ostralegus.jpg in Resources */,
 				D6A7E3241E252C1F0003B8B4 /* LR_Dryocopus martius.jpg in Resources */,
@@ -1317,6 +1330,7 @@
 				D6A7E3761E252C1F0003B8B4 /* LR_Panurus biarmicus.jpg in Resources */,
 				D6A7E38B1E252C1F0003B8B4 /* LR_Phylloscopus inornatus.jpg in Resources */,
 				D6A7E3381E252C1F0003B8B4 /* LR_Gallinago delicata.jpg in Resources */,
+				D6AEB5EF1E2A108200F5D553 /* BUBUT.mp3 in Resources */,
 				D6A7E33F1E252C1F0003B8B4 /* LR_Glaucidium passerinum.jpg in Resources */,
 				D6A7E36E1E252C1F0003B8B4 /* LR_Netta rufina.jpg in Resources */,
 				D6A7E2E51E252C1F0003B8B4 /* LR_Aquila pomarina.jpg in Resources */,
@@ -1346,6 +1360,7 @@
 				D6A7E30A1E252C1F0003B8B4 /* LR_Charadrius morinellus.jpg in Resources */,
 				D6A7E3B21E252C1F0003B8B4 /* LR_Sturnus vulgaris.jpg in Resources */,
 				D6A7E2F21E252C1F0003B8B4 /* LR_Bubo bubo.jpg in Resources */,
+				D6AEB5EE1E2A108200F5D553 /* ANAACU.mp3 in Resources */,
 				D6A7E3AA1E252C1F0003B8B4 /* LR_Sterna hirundo.jpg in Resources */,
 				D6491B491E1AA1AD004EFF9A /* LaunchScreen.storyboard in Resources */,
 				D6A7E3541E252C1F0003B8B4 /* LR_Limosa limosa.jpg in Resources */,
@@ -1371,6 +1386,7 @@
 				D64034411E1BC88400EDD9A7 /* InfoPlist.strings in Resources */,
 				D6A7E3951E252C1F0003B8B4 /* LR_Podiceps auritus.jpg in Resources */,
 				D6A7E3211E252C1F0003B8B4 /* LR_Dendrocopos leucotos.jpg in Resources */,
+				D6AEB5F11E2A108200F5D553 /* STERHIR.mp3 in Resources */,
 				D6A7E3A31E252C1F0003B8B4 /* LR_Scolopax rusticola.jpg in Resources */,
 				D6A7E2F41E252C1F0003B8B4 /* LR_Buteo buteo.jpg in Resources */,
 				D6A7E3321E252C1F0003B8B4 /* LR_Falco vespertinus.jpg in Resources */,
