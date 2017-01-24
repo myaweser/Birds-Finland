@@ -280,6 +280,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell
         cell.nameLabel.text = bird.finnishName
+        cell.latinNameLabel.text = bird.latinName
         cell.categoryLabel.text = bird.category
         cell.bird = bird
         cell.audioLabel.isHidden = !bird.hasAudio

@@ -17,6 +17,7 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var audioLabel: UILabel!
     @IBOutlet weak var topBlur: UIVisualEffectView!
     @IBOutlet weak var darkImageOverlay: UIView!
+    @IBOutlet weak var latinNameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
