@@ -163,13 +163,13 @@
                                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MgJ-KM-d5f">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="21"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="jer-Xh-wVA">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🔊" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfW-ag-Rr4">
-                                                        <rect key="frame" x="335" y="0.0" width="40" height="21"/>
+                                                        <rect key="frame" x="335" y="0.0" width="40" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="40" id="9Yf-JY-MWt"/>
                                                         </constraints>
@@ -178,7 +178,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iJ-2k-WdZ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="19"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -195,18 +195,18 @@
                                                 </constraints>
                                             </view>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="21" id="913-UJ-lFV"/>
+                                                <constraint firstAttribute="height" constant="20" id="913-UJ-lFV"/>
                                             </constraints>
                                             <blurEffect style="dark"/>
                                         </visualEffectView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flY-iH-Cru">
-                                            <rect key="frame" x="8" y="94" width="359" height="36"/>
+                                            <rect key="frame" x="8" y="93" width="359" height="36"/>
                                             <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="latinName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6or-5L-Zhc">
-                                            <rect key="frame" x="8" y="130" width="359" height="25"/>
+                                            <rect key="frame" x="8" y="129" width="359" height="25"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="25" id="DtO-Zx-mWd"/>
                                             </constraints>
@@ -244,6 +244,7 @@
                                     <outlet property="latinNameLabel" destination="6or-5L-Zhc" id="M4f-Qa-KG1"/>
                                     <outlet property="nameLabel" destination="flY-iH-Cru" id="JcS-4X-opz"/>
                                     <outlet property="topBlur" destination="MgJ-KM-d5f" id="nmT-wB-o37"/>
+                                    <outlet property="topBlurHeight" destination="913-UJ-lFV" id="9u7-xd-86p"/>
                                     <segue destination="vC3-pB-5Vb" kind="showDetail" identifier="showDetail" id="6S0-TO-JiA"/>
                                 </connections>
                             </tableViewCell>

@@ -18,23 +18,16 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var topBlur: UIVisualEffectView!
     @IBOutlet weak var darkImageOverlay: UIView!
     @IBOutlet weak var latinNameLabel: UILabel!
+    @IBOutlet weak var topBlurHeight: NSLayoutConstraint!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-    
-    @IBAction func birdImageButtonTapped(_ sender: Any) {
-        let imageInfo = JTSImageInfo()
-        imageInfo.placeholderImage = UIImage(named: "LR_\(bird.latinName).jpg")
-        if let url = NSURL(string: "https://eaststudios.fi/api/BirdsFI/v1/images/\(bird.latinName).jpg".addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!) {
-            imageInfo.imageURL = url as URL!
+        if UserDefaults.standard.bool(forKey: "hideBirdCategory") {
+            topBlurHeight.constant = 3
+            audioLabel.alpha = 0
+            categoryLabel.alpha = 0
         }
-        imageInfo.referenceRect = birdImageView.frame
-        imageInfo.title = bird.finnishName
-        imageInfo.referenceView = birdImageView
-        let imageViewer = JTSImageViewController(imageInfo: imageInfo, mode: .image, backgroundStyle: .blurred)
-        imageViewer?.show(from: UIApplication.shared.keyWindow?.rootViewController, transition: .fromOriginalPosition)
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
