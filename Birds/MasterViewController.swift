@@ -225,11 +225,21 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         if section == 0 && self.favorites.count < 1 {
             return 0
         }
-        return 22
+        if self.birds.count < 1 {
+            return 0
+        }
+        return 20
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 2
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        view.tintColor = UIColor(red:0.07, green:0.12, blue:0.12, alpha:1.0)
+        let header = view as! UITableViewHeaderFooterView
+        header.textLabel?.textColor = UIColor.white
+        header.alpha = 0.65
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
