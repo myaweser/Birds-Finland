@@ -11,11 +11,12 @@ import UIKit
 class TableViewCell: UITableViewCell {
 
     var bird: Bird!
-    @IBOutlet weak var birdImageButton: UIButton!
     @IBOutlet weak var birdImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var audioLabel: UILabel!
+    @IBOutlet weak var topBlur: UIVisualEffectView!
+    @IBOutlet weak var darkImageOverlay: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -58,6 +58,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         tableView.emptyDataSetSource = self
         tableView.emptyDataSetDelegate = self
         tableView.tableFooterView = UIView()
+        tableView.separatorStyle = .none
         
         searchController.searchBar.scopeButtonTitles = [NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'"), "Sorsalinnut", "Kahlaajat", "Pöllöt", "Rastaat"]
         searchController.searchBar.delegate = self
