@@ -71,8 +71,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         canShowHistory = UserDefaults.standard.integer(forKey: "lastBird") > 0
         if allDownloaded {
             updateCell(path: UserDefaults.standard.integer(forKey: "lastBird"))
+            refreshFavorites()
         }
-        refreshFavorites()
     }
     
     func updateCell(path: Int) {
@@ -153,6 +153,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
                             self.detailViewController?.detailItem = self.birds[0]
                             self.isDownloading = false
                             self.allDownloaded = true
+                            self.refreshFavorites()
                         }
                         
                     } catch let error as NSError {
@@ -311,7 +312,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         self.present(svc, animated: true, completion: nil)
     }
     @IBAction func openSettings(_ sender: Any) {
-        UIApplication.shared.openURL(NSURL(string: UIApplicationOpenSettingsURLString) as! URL)
+        UIApplication.shared.openURL(NSURL(string: UIApplicationOpenSettingsURLString)! as URL)
     }
     
     @IBAction func showLastBird(_ sender: Any) {
