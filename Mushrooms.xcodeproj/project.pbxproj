@@ -340,7 +340,7 @@
 		D64255621E1AB25700F5EA80 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
 		D64255631E1AB25700F5EA80 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
 		D642556A1E1B8CB100F5EA80 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		D6491B391E1AA1AD004EFF9A /* Birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6491B391E1AA1AD004EFF9A /* Mushrooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mushrooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6491B3C1E1AA1AD004EFF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6491B3E1E1AA1AD004EFF9A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		D6491B401E1AA1AD004EFF9A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -694,7 +694,7 @@
 		D6491B3A1E1AA1AD004EFF9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6491B391E1AA1AD004EFF9A /* Birds.app */,
+				D6491B391E1AA1AD004EFF9A /* Mushrooms.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1054,9 +1054,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6491B381E1AA1AD004EFF9A /* Birds */ = {
+		D6491B381E1AA1AD004EFF9A /* Mushrooms */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6491B4D1E1AA1AD004EFF9A /* Build configuration list for PBXNativeTarget "Birds" */;
+			buildConfigurationList = D6491B4D1E1AA1AD004EFF9A /* Build configuration list for PBXNativeTarget "Mushrooms" */;
 			buildPhases = (
 				D6491B351E1AA1AD004EFF9A /* Sources */,
 				D6491B361E1AA1AD004EFF9A /* Frameworks */,
@@ -1066,9 +1066,9 @@
 			);
 			dependencies = (
 			);
-			name = Birds;
+			name = Mushrooms;
 			productName = Birds;
-			productReference = D6491B391E1AA1AD004EFF9A /* Birds.app */;
+			productReference = D6491B391E1AA1AD004EFF9A /* Mushrooms.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1088,7 +1088,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D6491B341E1AA1AD004EFF9A /* Build configuration list for PBXProject "Birds" */;
+			buildConfigurationList = D6491B341E1AA1AD004EFF9A /* Build configuration list for PBXProject "Mushrooms" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1102,7 +1102,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6491B381E1AA1AD004EFF9A /* Birds */,
+				D6491B381E1AA1AD004EFF9A /* Mushrooms */,
 			);
 		};
 /* End PBXProject section */
@@ -1579,7 +1579,7 @@
 				DEVELOPMENT_TEAM = 74N5MDHHBK;
 				INFOPLIST_FILE = Birds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.linnut;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.sienet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Birds/Birds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -1593,7 +1593,7 @@
 				DEVELOPMENT_TEAM = 74N5MDHHBK;
 				INFOPLIST_FILE = Birds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.linnut;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eaststudios.sienet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Birds/Birds-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -1603,7 +1603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6491B341E1AA1AD004EFF9A /* Build configuration list for PBXProject "Birds" */ = {
+		D6491B341E1AA1AD004EFF9A /* Build configuration list for PBXProject "Mushrooms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6491B4B1E1AA1AD004EFF9A /* Debug */,
@@ -1612,7 +1612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6491B4D1E1AA1AD004EFF9A /* Build configuration list for PBXNativeTarget "Birds" */ = {
+		D6491B4D1E1AA1AD004EFF9A /* Build configuration list for PBXNativeTarget "Mushrooms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D6491B4E1E1AA1AD004EFF9A /* Debug */,
