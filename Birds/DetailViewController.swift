@@ -59,7 +59,10 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             }
         }
     }
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var backgroundImageBlur: UIVisualEffectView!
     
+    @IBOutlet weak var textViewHeight: NSLayoutConstraint!
     @IBOutlet weak var soundButton: UIBarButtonItem!
     @IBOutlet weak var showMapImageButton: UIBarButtonItem!
     @IBOutlet weak var birdImageView: UIImageView!
@@ -80,8 +83,10 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             if let descriptionView = self.birdDescriptionTextView {
                 descriptionView.isScrollEnabled = false
                 descriptionView.text = selectedBird.description
+                textViewHeight.constant = descriptionView.sizeThatFits(CGSize(width: CGFloat(descriptionView.frame.size.width), height: CGFloat(CGFloat.greatestFiniteMagnitude))).height
             }
             if let imageView = self.birdImageView {
+                backgroundImageView.image = UIImage(named: "LR_\(selectedBird.latinName).jpg")
                 imageView.contentMode = .scaleAspectFit
                 imageView.image = UIImage(named: "LR_\(selectedBird.latinName).jpg")
                 imageView.imageFromServerURL(urlString: "https://eaststudios.fi/api/BirdsFI/v1/images/\(selectedBird.latinName).jpg".addingPercentEncoding(withAllowedCharacters: .urlPathAllowed)!)
@@ -160,7 +165,6 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBAction func listenSound(_ sender: Any) {
         if !isPlaying {
-            isPlaying = !isPlaying
             if let item = detailItem {
                 if let path = Bundle.main.path(forResource: ("\(item.internalName)"), ofType:"mp3") {
                     do {
@@ -178,9 +182,8 @@ class DetailViewController: UIViewController, AVAudioPlayerDelegate {
             } else {
                 soundButton.isEnabled = false
             }
-        } else {
-            isPlaying = !isPlaying
         }
+        isPlaying = !isPlaying
     }
     
     func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {

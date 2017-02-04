@@ -62,6 +62,8 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         
         searchController.searchBar.scopeButtonTitles = [NSLocalizedString("All", comment: "In search bar's scope, 'All Categories'"), "Sorsalinnut", "Kahlaajat", "Pöllöt", "Rastaat"]
         searchController.searchBar.delegate = self
+        searchController.searchBar.barStyle = .black
+        searchController.searchBar.tintColor = self.view.tintColor
     }
     
     override func viewWillAppear(_ animated: Bool) {
