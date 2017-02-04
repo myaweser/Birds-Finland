@@ -64,6 +64,7 @@ class MasterViewController: UITableViewController, UISearchControllerDelegate, D
         searchController.searchBar.delegate = self
         searchController.searchBar.barStyle = .black
         searchController.searchBar.tintColor = self.view.tintColor
+        searchController.searchBar.keyboardAppearance = .dark
     }
     
     override func viewWillAppear(_ animated: Bool) {
